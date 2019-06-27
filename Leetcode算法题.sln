@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_832_翻转图像", "_832_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_728_自除数", "_728_自除数\_728_自除数.csproj", "{DC626B84-BDCB-48FE-A096-67436436A8FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_349_两个数组的交集", "_349_两个数组的交集\_349_两个数组的交集.csproj", "{1ABF56B4-F83B-4E6E-A157-717A0E472F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_206_反转链表", "_206_反转链表\_206_反转链表.csproj", "{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{DC626B84-BDCB-48FE-A096-67436436A8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC626B84-BDCB-48FE-A096-67436436A8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC626B84-BDCB-48FE-A096-67436436A8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ABF56B4-F83B-4E6E-A157-717A0E472F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABF56B4-F83B-4E6E-A157-717A0E472F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABF56B4-F83B-4E6E-A157-717A0E472F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABF56B4-F83B-4E6E-A157-717A0E472F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
