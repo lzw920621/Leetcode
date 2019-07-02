@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_349_两个数组的交集"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_206_反转链表", "_206_反转链表\_206_反转链表.csproj", "{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_633_平方数之和", "_633_平方数之和\_633_平方数之和.csproj", "{D828B5A0-FDB3-448A-ABC0-46B8DBFDECDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F44281C3-46FA-4FF0-BA26-C8BDAC5CB44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D828B5A0-FDB3-448A-ABC0-46B8DBFDECDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D828B5A0-FDB3-448A-ABC0-46B8DBFDECDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D828B5A0-FDB3-448A-ABC0-46B8DBFDECDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D828B5A0-FDB3-448A-ABC0-46B8DBFDECDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
