@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_633_平方数之和", "_63
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_414_第三大的数", "_414_第三大的数\_414_第三大的数.csproj", "{16F2D38A-A8F2-495C-929C-59FD59A1FB14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_66_加一", "_66_加一\_66_加一.csproj", "{B15D134E-106B-40FC-8C9F-59AA178BCE3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{16F2D38A-A8F2-495C-929C-59FD59A1FB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F2D38A-A8F2-495C-929C-59FD59A1FB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16F2D38A-A8F2-495C-929C-59FD59A1FB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
