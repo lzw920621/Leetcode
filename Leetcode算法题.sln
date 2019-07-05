@@ -45,6 +45,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_414_第三大的数", "_41
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_66_加一", "_66_加一\_66_加一.csproj", "{B15D134E-106B-40FC-8C9F-59AA178BCE3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_125_验证回文字串", "_125_验证回文字串\_125_验证回文字串.csproj", "{3AA91EE8-724D-4393-80DD-A982096FB732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_387_字符串中第一个唯一字符", "字符串中第一个唯一字符\_387_字符串中第一个唯一字符.csproj", "{5538CCB4-735D-45AF-9693-D2D1953FD31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_747_至少是其他数字两倍的最大数", "_747_至少是其他数字两倍的最大数\_747_至少是其他数字两倍的最大数.csproj", "{D4523E18-B34C-433A-B14D-03568F1E4F6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +141,18 @@ Global
 		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B15D134E-106B-40FC-8C9F-59AA178BCE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA91EE8-724D-4393-80DD-A982096FB732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA91EE8-724D-4393-80DD-A982096FB732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA91EE8-724D-4393-80DD-A982096FB732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA91EE8-724D-4393-80DD-A982096FB732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5538CCB4-735D-45AF-9693-D2D1953FD31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5538CCB4-735D-45AF-9693-D2D1953FD31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5538CCB4-735D-45AF-9693-D2D1953FD31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5538CCB4-735D-45AF-9693-D2D1953FD31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
