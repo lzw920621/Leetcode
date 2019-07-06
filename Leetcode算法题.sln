@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_387_字符串中第一个�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_747_至少是其他数字两倍的最大数", "_747_至少是其他数字两倍的最大数\_747_至少是其他数字两倍的最大数.csproj", "{D4523E18-B34C-433A-B14D-03568F1E4F6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_219_存在重复元素II", "_219_存在重复元素II\_219_存在重复元素II.csproj", "{12E40087-904F-4BAD-ADAF-06B3A65A70B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4523E18-B34C-433A-B14D-03568F1E4F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -50,7 +50,7 @@ namespace _747_至少是其他数字两倍的最大数
         {
             int index = 0;
             int largestNum = nums[0];
-            int secondLargestNum = int.MinValue;
+            int secondLargestNum = int.MinValue; 
 
             for (int i = 1; i < nums.Length; i++)
             {
