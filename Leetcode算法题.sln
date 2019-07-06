@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_747_至少是其他数字�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_219_存在重复元素II", "_219_存在重复元素II\_219_存在重复元素II.csproj", "{12E40087-904F-4BAD-ADAF-06B3A65A70B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1041_困于环中的机器人", "_1041_困于环中的机器人\_1041_困于环中的机器人.csproj", "{B0C9C626-49A4-450E-90C9-AC54A4319475}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E40087-904F-4BAD-ADAF-06B3A65A70B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C9C626-49A4-450E-90C9-AC54A4319475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C9C626-49A4-450E-90C9-AC54A4319475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C9C626-49A4-450E-90C9-AC54A4319475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C9C626-49A4-450E-90C9-AC54A4319475}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
