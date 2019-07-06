@@ -29,13 +29,64 @@ namespace _67_二进制求和
     {
         static void Main(string[] args)
         {
-            
+            string str = AddBinary("1010", "1011");
 
         }
 
-        public string AddBinary(string a, string b)
+        public static string AddBinary(string a, string b)
         {
+            int indexA = a.Length - 1;
+            int indexB = b.Length - 1;
+            char[] arrayC = (a.Length > b.Length) ? new char[a.Length] : new char[b.Length];
+            int indexC = arrayC.Length - 1;
+            int carry = 0;            
+            int temp = 0;
             
+            while(indexA>=0 && indexB>=0)
+            {              
+                temp = a[indexA] - '0' + b[indexB] - '0' + carry;
+                switch(temp)
+                {
+                    case 0:carry = 0; arrayC[indexC] = '0'; break;
+                    case 1:carry = 0; arrayC[indexC] = '1';break;
+                    case 2:carry = 1;arrayC[indexC] = '0';break;
+                    case 3:carry = 1;arrayC[indexC] = '1';break;
+                }                
+                indexA--;
+                indexB--;
+                indexC--;
+            }
+            while(indexA>=0)
+            {
+                temp = a[indexA] - '0' + carry;
+                switch (temp)
+                {
+                    case 0: carry = 0; arrayC[indexC] = '0'; break;
+                    case 1: carry = 0; arrayC[indexC] = '1'; break;
+                    case 2: carry = 1; arrayC[indexC] = '0'; break;
+                    case 3: carry = 1; arrayC[indexC] = '1'; break;
+                }
+                indexA--;                
+                indexC--;
+            }
+            while(indexB>=0)
+            {
+                temp = b[indexB] - '0' + carry;
+                switch (temp)
+                {
+                    case 0: carry = 0; arrayC[indexC] = '0'; break;
+                    case 1: carry = 0; arrayC[indexC] = '1'; break;
+                    case 2: carry = 1; arrayC[indexC] = '0'; break;
+                    case 3: carry = 1; arrayC[indexC] = '1'; break;
+                }
+                indexB--;
+                indexC--;
+            }
+            if(carry==1)
+            {
+                return '1' + new string(arrayC);
+            }
+            return new string(arrayC);
         }
     }
 }

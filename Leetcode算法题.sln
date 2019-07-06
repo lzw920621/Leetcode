@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_172_阶乘后的零", "_17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_441_排列硬币", "_414_排列硬币\_441_排列硬币.csproj", "{DBB15B22-5CBA-4441-9079-52AF6A81C0F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_21_合并两个有序链表", "_21_合并两个有序链表\_21_合并两个有序链表.csproj", "{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{DBB15B22-5CBA-4441-9079-52AF6A81C0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBB15B22-5CBA-4441-9079-52AF6A81C0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBB15B22-5CBA-4441-9079-52AF6A81C0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
