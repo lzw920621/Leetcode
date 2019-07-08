@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_169_求众数", "_169_求�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_13_罗马数字转整数", "_13_罗马数字转整数\_13_罗马数字转整数.csproj", "{72FFDCC0-4723-4091-BBE0-0ECFD411CA3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_242_有效的字母异位词", "_242_有效的字母异位词\_242_有效的字母异位词.csproj", "{9BA8D379-B707-46DD-B295-1F02B391B04A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{72FFDCC0-4723-4091-BBE0-0ECFD411CA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72FFDCC0-4723-4091-BBE0-0ECFD411CA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72FFDCC0-4723-4091-BBE0-0ECFD411CA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA8D379-B707-46DD-B295-1F02B391B04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA8D379-B707-46DD-B295-1F02B391B04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA8D379-B707-46DD-B295-1F02B391B04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA8D379-B707-46DD-B295-1F02B391B04A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
