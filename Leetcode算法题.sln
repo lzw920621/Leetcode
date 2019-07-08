@@ -69,6 +69,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_917_仅仅反转字母", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_896_单调序列", "_896_单调序列\_896_单调序列.csproj", "{EB5EA67F-98A1-495E-B310-8DE28758E527}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_104_二叉树的最大深度", "_104_二叉树的最大深度\_104_二叉树的最大深度.csproj", "{015597A3-9ACC-44F6-82D9-523D0AB1D769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_412_Fizz Buzz", "_412_Fizz Buzz\_412_Fizz Buzz.csproj", "{4E22E55F-46E3-430E-85DF-F3625339F218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_283_移动0", "_283_移动0\_283_移动0.csproj", "{87117A87-364A-40F4-8FB5-C695A776BDFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_169_求众数", "_169_求众数\_169_求众数.csproj", "{24F9A62C-A673-43A2-834F-65C5A8BC2B84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +215,22 @@ Global
 		{EB5EA67F-98A1-495E-B310-8DE28758E527}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB5EA67F-98A1-495E-B310-8DE28758E527}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB5EA67F-98A1-495E-B310-8DE28758E527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015597A3-9ACC-44F6-82D9-523D0AB1D769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015597A3-9ACC-44F6-82D9-523D0AB1D769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015597A3-9ACC-44F6-82D9-523D0AB1D769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015597A3-9ACC-44F6-82D9-523D0AB1D769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E22E55F-46E3-430E-85DF-F3625339F218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E22E55F-46E3-430E-85DF-F3625339F218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E22E55F-46E3-430E-85DF-F3625339F218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E22E55F-46E3-430E-85DF-F3625339F218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87117A87-364A-40F4-8FB5-C695A776BDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87117A87-364A-40F4-8FB5-C695A776BDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87117A87-364A-40F4-8FB5-C695A776BDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87117A87-364A-40F4-8FB5-C695A776BDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F9A62C-A673-43A2-834F-65C5A8BC2B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F9A62C-A673-43A2-834F-65C5A8BC2B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F9A62C-A673-43A2-834F-65C5A8BC2B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F9A62C-A673-43A2-834F-65C5A8BC2B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
