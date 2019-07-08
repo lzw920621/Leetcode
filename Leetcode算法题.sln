@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_441_排列硬币", "_414_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_21_合并两个有序链表", "_21_合并两个有序链表\_21_合并两个有序链表.csproj", "{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1103_分糖果II", "_1103_分糖果II\_1103_分糖果II.csproj", "{B70F0B35-ABC4-4AC9-8894-A56D8C59DEE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8C7C2D8-EFC4-4E40-A936-8CB779CDA9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70F0B35-ABC4-4AC9-8894-A56D8C59DEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70F0B35-ABC4-4AC9-8894-A56D8C59DEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70F0B35-ABC4-4AC9-8894-A56D8C59DEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70F0B35-ABC4-4AC9-8894-A56D8C59DEE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
