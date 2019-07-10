@@ -34,11 +34,55 @@ namespace _198_打家劫舍
     {
         static void Main(string[] args)
         {
+            int num = Rob(new int[] { 1, 2, 3, 1 });
         }
 
-        public static int Rob(int[] nums)
+        public static int Rob(int[] nums)//迭代法
         {
+            if (nums.Length == 0) return 0;
 
+            if (nums.Length == 1)
+            {
+                return nums[0];
+            }
+            else if (nums.Length == 2)
+            {
+                return nums[0] > nums[1] ? nums[0] : nums[1];
+            }
+
+            int[] tempArray = new int[nums.Length];
+            tempArray[0] = nums[0];
+            tempArray[1] = nums[0] > nums[1] ? nums[0] : nums[1];
+            for (int i = 2; i < nums.Length; i++)
+            {
+                tempArray[i] = Math.Max(tempArray[i - 1], tempArray[i - 2] + nums[i]);
+            }
+            return tempArray[nums.Length - 1];
         }
+
+
+        public static int Rob_(int[] nums,int n)//递归法
+        {
+            if(n==0)
+            {
+                return 0;
+            }
+            else if(n==1)
+            {
+                return nums[0];
+            }
+            else if(n==2)
+            {
+                return (nums[0] > nums[1]) ? nums[0] : nums[1];
+            }
+            else
+            {
+                int num1 = Rob_(nums, n - 1);
+                int num2 = Rob_(nums, n - 2) + nums[n - 1];
+                return num1 > num2 ? num1 : num2;
+            }
+        }
+
+        
     }
 }
