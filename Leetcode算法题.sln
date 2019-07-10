@@ -111,6 +111,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_700_二叉搜索树中的�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_783_二叉搜索树节点最小距离", "_783_二叉搜索树节点最小距离\_783_二叉搜索树节点最小距离.csproj", "{C48D1014-7866-44A5-A48D-E7E1C6C1271D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_121_买卖股票的最佳时机", "_121_买卖股票的最佳时机\_121_买卖股票的最佳时机.csproj", "{932A6088-C6CC-474D-9E06-57FBBA8C5A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_62_不同路径", "_62_不同路径\_62_不同路径.csproj", "{8EF38079-AFDC-4CB8-A32E-2EA0A8CDD116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +337,14 @@ Global
 		{C48D1014-7866-44A5-A48D-E7E1C6C1271D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48D1014-7866-44A5-A48D-E7E1C6C1271D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48D1014-7866-44A5-A48D-E7E1C6C1271D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932A6088-C6CC-474D-9E06-57FBBA8C5A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932A6088-C6CC-474D-9E06-57FBBA8C5A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932A6088-C6CC-474D-9E06-57FBBA8C5A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932A6088-C6CC-474D-9E06-57FBBA8C5A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF38079-AFDC-4CB8-A32E-2EA0A8CDD116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF38079-AFDC-4CB8-A32E-2EA0A8CDD116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF38079-AFDC-4CB8-A32E-2EA0A8CDD116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF38079-AFDC-4CB8-A32E-2EA0A8CDD116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
