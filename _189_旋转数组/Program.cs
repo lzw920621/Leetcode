@@ -40,7 +40,7 @@ namespace _189_旋转数组
         static void Main(string[] args)
         {
             int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7 };
-            Rotate1(array, 3);
+            Rotate(array, 3);
         }
 
         public static void Rotate(int[] nums, int k)
@@ -75,22 +75,6 @@ namespace _189_旋转数组
             
         }
 
-        public static void Rotate1(int[] nums, int k)
-        {
-            int temp;
-            k = k % (nums.Length);
-            int index;
-            for (int i = nums.Length-1; i >0; i++)
-            {
-                temp = nums[nums.Length - 1];
-
-
-                nums[i] = nums[i - k];
-                //index = (i + k) % nums.Length;//索引i的值 转移到 索引index处
-                //temp = nums[i];
-                //nums[i] = nums[index];
-                //nums[index] = temp;
-            }
-        }
+        
     }
 }

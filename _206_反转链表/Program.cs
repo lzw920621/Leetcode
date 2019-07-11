@@ -54,18 +54,17 @@ namespace _206_反转链表
 
         public ListNode ReverseList2(ListNode head)
         {
-            ListNode list1 = null;
-            ListNode list2 = head;
-
-            while (list2 != null)
+            ListNode node1 = null;
+            ListNode node2 = head;
+            
+            while (node2 != null)
             {
-                var list2Next = list2.next;
-                list2.next = list1;
-                list1 = list2;
-                list2 = list2Next;
+                ListNode tempNode = node2.next;
+                node2.next = node1;//颠倒节点指向
+                node1 = node2;
+                node2 = tempNode;                
             }
-
-            return list1;
+            return node1;
         }
     }
 
