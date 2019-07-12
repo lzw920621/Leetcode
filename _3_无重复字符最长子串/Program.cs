@@ -33,7 +33,7 @@ namespace _3_无重复字符最长子串
     {
         static void Main(string[] args)
         {
-            int length = LengthOfLongestSubstring("abcabcbb");
+            int length = LengthOfLongestSubstring_3("abcabcbb");
             //int length = LengthOfLongestSubstring_2("abcabcbb");
         }
 
@@ -95,6 +95,29 @@ namespace _3_无重复字符最长子串
                 }
             }
             return length;
+        }
+
+        public static int LengthOfLongestSubstring_3(string s)//滑动窗口法
+        {
+            if (s == null || s.Length == 0)
+            {
+                return 0;
+            }
+            int[] array = new int[128];
+            
+            int left = 0;
+            int lenghtOfSub = 0;
+            for (int right = 0; right < s.Length; right++)
+            {
+                array[s[right]]++;
+                while (array[s[right]]>1)
+                {
+                    array[s[left]]--;
+                    left++;
+                }
+                lenghtOfSub = Math.Max(lenghtOfSub, right - left + 1);
+            }
+            return lenghtOfSub;
         }
     }
 }

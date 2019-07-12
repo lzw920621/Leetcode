@@ -38,20 +38,8 @@ namespace _234_回文链表
             ListNode current1 = head;
             ListNode current2 = head.next;
 
-            int len = 0;
-            while(current1!=null)//获取链表长度
-            {
-                len++;
-                current1 = current1.next;
-            }
-            if(len%2==1)//长度为奇数
-            {
-                int mid = len / 2 + 1;//中心点位置
-            }
-            else//长度为偶数
-            {
-
-            }
+            int[] array = new int[];
+            Array.Sort(array)
         }
     }
 
