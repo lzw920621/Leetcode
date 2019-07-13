@@ -39,11 +39,11 @@ namespace _283_移动0
                 if (nums[i] == 0)
                 {
                     j = i + 1;
-                    while (j < nums.Length && nums[j] == 0)
+                    while (j < nums.Length && nums[j] == 0)//寻找最近的非零值
                     {
                         j++;
                     }
-                    if (j < nums.Length)
+                    if (j < nums.Length)//交换位置
                     {
                         nums[i] = nums[j];
                         nums[j] = 0;
@@ -59,7 +59,7 @@ namespace _283_移动0
         public static void MoveZeroes1(int[] nums)
         {
             var k = 0;
-            for (var i = 0; i < nums.Length; i++)
+            for (var i = 0; i < nums.Length; i++)//从左往右寻找非零值 从索引0依次往后放置
             {
                 if (nums[i] != 0)
                 {
