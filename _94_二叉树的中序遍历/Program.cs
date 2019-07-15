@@ -38,24 +38,20 @@ namespace _94_二叉树的中序遍历
             IList<int> list = new List<int>();
             if (root == null) return list;
             Stack<TreeNode> stack = new Stack<TreeNode>();
-            TreeNode current = root;
-            stack.Push(current);
-            while(stack.Count>0)
+            TreeNode curr = root;
+            while (curr!=null || stack.Count>0)
             {
-                current = stack.Pop();
-                list.Add(current.val);
-                if (current.right != null)
+                while (curr != null)
                 {
-                    stack.Push(current.right);
+                    stack.Push(curr);
+                    curr = curr.left;
                 }
-                if (current.left!=null)
-                {
-                    stack.Push(current.left);
-                }
-                
+                curr = stack.Pop();
+                list.Add(curr.val);
+                curr = curr.right;
             }
             return list;
-        }
+            
     }
 
     public class TreeNode
