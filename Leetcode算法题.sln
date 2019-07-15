@@ -149,6 +149,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_201_数字范围按位与"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_429_N叉树的层序遍历", "_429_N叉树的层序遍历\_429_N叉树的层序遍历.csproj", "{1D41C682-8A01-4A40-97AD-3F0C2DF3E398}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_32_最长有效括号", "_32_最长有效括号\_32_最长有效括号.csproj", "{FAC44132-3DE3-47D8-BC79-4E2030CCE3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_94_二叉树的中序遍历", "_94_二叉树的中序遍历\_94_二叉树的中序遍历.csproj", "{A63A1719-0970-4B97-8DFC-C225C22B4040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_144_二叉树的前序遍历", "_144_二叉树的前序遍历\_144_二叉树的前序遍历.csproj", "{646856CF-D90A-4B69-A350-024D7F75279A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +453,18 @@ Global
 		{1D41C682-8A01-4A40-97AD-3F0C2DF3E398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D41C682-8A01-4A40-97AD-3F0C2DF3E398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D41C682-8A01-4A40-97AD-3F0C2DF3E398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC44132-3DE3-47D8-BC79-4E2030CCE3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC44132-3DE3-47D8-BC79-4E2030CCE3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC44132-3DE3-47D8-BC79-4E2030CCE3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC44132-3DE3-47D8-BC79-4E2030CCE3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63A1719-0970-4B97-8DFC-C225C22B4040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63A1719-0970-4B97-8DFC-C225C22B4040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63A1719-0970-4B97-8DFC-C225C22B4040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63A1719-0970-4B97-8DFC-C225C22B4040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646856CF-D90A-4B69-A350-024D7F75279A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646856CF-D90A-4B69-A350-024D7F75279A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646856CF-D90A-4B69-A350-024D7F75279A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646856CF-D90A-4B69-A350-024D7F75279A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
