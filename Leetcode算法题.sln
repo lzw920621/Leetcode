@@ -165,6 +165,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_108_将有序数组转换�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_204_计数质数", "_204_计数质数\_204_计数质数.csproj", "{E217E027-D2B2-4AC5-B681-9656C041F81C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_260_只出现一次的数字", "_260_只出现一次的数字\_260_只出现一次的数字.csproj", "{A18A1A93-1B52-4C51-AE68-B91B20AC0348}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -495,6 +497,10 @@ Global
 		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18A1A93-1B52-4C51-AE68-B91B20AC0348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18A1A93-1B52-4C51-AE68-B91B20AC0348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18A1A93-1B52-4C51-AE68-B91B20AC0348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18A1A93-1B52-4C51-AE68-B91B20AC0348}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
