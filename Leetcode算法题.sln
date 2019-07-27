@@ -155,6 +155,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_94_二叉树的中序遍�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_144_二叉树的前序遍历", "_144_二叉树的前序遍历\_144_二叉树的前序遍历.csproj", "{646856CF-D90A-4B69-A350-024D7F75279A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_84_柱状图中最大矩形", "_84_柱状图中最大矩形\_84_柱状图中最大矩形.csproj", "{DF5FF2CD-3E0A-45EB-AFDA-50C18B56826A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_371_两整数之和", "_371_两整数之和\_371_两整数之和.csproj", "{90BA0802-518D-4A2D-8FA8-A54F925BB372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_190_颠倒二进制位", "_190_颠倒二进制位\_190_颠倒二进制位.csproj", "{D08F7D5E-018B-4211-B34B-DD31623C88D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_108_将有序数组转换为二叉搜索树", "_108_将有序数组转换为二叉搜索树\_108_将有序数组转换为二叉搜索树.csproj", "{5710C42B-9903-414C-B009-F1161974DEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_204_计数质数", "_204_计数质数\_204_计数质数.csproj", "{E217E027-D2B2-4AC5-B681-9656C041F81C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +475,26 @@ Global
 		{646856CF-D90A-4B69-A350-024D7F75279A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{646856CF-D90A-4B69-A350-024D7F75279A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{646856CF-D90A-4B69-A350-024D7F75279A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5FF2CD-3E0A-45EB-AFDA-50C18B56826A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5FF2CD-3E0A-45EB-AFDA-50C18B56826A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5FF2CD-3E0A-45EB-AFDA-50C18B56826A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5FF2CD-3E0A-45EB-AFDA-50C18B56826A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BA0802-518D-4A2D-8FA8-A54F925BB372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BA0802-518D-4A2D-8FA8-A54F925BB372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BA0802-518D-4A2D-8FA8-A54F925BB372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BA0802-518D-4A2D-8FA8-A54F925BB372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08F7D5E-018B-4211-B34B-DD31623C88D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08F7D5E-018B-4211-B34B-DD31623C88D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08F7D5E-018B-4211-B34B-DD31623C88D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08F7D5E-018B-4211-B34B-DD31623C88D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5710C42B-9903-414C-B009-F1161974DEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5710C42B-9903-414C-B009-F1161974DEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5710C42B-9903-414C-B009-F1161974DEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5710C42B-9903-414C-B009-F1161974DEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E217E027-D2B2-4AC5-B681-9656C041F81C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

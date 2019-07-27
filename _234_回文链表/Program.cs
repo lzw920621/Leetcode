@@ -38,8 +38,7 @@ namespace _234_回文链表
             ListNode current1 = head;
             ListNode current2 = head.next;
 
-            int[] array = new int[];
-            Array.Sort(array)
+            //TODO
         }
     }
 
