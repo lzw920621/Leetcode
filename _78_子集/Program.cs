@@ -43,7 +43,20 @@ namespace _78_子集
 
         public static IList<IList<int>> Subsets(int[] nums)
         {
-            BitArray bitArray = new BitArray(nums.Length);
+            //TODO
+            BitArray bitArray1 = new BitArray(nums.Length);
+            
+            for (int i = 0; i < nums.Length; i++)
+            {
+
+            }
+
+
+        }
+
+        public static IList<IList<int>> Assist(int num, int[] array)
+        {
+
         }
     }
 }
