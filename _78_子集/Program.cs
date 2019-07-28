@@ -18,12 +18,12 @@ namespace _78_子集
     输出:
     [
       [3],
-      [1],
+      /[1],
       [2],
-      [1,2,3],
+      /[1,2,3],
       [1,3],
       [2,3],
-      [1,2],
+      /[1,2],
       []
     ]
 
@@ -35,28 +35,51 @@ namespace _78_子集
     {
         static void Main(string[] args)
         {
-            IList<int> list = new List<int>();
-            IList<IList<int>> newList = new List<List<int>>();
-            IList<IList<int>> newList2 = new List<IList<int>>();
-
+            IList<IList<int>> newList = Subsets(new int[] { 1, 2, 3 });
         }
 
         public static IList<IList<int>> Subsets(int[] nums)
-        {
-            //TODO
-            BitArray bitArray1 = new BitArray(nums.Length);
-            
-            for (int i = 0; i < nums.Length; i++)
+        {            
+            IList<IList<int>> set = new List<IList<int>>();
+            if (nums.Length < 1)
             {
-
+                return set;
             }
+            else
+            {                
+                set.Add(new List<int>());//添加空集
 
+                List<int> firstSubSet = new List<int>();
+                firstSubSet.Add(nums[0]);
 
+                set.Add(firstSubSet);//添加集合 {nums[0]}
+                for (int i = 1; i < nums.Length; i++)
+                {
+                    Assist(set,nums[i]);//将新元素nums[i]添加到set中
+                }
+                return set;
+            }
         }
 
-        public static IList<IList<int>> Assist(int num, int[] array)
+        public static void Assist(IList<IList<int>> set,int num)
         {
+            int count = set.Count;
+            for (int i = 0; i < count; i++)
+            {
+                IList<int> tempList = CopyList(set[i]);
+                tempList.Add(num);
+                set.Add(tempList);                
+            }            
+        }
 
+        public static IList<int> CopyList(IList<int> list)
+        {
+            IList<int> newList = new List<int>();
+            foreach (var item in list)
+            {
+                newList.Add(item);
+            }
+            return newList;
         }
     }
 }
