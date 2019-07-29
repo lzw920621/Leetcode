@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_347_前K个高频元素", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_938_二叉搜索树的范围和", "_938_二叉搜索树的范围和\_938_二叉搜索树的范围和.csproj", "{59FF0146-494D-4FC3-A9D6-789BD30BB48E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_463_岛屿的周长", "_463_岛屿的周长\_463_岛屿的周长.csproj", "{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -543,6 +545,10 @@ Global
 		{59FF0146-494D-4FC3-A9D6-789BD30BB48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FF0146-494D-4FC3-A9D6-789BD30BB48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FF0146-494D-4FC3-A9D6-789BD30BB48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
