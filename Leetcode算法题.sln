@@ -175,6 +175,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_671_二叉树中第二小�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_215_数组中的第k个最大的元素", "_215_数组中的第k个最大的元素\_215_数组中的第k个最大的元素.csproj", "{6525BD68-2AF0-468B-9AA0-771CC92B220E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_118_杨辉三角", "_118_杨辉三角\_118_杨辉三角.csproj", "{7A29D423-56CE-4F1D-84F7-77B051C90474}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -525,6 +527,10 @@ Global
 		{6525BD68-2AF0-468B-9AA0-771CC92B220E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6525BD68-2AF0-468B-9AA0-771CC92B220E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6525BD68-2AF0-468B-9AA0-771CC92B220E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A29D423-56CE-4F1D-84F7-77B051C90474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A29D423-56CE-4F1D-84F7-77B051C90474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A29D423-56CE-4F1D-84F7-77B051C90474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A29D423-56CE-4F1D-84F7-77B051C90474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
