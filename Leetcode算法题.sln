@@ -205,6 +205,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_897_递增顺序查找树"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_257_二叉树的所有路径", "_257_二叉树的所有路径\_257_二叉树的所有路径.csproj", "{3692F42D-2A33-4FEB-9D44-AEB9F82EDE24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_538_把二叉搜索树转换为累加树", "_538_把二叉搜索树转换为累加树\_538_把二叉搜索树转换为累加树.csproj", "{41DFB795-28C4-4355-AA02-3F0BC7429406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -615,6 +617,10 @@ Global
 		{3692F42D-2A33-4FEB-9D44-AEB9F82EDE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3692F42D-2A33-4FEB-9D44-AEB9F82EDE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3692F42D-2A33-4FEB-9D44-AEB9F82EDE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DFB795-28C4-4355-AA02-3F0BC7429406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DFB795-28C4-4355-AA02-3F0BC7429406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DFB795-28C4-4355-AA02-3F0BC7429406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DFB795-28C4-4355-AA02-3F0BC7429406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
