@@ -183,6 +183,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_938_二叉搜索树的范�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_463_岛屿的周长", "_463_岛屿的周长\_463_岛屿的周长.csproj", "{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_289_生命游戏", "_289_生命游戏\_289_生命游戏.csproj", "{B1AB3179-BBA1-42C5-BA42-9C8C9A542428}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -549,6 +551,10 @@ Global
 		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FC297B-34A0-42BC-BA14-3C8A029A9E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AB3179-BBA1-42C5-BA42-9C8C9A542428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AB3179-BBA1-42C5-BA42-9C8C9A542428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AB3179-BBA1-42C5-BA42-9C8C9A542428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AB3179-BBA1-42C5-BA42-9C8C9A542428}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
