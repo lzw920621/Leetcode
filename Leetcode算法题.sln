@@ -193,6 +193,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_559_N叉树的最大深度
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_669_修剪二叉搜索树", "_669_修剪二叉搜索树\_669_修剪二叉搜索树.csproj", "{490877B7-90B2-4806-A860-2F41699E6B93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_100_相同的树", "_100_相同的树\_100_相同的树.csproj", "{D35AD53D-F3FF-46BF-AC9E-60195E5510DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -579,6 +581,10 @@ Global
 		{490877B7-90B2-4806-A860-2F41699E6B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490877B7-90B2-4806-A860-2F41699E6B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490877B7-90B2-4806-A860-2F41699E6B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35AD53D-F3FF-46BF-AC9E-60195E5510DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35AD53D-F3FF-46BF-AC9E-60195E5510DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35AD53D-F3FF-46BF-AC9E-60195E5510DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35AD53D-F3FF-46BF-AC9E-60195E5510DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
