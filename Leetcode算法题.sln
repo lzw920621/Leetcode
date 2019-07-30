@@ -189,6 +189,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_287_寻找重复数", "_28
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_235_二叉搜索树最近的公共祖先", "_235_二叉搜索树最近的公共祖先\_235_二叉搜索树最近的公共祖先.csproj", "{18E47922-3B46-4C8A-9C6C-13CA39BE0C07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_559_N叉树的最大深度", "_559_N叉树的最大深度\_559_N叉树的最大深度.csproj", "{7BD62AD5-492F-44F0-9395-E223D1FB170C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -567,6 +569,10 @@ Global
 		{18E47922-3B46-4C8A-9C6C-13CA39BE0C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E47922-3B46-4C8A-9C6C-13CA39BE0C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E47922-3B46-4C8A-9C6C-13CA39BE0C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD62AD5-492F-44F0-9395-E223D1FB170C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD62AD5-492F-44F0-9395-E223D1FB170C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD62AD5-492F-44F0-9395-E223D1FB170C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD62AD5-492F-44F0-9395-E223D1FB170C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
