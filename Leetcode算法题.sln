@@ -225,6 +225,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_98_验证二叉搜索树",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_653_两数之和IV输入BST", "_653_两数之和IV输入BST\_653_两数之和IV输入BST.csproj", "{08ADD5CC-7E88-4AF9-B723-32049A53CA1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_99_恢复二叉搜索树", "_99_恢复二叉搜索树\_99_恢复二叉搜索树.csproj", "{560614E4-46CF-4D72-B6CB-340854B36FBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -675,6 +677,10 @@ Global
 		{08ADD5CC-7E88-4AF9-B723-32049A53CA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08ADD5CC-7E88-4AF9-B723-32049A53CA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08ADD5CC-7E88-4AF9-B723-32049A53CA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560614E4-46CF-4D72-B6CB-340854B36FBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560614E4-46CF-4D72-B6CB-340854B36FBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560614E4-46CF-4D72-B6CB-340854B36FBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560614E4-46CF-4D72-B6CB-340854B36FBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
