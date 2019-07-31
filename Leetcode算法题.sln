@@ -209,6 +209,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_538_把二叉搜索树转�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_437_路径总和III", "_437_路径总和III\_437_路径总和III.csproj", "{9792E3A7-4737-4423-BB0F-3D25AE539149}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_110_平衡二叉树", "_110_平衡二叉树\_110_平衡二叉树.csproj", "{5FC33B3E-B341-444E-976E-3F679B4F0D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_129_求根到叶子节点数字之和", "_129_求根到叶子节点数字之和\_129_求根到叶子节点数字之和.csproj", "{0CCAFB78-0896-4436-93AE-E5832EA79E52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -627,6 +631,14 @@ Global
 		{9792E3A7-4737-4423-BB0F-3D25AE539149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9792E3A7-4737-4423-BB0F-3D25AE539149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9792E3A7-4737-4423-BB0F-3D25AE539149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC33B3E-B341-444E-976E-3F679B4F0D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC33B3E-B341-444E-976E-3F679B4F0D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC33B3E-B341-444E-976E-3F679B4F0D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC33B3E-B341-444E-976E-3F679B4F0D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CCAFB78-0896-4436-93AE-E5832EA79E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCAFB78-0896-4436-93AE-E5832EA79E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCAFB78-0896-4436-93AE-E5832EA79E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCAFB78-0896-4436-93AE-E5832EA79E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
