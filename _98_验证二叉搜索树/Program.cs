@@ -68,7 +68,34 @@ namespace _98_验证二叉搜索树
             InOrder(root.right, list);
         }
 
-        
+        public static bool IsValidBST1(TreeNode root)
+        {
+            int? preNum = null;
+            return InOrder1(root, ref preNum);
+        }
+
+        public static bool InOrder1(TreeNode root,ref int? preNum)//中序递归 保存前一次的节点值 和当前节点的值进行比较
+        {
+            if (root == null) return true;
+            if (!InOrder1(root.left, ref preNum))
+            {
+                return false;
+            }
+            if(preNum!=null)
+            {
+                if(root.val<=preNum)
+                {
+                    return false;
+                }
+            }
+            preNum = root.val;
+
+            if (!InOrder1(root.right, ref preNum))
+            {
+                return false;
+            }
+            return true;
+        }
     }
 
     public class TreeNode
