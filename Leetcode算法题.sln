@@ -235,6 +235,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_575_分糖果", "_575_分�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_500_键盘行", "_500_键盘行\_500_键盘行.csproj", "{AA7696D0-6F05-4AFF-848E-EC3FC467A012}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_203_移除链表元素", "_203_移除链表元素\_203_移除链表元素.csproj", "{BEF5A57B-6799-4C13-9F33-FBC3FD58BA72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_109_有序链表转换二叉搜索树", "_109_有序链表转换二叉搜索树\_109_有序链表转换二叉搜索树.csproj", "{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -705,6 +709,14 @@ Global
 		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF5A57B-6799-4C13-9F33-FBC3FD58BA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF5A57B-6799-4C13-9F33-FBC3FD58BA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF5A57B-6799-4C13-9F33-FBC3FD58BA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF5A57B-6799-4C13-9F33-FBC3FD58BA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
