@@ -239,6 +239,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_203_移除链表元素", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_109_有序链表转换二叉搜索树", "_109_有序链表转换二叉搜索树\_109_有序链表转换二叉搜索树.csproj", "{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_56_合并区间", "_56_合并区间\_56_合并区间.csproj", "{258F1E7E-BE57-4605-99B1-2B4E9C37C997}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +719,10 @@ Global
 		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B34C7A8-69B0-4DA3-9DD6-EE999CBDEBD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258F1E7E-BE57-4605-99B1-2B4E9C37C997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258F1E7E-BE57-4605-99B1-2B4E9C37C997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258F1E7E-BE57-4605-99B1-2B4E9C37C997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258F1E7E-BE57-4605-99B1-2B4E9C37C997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
