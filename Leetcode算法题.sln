@@ -233,6 +233,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_876_链表的中间节点"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_575_分糖果", "_575_分糖果\_575_分糖果.csproj", "{E4C6F7D9-1663-4F8B-BBD9-A76A2D5F887A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_500_键盘行", "_500_键盘行\_500_键盘行.csproj", "{AA7696D0-6F05-4AFF-848E-EC3FC467A012}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -699,6 +701,10 @@ Global
 		{E4C6F7D9-1663-4F8B-BBD9-A76A2D5F887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4C6F7D9-1663-4F8B-BBD9-A76A2D5F887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4C6F7D9-1663-4F8B-BBD9-A76A2D5F887A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA7696D0-6F05-4AFF-848E-EC3FC467A012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
