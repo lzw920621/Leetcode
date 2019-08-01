@@ -229,6 +229,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_99_恢复二叉搜索树",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_867_转置矩阵", "_867_转置矩阵\_867_转置矩阵.csproj", "{CAEA9453-17F5-44DE-9BC9-E764886D1982}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_876_链表的中间节点", "_876_链表的中间节点\_876_链表的中间节点.csproj", "{2878C885-8D98-409A-AF10-ABFEE3F502FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -687,6 +689,10 @@ Global
 		{CAEA9453-17F5-44DE-9BC9-E764886D1982}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAEA9453-17F5-44DE-9BC9-E764886D1982}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAEA9453-17F5-44DE-9BC9-E764886D1982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2878C885-8D98-409A-AF10-ABFEE3F502FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2878C885-8D98-409A-AF10-ABFEE3F502FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2878C885-8D98-409A-AF10-ABFEE3F502FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2878C885-8D98-409A-AF10-ABFEE3F502FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
