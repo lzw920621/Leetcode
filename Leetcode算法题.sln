@@ -243,6 +243,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_56_合并区间", "_56_合
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_236_二叉树的最近公共祖先", "_236_二叉树的最近公共祖先\_236_二叉树的最近公共祖先.csproj", "{DA763978-3689-48D1-8A2E-E698B6A6EC90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64_最小路径和", "_64_最小路径和\_64_最小路径和.csproj", "{684BDCE1-7460-44C1-B11D-9813A7C0667F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -729,6 +731,10 @@ Global
 		{DA763978-3689-48D1-8A2E-E698B6A6EC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA763978-3689-48D1-8A2E-E698B6A6EC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA763978-3689-48D1-8A2E-E698B6A6EC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684BDCE1-7460-44C1-B11D-9813A7C0667F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684BDCE1-7460-44C1-B11D-9813A7C0667F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684BDCE1-7460-44C1-B11D-9813A7C0667F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684BDCE1-7460-44C1-B11D-9813A7C0667F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

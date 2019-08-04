@@ -80,6 +80,28 @@ namespace _236_二叉树的最近公共祖先
                 return IsContainsNode(root.left, targerNode) || IsContainsNode(root.right, targerNode);
             }
         }
+
+        //方法2
+        public TreeNode LowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q)
+        {
+            if (root == null) return null;
+            if (root == p || root == q) return root;
+            TreeNode left = LowestCommonAncestor1(root.left, p, q);
+            TreeNode right = LowestCommonAncestor1(root.right, p, q);
+            if (left != null && right != null)
+            {
+                return root;
+            }
+            else if (left != null)
+            {
+                return left;
+            }
+            else if (right != null)
+            {
+                return right;
+            }
+            return null;
+        }
     }
 
     public class TreeNode
