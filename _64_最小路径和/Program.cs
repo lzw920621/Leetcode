@@ -136,7 +136,32 @@ namespace _64_最小路径和
 
             
         }
-
+        //方法3
+        public static int MinPahtSum3(int[][] grid)
+        {
+            int[][] assistArray = new int[grid.Length][];//辅助数组,记录每个格点的最短路径
+            for (int i = 0; i < grid.Length; i++)
+            {
+                assistArray[i] = new int[grid[i].Length];
+            }
+            assistArray[0][0] = grid[0][0];
+            for (int i = 1; i < grid[0].Length; i++)//第一行
+            {
+                assistArray[0][i] = assistArray[0][i - 1] + grid[0][i];
+            }
+            for (int i = 1; i < grid.Length; i++)//第一列
+            {
+                assistArray[i][0] = assistArray[i - 1][0] + grid[i][0];
+            }
+            for (int i = 1; i < grid.Length; i++)
+            {
+                for (int j = 1; j < grid[i].Length; j++)
+                {
+                    assistArray[i][j] = Math.Min(assistArray[i - 1][j], assistArray[i][j - 1]) + grid[i][j];
+                }
+            }
+            return assistArray[grid.Length - 1][grid[0].Length - 1];
+        }
         
     }
 }
