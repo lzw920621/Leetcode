@@ -247,6 +247,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_64_最小路径和", "_64_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_63_不同路径II", "_63_不同路径II\_63_不同路径II.csproj", "{66DFE577-DF58-4C3C-98ED-42713EFD4188}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_34_在排序数组中查找元素的第一个和最后一个位置", "_34_在排序数组中查找元素的第一个和最后一个位置\_34_在排序数组中查找元素的第一个和最后一个位置.csproj", "{AD7EF3D9-2A52-49CD-8265-80B6DF49BBA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -741,6 +743,10 @@ Global
 		{66DFE577-DF58-4C3C-98ED-42713EFD4188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66DFE577-DF58-4C3C-98ED-42713EFD4188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66DFE577-DF58-4C3C-98ED-42713EFD4188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7EF3D9-2A52-49CD-8265-80B6DF49BBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7EF3D9-2A52-49CD-8265-80B6DF49BBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7EF3D9-2A52-49CD-8265-80B6DF49BBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7EF3D9-2A52-49CD-8265-80B6DF49BBA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
