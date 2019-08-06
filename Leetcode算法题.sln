@@ -269,6 +269,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_202_快乐数", "_202_快�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1078_Bigram分词", "_1078_Bigram分词\_1078_Bigram分词.csproj", "{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_806_写字符串需要的行数", "_806_写字符串需要的行数\_806_写字符串需要的行数.csproj", "{F158D6E5-67BC-4560-811C-ABE176E2EF69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -807,6 +809,10 @@ Global
 		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F158D6E5-67BC-4560-811C-ABE176E2EF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F158D6E5-67BC-4560-811C-ABE176E2EF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F158D6E5-67BC-4560-811C-ABE176E2EF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F158D6E5-67BC-4560-811C-ABE176E2EF69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
