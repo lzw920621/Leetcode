@@ -263,6 +263,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_581_最短无序连续子�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_20_有效的括号", "_20_有效的括号\_20_有效的括号.csproj", "{1BA5597A-1520-4A0D-9FBB-ABE83AD6C657}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_142_环形链表II", "_142_环形链表II\_142_环形链表II.csproj", "{AE17285D-6EEC-42F3-8E8F-62543BC382EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -789,6 +791,10 @@ Global
 		{1BA5597A-1520-4A0D-9FBB-ABE83AD6C657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BA5597A-1520-4A0D-9FBB-ABE83AD6C657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BA5597A-1520-4A0D-9FBB-ABE83AD6C657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE17285D-6EEC-42F3-8E8F-62543BC382EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE17285D-6EEC-42F3-8E8F-62543BC382EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE17285D-6EEC-42F3-8E8F-62543BC382EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE17285D-6EEC-42F3-8E8F-62543BC382EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
