@@ -49,16 +49,19 @@ namespace _806_写字符串需要的行数
 
         public int[] NumberOfLines(int[] widths, string S)
         {
-            //TODO
-            int length = 0;
-            foreach (var item in S)
+            int rowCount = 0;
+            int tempLength = 0;
+            for (int i = 0; i < S.Length; i++)
             {
-                length += widths[item - 'a'];
-            }
-            int rowCount = length / 100;
-            int count2 = length % 100;
-            if (count2 > 0) rowCount++;
-            //return new int[] { rowCount, count2 };
+                tempLength += widths[S[i] - 'a'];
+                if( i+1<S.Length && tempLength+ widths[S[i+1] - 'a']>100)
+                {
+                    rowCount++;
+                    tempLength = 0;
+                }
+            }            
+            if (tempLength > 0) rowCount++;
+            return new int[] { rowCount, tempLength };
         }
     }
 }
