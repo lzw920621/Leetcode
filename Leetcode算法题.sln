@@ -255,6 +255,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_378_有序矩阵中第K小
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_852_山脉数组的顶峰索引", "_852_山脉数组的顶峰索引\_852_山脉数组的顶峰索引.csproj", "{FFBC84B5-B84B-4EB7-9A9E-A2F6043D382A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_922_按奇偶排序数组II", "_922_按奇偶排序数组II\_922_按奇偶排序数组II.csproj", "{21703965-548B-4086-9215-9D02F3C41E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -765,6 +767,10 @@ Global
 		{FFBC84B5-B84B-4EB7-9A9E-A2F6043D382A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFBC84B5-B84B-4EB7-9A9E-A2F6043D382A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFBC84B5-B84B-4EB7-9A9E-A2F6043D382A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21703965-548B-4086-9215-9D02F3C41E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21703965-548B-4086-9215-9D02F3C41E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21703965-548B-4086-9215-9D02F3C41E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21703965-548B-4086-9215-9D02F3C41E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
