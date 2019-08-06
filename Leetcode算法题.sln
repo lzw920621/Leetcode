@@ -257,6 +257,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_852_山脉数组的顶峰�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_922_按奇偶排序数组II", "_922_按奇偶排序数组II\_922_按奇偶排序数组II.csproj", "{21703965-548B-4086-9215-9D02F3C41E24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1002_查找常用字符", "_1002_查找常用字符\_1002_查找常用字符.csproj", "{9514110C-E9CF-423F-B7E2-EEBF78569E1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -771,6 +773,10 @@ Global
 		{21703965-548B-4086-9215-9D02F3C41E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21703965-548B-4086-9215-9D02F3C41E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21703965-548B-4086-9215-9D02F3C41E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9514110C-E9CF-423F-B7E2-EEBF78569E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9514110C-E9CF-423F-B7E2-EEBF78569E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9514110C-E9CF-423F-B7E2-EEBF78569E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9514110C-E9CF-423F-B7E2-EEBF78569E1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
