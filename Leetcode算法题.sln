@@ -267,6 +267,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_142_环形链表II", "_142
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_202_快乐数", "_202_快乐数\_202_快乐数.csproj", "{8580561B-56B3-4533-B406-F243DC436F5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1078_Bigram分词", "_1078_Bigram分词\_1078_Bigram分词.csproj", "{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -801,6 +803,10 @@ Global
 		{8580561B-56B3-4533-B406-F243DC436F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8580561B-56B3-4533-B406-F243DC436F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8580561B-56B3-4533-B406-F243DC436F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9D0C3B-C7A6-445A-97D3-0078C3B163F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
