@@ -283,6 +283,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_73_矩阵置零", "_73_矩
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_384_打乱数组", "_384_打乱数组\_384_打乱数组.csproj", "{521B6BFA-8370-46AC-AB20-D9DCE9490D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_279_完全平方数", "_279_完全平方数\_279_完全平方数.csproj", "{8965144B-4601-446A-BE9F-E3A83FF912B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_79_单词搜索", "_79_单词搜索\_79_单词搜索.csproj", "{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -849,6 +853,14 @@ Global
 		{521B6BFA-8370-46AC-AB20-D9DCE9490D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{521B6BFA-8370-46AC-AB20-D9DCE9490D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{521B6BFA-8370-46AC-AB20-D9DCE9490D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8965144B-4601-446A-BE9F-E3A83FF912B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8965144B-4601-446A-BE9F-E3A83FF912B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8965144B-4601-446A-BE9F-E3A83FF912B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8965144B-4601-446A-BE9F-E3A83FF912B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
