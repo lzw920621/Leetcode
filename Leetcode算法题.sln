@@ -287,6 +287,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_279_完全平方数", "_27
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_79_单词搜索", "_79_单词搜索\_79_单词搜索.csproj", "{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1122_数组的相对排序", "_1122_数组的相对排序\_1122_数组的相对排序.csproj", "{64F305F7-59D0-4112-833F-7EFC66B7589C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -861,6 +863,10 @@ Global
 		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B4C985-A191-4E37-A7D5-B5A6D2666CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F305F7-59D0-4112-833F-7EFC66B7589C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F305F7-59D0-4112-833F-7EFC66B7589C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F305F7-59D0-4112-833F-7EFC66B7589C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F305F7-59D0-4112-833F-7EFC66B7589C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
