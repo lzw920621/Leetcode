@@ -279,6 +279,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_162_寻找峰值", "_162_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1021_删除最外层的括号", "_1021_删除最外层的括号\_1021_删除最外层的括号.csproj", "{918B533C-3808-44C0-9538-3B1377DD9A36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_73_矩阵置零", "_73_矩阵置零\_73_矩阵置零.csproj", "{C3059C3B-0E79-43D4-BD9E-5EF5294DC39F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -837,6 +839,10 @@ Global
 		{918B533C-3808-44C0-9538-3B1377DD9A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918B533C-3808-44C0-9538-3B1377DD9A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918B533C-3808-44C0-9538-3B1377DD9A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3059C3B-0E79-43D4-BD9E-5EF5294DC39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3059C3B-0E79-43D4-BD9E-5EF5294DC39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3059C3B-0E79-43D4-BD9E-5EF5294DC39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3059C3B-0E79-43D4-BD9E-5EF5294DC39F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
