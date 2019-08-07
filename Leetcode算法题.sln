@@ -273,6 +273,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_806_写字符串需要的�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_762_二进制表示中质数个计数置位", "_762_二进制表示中质数个计数置位\_762_二进制表示中质数个计数置位.csproj", "{0FFD8758-4E67-4302-9AD1-66E405D56D2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_566_重塑矩阵", "_566_重塑矩阵\_566_重塑矩阵.csproj", "{EDC2F0D0-A08F-45E6-9D99-DD1A05E8BD25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -819,6 +821,10 @@ Global
 		{0FFD8758-4E67-4302-9AD1-66E405D56D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FFD8758-4E67-4302-9AD1-66E405D56D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FFD8758-4E67-4302-9AD1-66E405D56D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC2F0D0-A08F-45E6-9D99-DD1A05E8BD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC2F0D0-A08F-45E6-9D99-DD1A05E8BD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC2F0D0-A08F-45E6-9D99-DD1A05E8BD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC2F0D0-A08F-45E6-9D99-DD1A05E8BD25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
