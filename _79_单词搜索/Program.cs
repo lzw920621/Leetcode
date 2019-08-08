@@ -32,54 +32,31 @@ namespace _79_单词搜索
     {
         static void Main(string[] args)
         {
+            char[][] board = new char[3][] { new char[] { 'C', 'A', 'A' },
+                                           new char[] { 'A', 'A', 'A' },
+                                           new char[] { 'B', 'C', 'D' } };
+            string word = "AAB";
+            bool isTrue = Exist(board, word);
 
+            //int n = sizeof(bool);
         }
-        public bool Exist(char[][] board, string word)
-        {
+        public static bool Exist(char[][] board, string word)
+        {           
             if (string.IsNullOrEmpty(word)) return false;
             if (board == null || board[0].Length < 1) return false;
             if (word.Length > board.Length * board[0].Length) return false;
 
-            int[,] tempArray = new int[board.Length, board[0].Length];//临时数组 记录已使用的字符位置
+            bool[,] tempArray = new bool[board.Length, board[0].Length];//临时数组 记录已使用的字符位置
             for (int i = 0; i < board.Length; i++)
             {
                 for (int j = 0; j < board[i].Length; j++)
-                {
-                    if(board[i][j]==word[0])//寻找单词首字母的匹配位置
-                    {
-                        if (word.Length == 1) return true;
-                        tempArray[i,j] = 1;
-                        if (GetNext(board, tempArray, i - 1, j, word, 1)) return true;   //i-1,j                        
-                        ResetArray(tempArray);
-                        tempArray[i, j] = 1;
-                        if (GetNext(board, tempArray, i + 1, j, word, 1)) return true; //i+1,j
-                        ResetArray(tempArray);
-                        tempArray[i, j] = 1;
-                        if (GetNext(board, tempArray, i, j - 1, word, 1)) return true;//i,j-1
-                        ResetArray(tempArray);
-                        tempArray[i, j] = 1;
-                        if (GetNext(board, tempArray, i, j + 1, word, 1)) return true;//i,j+1
-                        ResetArray(tempArray);
-                        tempArray[i, j] = 1;
-                    }
-                    
+                {                              
+                    if (GetNext(board, tempArray, i, j, word, 0)) return true;
                 }
             }
             return false;
         }
-
-        static void ResetArray(int[,] tempArray)
-        {
-            int length1 = tempArray.GetLength(0);
-            int length2 = tempArray.GetLength(1);
-            for (int i = 0; i < length1; i++)
-            {
-                for (int j = 0; j < length2; j++)
-                {
-                    tempArray[i, j] = 0;
-                }
-            }
-        }
+        
         /// <summary>
         /// 
         /// </summary>
@@ -90,20 +67,21 @@ namespace _79_单词搜索
         /// <param name="word">要匹配的单词</param>
         /// <param name="indexOfCurrentChar">单词中要匹配的字符的索引</param>
         /// <returns></returns>
-        static bool GetNext(char[][] board, int[,] tempArray,int x,int y,string word,int indexOfCurrentChar)
+        static bool GetNext(char[][] board, bool[,] tempArray,int x,int y,string word,int indexOfCurrentChar)//回溯算法
         {
             if(x<0 || x >=board.Length || y<0 || y>= board[0].Length)
             {
                 return false;
             }
-            if (board[x][y] == word[indexOfCurrentChar] && tempArray[x, y] == 0)//和目标字符相同 且未被使用 则查找下一个
+            if (board[x][y] == word[indexOfCurrentChar] && tempArray[x, y] == false)//和目标字符相同 且未被使用 则查找下一个
             {
-                tempArray[x, y] = 1;//记录已使用过的字符
+                tempArray[x, y] = true;//记录已使用过的字符
                 if (indexOfCurrentChar == word.Length - 1) return true;//已经是最后一个字符 说明匹配成功
                 if (GetNext(board, tempArray, x-1, y, word, indexOfCurrentChar + 1)) return true;//匹配下一个
                 if (GetNext(board, tempArray, x+1, y, word, indexOfCurrentChar + 1)) return true;//匹配下一个
                 if (GetNext(board, tempArray, x, y-1, word, indexOfCurrentChar + 1)) return true;//匹配下一个
                 if (GetNext(board, tempArray, x, y+1, word, indexOfCurrentChar + 1)) return true;//匹配下一个
+                tempArray[x, y] = false;//走到这里说明匹配失败 需要回溯 将记录值重置
             }
 
             return false;
