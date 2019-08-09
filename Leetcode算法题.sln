@@ -293,6 +293,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_19_删除链表的倒数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_55_跳跃游戏", "_55_跳跃游戏\_55_跳跃游戏.csproj", "{EA3D341B-F714-4577-ADD1-8FF98C13FE53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_54_螺旋矩阵", "_54_螺旋矩阵\_54_螺旋矩阵.csproj", "{C3BF1D60-920F-4417-94FF-06560CB780E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_50_Pow(x,n)", "_50_Pow(x,n)\_50_Pow(x,n).csproj", "{E0F21699-DCA5-4414-9A2F-B0B2E4EBC9AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -879,6 +883,14 @@ Global
 		{EA3D341B-F714-4577-ADD1-8FF98C13FE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA3D341B-F714-4577-ADD1-8FF98C13FE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA3D341B-F714-4577-ADD1-8FF98C13FE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BF1D60-920F-4417-94FF-06560CB780E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BF1D60-920F-4417-94FF-06560CB780E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BF1D60-920F-4417-94FF-06560CB780E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BF1D60-920F-4417-94FF-06560CB780E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F21699-DCA5-4414-9A2F-B0B2E4EBC9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F21699-DCA5-4414-9A2F-B0B2E4EBC9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F21699-DCA5-4414-9A2F-B0B2E4EBC9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F21699-DCA5-4414-9A2F-B0B2E4EBC9AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

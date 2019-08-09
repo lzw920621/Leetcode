@@ -40,6 +40,8 @@ namespace _79_单词搜索
 
             //int n = sizeof(bool);
         }
+
+        //回溯算法 实现
         public static bool Exist(char[][] board, string word)
         {           
             if (string.IsNullOrEmpty(word)) return false;
