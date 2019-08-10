@@ -4,63 +4,54 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _54_螺旋矩阵
+namespace _59_螺旋矩阵II
 {
     /*
-    给定一个包含 m x n 个元素的矩阵（m 行, n 列），请按照顺时针螺旋顺序，返回矩阵中的所有元素。
+    给定一个正整数 n，生成一个包含 1 到 n2 所有元素，且元素按顺时针顺序螺旋排列的正方形矩阵。
 
-    示例 1:
+    示例:
 
-    输入:
+    输入: 3
+    输出:
     [
      [ 1, 2, 3 ],
-     [ 4, 5, 6 ],
-     [ 7, 8, 9 ]
+     [ 8, 9, 4 ],
+     [ 7, 6, 5 ]
     ]
-    输出: [1,2,3,6,9,8,7,4,5]
-
-    示例 2:
-
-    输入:
-    [
-      [1, 2, 3, 4],
-      [5, 6, 7, 8],
-      [9,10,11,12]
-    ]
-    输出: [1,2,3,4,8,12,11,10,9,5,6,7]
 
     来源：力扣（LeetCode）
-    链接：https://leetcode-cn.com/problems/spiral-matrix
+    链接：https://leetcode-cn.com/problems/spiral-matrix-ii
     著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-
     */
     class Program
     {
         static void Main(string[] args)
         {
+            int[][] array = GenerateMatrix(5);
         }
-        public static IList<int> SpiralOrder(int[][] matrix)
-        {
-            IList<int> list = new List<int>();
-            if (matrix == null || matrix.Length < 1) return list;
-            int count = matrix.Count() * matrix[0].Count();//总的元素个数
-            bool[][] tempArray = new bool[matrix.Length][];//辅助数组 记录已经遍历过的元素
-            for (int r = 0; r < matrix.Length; r++)
-            {
-                tempArray[r] = new bool[matrix[r].Length];
-            }
 
+        public static int[][] GenerateMatrix(int n)
+        {
+            int[][] array = new int[n][];
+            bool[][] tempArray = new bool[n][];//辅助数组 记录已经遍历过的元素
+            for (int r = 0; r < n; r++)
+            {
+                tempArray[r] = new bool[n];
+                array[r] = new int[n];
+            }
             Direction direction = Direction.Right;
+            int count = n * n;
             int tempCount = 0;
             int i = 0, j = 0;//当前元素的索引[i][j]
-            while(tempCount<count)
+
+            while (tempCount < count)
             {
-                switch(direction)
+                switch (direction)
                 {
                     case Direction.Right://向右遍历
-                        for (int k = j; k < matrix[i].Length; k++)//遍历第i行的元素
+                        for (int k = j; k < n; k++)//遍历第i行的元素
                         {
-                            if(tempArray[i][k]==true)//该元素已经遍历过
+                            if (tempArray[i][k] == true)//该元素已经遍历过
                             {
                                 //改变方向 向下遍历
                                 direction = Direction.Down;
@@ -69,18 +60,18 @@ namespace _54_螺旋矩阵
                             }
                             else //该元素没有被遍历过
                             {
-                                j = k;
-                                list.Add(matrix[i][j]);
+                                j = k;                                
                                 tempCount++;
-                                if (tempCount == count) return list;//已遍历完所有的元素 返回结果
+                                array[i][j] = tempCount;
+                                if (tempCount == count) return array;//已遍历完所有的元素 返回结果
                                 tempArray[i][j] = true;//该元素已经遍历过
                             }
                         }
                         break;
                     case Direction.Down://向下遍历
-                        for (int k = i; k < matrix.Length; k++)//遍历第j列
+                        for (int k = i; k < n; k++)//遍历第j列
                         {
-                            if(tempArray[k][j]==true)
+                            if (tempArray[k][j] == true)
                             {
                                 //改变方向 向左遍历
                                 direction = Direction.Left;
@@ -90,18 +81,18 @@ namespace _54_螺旋矩阵
                             else
                             {
                                 i = k;
-                                list.Add(matrix[i][j]);
                                 tempCount++;
-                                if (tempCount == count) return list;
+                                array[i][j] = tempCount;
+                                if (tempCount == count) return array;
                                 tempArray[i][j] = true;
                             }
                         }
 
                         break;
                     case Direction.Left://向左遍历
-                        for (int k = j ; k >=0; k--)
+                        for (int k = j; k >= 0; k--)
                         {
-                            if(tempArray[i][k]==true)
+                            if (tempArray[i][k] == true)
                             {
                                 //改变方向 向上遍历
                                 direction = Direction.Up;
@@ -111,17 +102,17 @@ namespace _54_螺旋矩阵
                             else
                             {
                                 j = k;
-                                list.Add(matrix[i][j]);
                                 tempCount++;
-                                if (tempCount == count) return list;
+                                array[i][j] = tempCount;
+                                if (tempCount == count) return array;
                                 tempArray[i][j] = true;
                             }
                         }
                         break;
                     case Direction.Up:
-                        for (int k = i ; k >=0; k--)
+                        for (int k = i; k >= 0; k--)
                         {
-                            if(tempArray[k][j]==true)
+                            if (tempArray[k][j] == true)
                             {
                                 //改变方向 向右遍历
                                 direction = Direction.Right;
@@ -131,18 +122,18 @@ namespace _54_螺旋矩阵
                             else
                             {
                                 i = k;
-                                list.Add(matrix[i][j]);
                                 tempCount++;
-                                if (tempCount == count) return list;
+                                array[i][j] = tempCount;
+                                if (tempCount == count) return array;
                                 tempArray[i][j] = true;
                             }
                         }
                         break;
                 }
             }
-            return list;
-        }
 
+            return array;
+        }
         enum Direction
         {
             Up,
