@@ -303,6 +303,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_16_最接近的三数之�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_43_字符串相乘", "_43_字符串相乘\_43_字符串相乘.csproj", "{C478BE18-C471-4E79-92B9-379CE03FCE2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_300_最长上升子序列", "_300_最长上升子序列\_300_最长上升子序列.csproj", "{A8432980-C5E7-4269-868F-9AED3907F111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_48_旋转图像", "_48_旋转图像\_48_旋转图像.csproj", "{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -909,6 +913,14 @@ Global
 		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8432980-C5E7-4269-868F-9AED3907F111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8432980-C5E7-4269-868F-9AED3907F111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8432980-C5E7-4269-868F-9AED3907F111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8432980-C5E7-4269-868F-9AED3907F111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
