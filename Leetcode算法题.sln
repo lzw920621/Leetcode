@@ -307,6 +307,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_300_最长上升子序列"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_48_旋转图像", "_48_旋转图像\_48_旋转图像.csproj", "{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_155_最小栈", "_155_最小栈\_155_最小栈.csproj", "{E872D7FF-8116-4D02-9159-2BA6FFA83AE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -921,6 +923,10 @@ Global
 		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2834C3B7-8BDF-40B5-BF62-33A41437CAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E872D7FF-8116-4D02-9159-2BA6FFA83AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E872D7FF-8116-4D02-9159-2BA6FFA83AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E872D7FF-8116-4D02-9159-2BA6FFA83AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E872D7FF-8116-4D02-9159-2BA6FFA83AE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
