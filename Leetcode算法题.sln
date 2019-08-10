@@ -301,6 +301,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_59_螺旋矩阵II", "_59_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_16_最接近的三数之和", "_16_最接近的三数之和\_16_最接近的三数之和.csproj", "{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_43_字符串相乘", "_43_字符串相乘\_43_字符串相乘.csproj", "{C478BE18-C471-4E79-92B9-379CE03FCE2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -903,6 +905,10 @@ Global
 		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C478BE18-C471-4E79-92B9-379CE03FCE2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

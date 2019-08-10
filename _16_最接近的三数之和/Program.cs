@@ -45,10 +45,8 @@ namespace _16_最接近的三数之和
                         if (Math.Abs(tempSum - target) < dif)
                         {
                             sum = tempSum;
-                            dif = Math.Abs(tempSum - target);
-                            //if (dif == 0) return sum;
+                            dif = Math.Abs(tempSum - target);                            
                         }
-
                         index2--;
                     }
                     else if(tempSum<target)
@@ -56,10 +54,8 @@ namespace _16_最接近的三数之和
                         if (Math.Abs(tempSum - target) < dif)
                         {
                             sum = tempSum;
-                            dif = Math.Abs(tempSum - target);
-                            //if (dif == 0) return sum;
+                            dif = Math.Abs(tempSum - target);                            
                         }
-
                         index1++;
                     }
                     else//tempSum==target
