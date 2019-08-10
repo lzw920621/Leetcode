@@ -299,6 +299,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_50_Pow(x,n)", "_50_Pow(x,n
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_59_螺旋矩阵II", "_59_螺旋矩阵\_59_螺旋矩阵II.csproj", "{0D1B6113-D399-40B1-B89F-E0ACE394D686}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_16_最接近的三数之和", "_16_最接近的三数之和\_16_最接近的三数之和.csproj", "{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -897,6 +899,10 @@ Global
 		{0D1B6113-D399-40B1-B89F-E0ACE394D686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D1B6113-D399-40B1-B89F-E0ACE394D686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D1B6113-D399-40B1-B89F-E0ACE394D686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7EEE65-3677-4C33-A06C-ACF0C349CA1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
