@@ -313,6 +313,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_395_至少有K个重复字
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_238_除自身以外数组的乘积", "_238_除自身以外数组的乘积\_238_除自身以外数组的乘积.csproj", "{CD1C1267-D85D-43C3-863C-6B56E465B59F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_61_旋转链表", "_61_旋转链表\_61_旋转链表.csproj", "{1BE6901C-D226-4835-9404-C4BB6625BCB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -939,6 +941,10 @@ Global
 		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BE6901C-D226-4835-9404-C4BB6625BCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE6901C-D226-4835-9404-C4BB6625BCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE6901C-D226-4835-9404-C4BB6625BCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE6901C-D226-4835-9404-C4BB6625BCB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
