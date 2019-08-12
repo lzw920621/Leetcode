@@ -309,6 +309,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_155_最小栈", "_155_最�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_394_字符串解码", "_394_字符串解码\_394_字符串解码.csproj", "{4965B6E7-666A-4F9A-84EC-09210379D9C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_395_至少有K个重复字符的最长子串", "_395_至少有K个重复字符的最长子串\_395_至少有K个重复字符的最长子串.csproj", "{FFF9B425-C146-46EC-B79E-11AF49D50741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_238_除自身以外数组的乘积", "_238_除自身以外数组的乘积\_238_除自身以外数组的乘积.csproj", "{CD1C1267-D85D-43C3-863C-6B56E465B59F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -927,6 +931,14 @@ Global
 		{4965B6E7-666A-4F9A-84EC-09210379D9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4965B6E7-666A-4F9A-84EC-09210379D9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4965B6E7-666A-4F9A-84EC-09210379D9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF9B425-C146-46EC-B79E-11AF49D50741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF9B425-C146-46EC-B79E-11AF49D50741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF9B425-C146-46EC-B79E-11AF49D50741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF9B425-C146-46EC-B79E-11AF49D50741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1C1267-D85D-43C3-863C-6B56E465B59F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
