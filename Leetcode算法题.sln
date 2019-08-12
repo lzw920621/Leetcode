@@ -121,8 +121,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串的排列", "字�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1108_地址无效化", "_1108_地址无效化\_1108_地址无效化.csproj", "{A71A0D83-993C-436B-AD6C-43EC52937547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串相乘", "字符串相乘\字符串相乘.csproj", "{EFF98DD6-26EE-4462-852B-FCDB95C1B1A7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_448_找到所有数组中消失的数", "_448_找到所有数组中消失的数\_448_找到所有数组中消失的数.csproj", "{0179E916-C02F-48BA-94DD-2C15263D7F23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_160_相交链表", "_160_相交链表\_160_相交链表.csproj", "{A8E54245-778F-4056-9A4B-4CA394668F43}"
@@ -553,10 +551,6 @@ Global
 		{A71A0D83-993C-436B-AD6C-43EC52937547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71A0D83-993C-436B-AD6C-43EC52937547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71A0D83-993C-436B-AD6C-43EC52937547}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EFF98DD6-26EE-4462-852B-FCDB95C1B1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EFF98DD6-26EE-4462-852B-FCDB95C1B1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EFF98DD6-26EE-4462-852B-FCDB95C1B1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EFF98DD6-26EE-4462-852B-FCDB95C1B1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0179E916-C02F-48BA-94DD-2C15263D7F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0179E916-C02F-48BA-94DD-2C15263D7F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0179E916-C02F-48BA-94DD-2C15263D7F23}.Release|Any CPU.ActiveCfg = Release|Any CPU

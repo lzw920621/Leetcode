@@ -45,34 +45,30 @@ namespace _189_旋转数组
 
         public static void Rotate(int[] nums, int k)
         {
-            int temp;
-            k = k % (nums.Length);
-            int k1 = nums.Length - k;
-            if(k>k1)     //左移k1位;
+            if (nums == null) return;
+            //第一步 翻转数组
+            for (int i = 0; i < nums.Length/2; i++)
             {
-                for (int i = 0; i < k1; i++)
-                {
-                    temp = nums[0];
-                    for (int j = 0; j <nums.Length; j++)
-                    {
-                        nums[j] = nums[j + 1];
-                    }
-                    nums[nums.Length-1] = temp;
-                }
+                int temp = nums[i];
+                nums[i] = nums[nums.Length - i - 1];
+                nums[nums.Length - i - 1] = temp;
             }
-            else         //右移k位
+
+            k = k % nums.Length;
+            //第二部 翻转前k个数
+            for (int i = 0; i < k/2; i++)
             {
-                for (int i = 0; i < k; i++)
-                {
-                    temp = nums[nums.Length - 1];
-                    for (int j = nums.Length - 1; j > 0; j--)
-                    {
-                        nums[j] = nums[j - 1];
-                    }
-                    nums[0] = temp;
-                }
+                int temp = nums[i];
+                nums[i] = nums[k - i - 1];
+                nums[k - i - 1] = temp;
             }
-            //TODO
+            //第三步 翻转后nums.length-k个数
+            for (int i = k; i < (nums.Length+k)/2; i++)
+            {
+                int temp = nums[i];
+                nums[i] = nums[nums.Length - i - 1 + k];
+                nums[nums.Length - i - 1 + k] = temp;
+            }
         }
 
         

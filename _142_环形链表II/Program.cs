@@ -68,7 +68,6 @@ namespace _142_环形链表II
             }
             else//有环 寻找环的入口
             {
-                //TODO
                 ListNode temp = head;
                 while(temp!=nodeSlow)
                 {
