@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,37 +36,8 @@ namespace _32_最长有效括号
 
         public static int LongestValidParentheses(string s)
         {
-            if (s==null||s.Length < 2) return 0;
-            Stack<char> stack = new Stack<char>();
-            stack.Push(s[0]);
-            int longest = 0;
-            int count = 0;
-            for (int i = 1; i < s.Length; i++)
-            {
-                if(stack.Count>0)
-                {
-                    if(stack.Peek() == '(' && s[i] == ')')
-                    {
-                        stack.Pop();
-                        count += 2;
-                        longest = Math.Max(longest, count);
-                    }
-                    else
-                    {                       
-                        if( (stack.Peek() == ')' && s[i]==')') || (stack.Peek() == '(' && s[i] == '('))
-                        {
-                            count = 0;
-                        }
-                        stack.Push(s[i]);
-                    }                    
-                }
-                else
-                {
-                    stack.Push(s[i]);
-                }                
-            }
-
             //TODO
+            BitArray bitArray = new BitArray(s.Length);
         }
 
         public static int LongestValidParentheses1(String s)
