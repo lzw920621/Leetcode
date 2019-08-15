@@ -75,30 +75,24 @@ namespace _496_下一个更大元素I
             return nums1;
         }
 
+        //方法2 单调栈
         public static int[] NextGreaterElement2(int[] nums1, int[] nums2)
         {
             Dictionary<int, int> dic = new Dictionary<int, int>();
             Stack<int> stack = new Stack<int>();
             for (int i = nums2.Length-1; i >=0; i--)
             {
-                if(stack.Count==0)
+                while (stack.Count > 0 && stack.Peek() <= nums2[i])
                 {
-                    dic[nums2[i]] = -1;
+                    stack.Pop();
+                }
+                if (stack.Count > 0)
+                {
+                    dic[nums2[i]] = stack.Peek();
                 }
                 else
                 {
-                    while(stack.Count>0 && stack.Peek()<nums2[i])
-                    {
-                        stack.Pop();
-                    }
-                    if(stack.Count>0)
-                    {
-                        dic[nums2[i]] = stack.Peek();
-                    }
-                    else
-                    {
-                        dic[nums2[i]] = -1;
-                    }
+                    dic[nums2[i]] = -1;
                 }
                 stack.Push(nums2[i]);
             }

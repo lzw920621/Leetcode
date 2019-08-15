@@ -317,6 +317,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_61_旋转链表", "_61_旋
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_496_下一个更大元素I", "_496_下一个更大元素I\_496_下一个更大元素I.csproj", "{A157DE3C-B62B-42C9-9E32-5561A504893E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_503_下一个更大的元素II", "_503_下一个更大的元素\_503_下一个更大的元素II.csproj", "{F1B6E1F1-1E4C-41FE-9466-B744E2EACACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -951,6 +953,10 @@ Global
 		{A157DE3C-B62B-42C9-9E32-5561A504893E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A157DE3C-B62B-42C9-9E32-5561A504893E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A157DE3C-B62B-42C9-9E32-5561A504893E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B6E1F1-1E4C-41FE-9466-B744E2EACACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B6E1F1-1E4C-41FE-9466-B744E2EACACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B6E1F1-1E4C-41FE-9466-B744E2EACACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B6E1F1-1E4C-41FE-9466-B744E2EACACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
