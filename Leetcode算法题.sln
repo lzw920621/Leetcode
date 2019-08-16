@@ -323,6 +323,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_739_每日温度", "_739_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_寻找两个有序数组的中位数", "_4_寻找两个有序数组的中位数\_4_寻找两个有序数组的中位数.csproj", "{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_17_电话号码的字母组合", "_17_电话号码的字母组合\_17_电话号码的字母组合.csproj", "{4139CC8F-0444-4167-9DA4-1EB13D433972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -969,6 +971,10 @@ Global
 		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4139CC8F-0444-4167-9DA4-1EB13D433972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4139CC8F-0444-4167-9DA4-1EB13D433972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4139CC8F-0444-4167-9DA4-1EB13D433972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4139CC8F-0444-4167-9DA4-1EB13D433972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

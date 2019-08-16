@@ -77,6 +77,9 @@ namespace _4_寻找两个有序数组的中位数
             }
         }
 
-
+        public static double FindMedianSortedArrays2(int[] nums1, int[] nums2)
+        {
+            //TODO
+        }
     }
 }
