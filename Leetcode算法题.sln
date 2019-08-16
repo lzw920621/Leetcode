@@ -321,6 +321,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_503_下一个更大的元�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_739_每日温度", "_739_每日温度\_739_每日温度.csproj", "{14E48E2F-C531-4758-993B-52471F39C46F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_寻找两个有序数组的中位数", "_4_寻找两个有序数组的中位数\_4_寻找两个有序数组的中位数.csproj", "{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -963,6 +965,10 @@ Global
 		{14E48E2F-C531-4758-993B-52471F39C46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E48E2F-C531-4758-993B-52471F39C46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E48E2F-C531-4758-993B-52471F39C46F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD1520C-A847-40B7-A9BD-C2E46C64EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
