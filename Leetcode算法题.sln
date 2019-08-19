@@ -329,6 +329,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_39_组合总和", "_39_组
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_33_搜索旋转排序数组", "_33_搜索旋转排序数组\_33_搜索旋转排序数组.csproj", "{8A1FB947-7847-418B-8A86-C5ED688D6EDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_38_报数", "_38_报数\_38_报数.csproj", "{34058079-3584-41B5-AB77-4FE6C1F0BDDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -987,6 +989,10 @@ Global
 		{8A1FB947-7847-418B-8A86-C5ED688D6EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A1FB947-7847-418B-8A86-C5ED688D6EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A1FB947-7847-418B-8A86-C5ED688D6EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34058079-3584-41B5-AB77-4FE6C1F0BDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34058079-3584-41B5-AB77-4FE6C1F0BDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34058079-3584-41B5-AB77-4FE6C1F0BDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34058079-3584-41B5-AB77-4FE6C1F0BDDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
