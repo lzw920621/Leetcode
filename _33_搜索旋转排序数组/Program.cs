@@ -47,41 +47,26 @@ namespace _33_搜索旋转排序数组
             int mid = (left + right) / 2;
             if (nums[mid] == target) return mid;
             
-            if (nums[mid]>nums[left])//left->mid是有序的
+            if (nums[mid]>=nums[left])//left->mid是有序的
             {
-                if(target<nums[mid])
+                if(target<nums[mid] && target>=nums[left])
                 {
-                    if(target<nums[left])
-                    {
-                        return FindTarget(nums, mid + 1, right, target);
-                    }
-                    else   //nums[left]<target<nums[mid]
-                    {
-                        return FindTarget(nums, left, mid - 1, target);
-                    }
+                    return FindTarget(nums, left, mid - 1, target);
                 }
-                else   //target>nums[mid]
+                else   
                 {
                     return FindTarget(nums, mid+1, right, target);
                 }
             }
             else// mid->right有序
             {
-                if (target > nums[right])
+                if (target <= nums[right] && target>nums[mid])
                 {
-                    return FindTarget(nums, left, mid - 1, target);
-              
+                    return FindTarget(nums, mid + 1, right, target);
                 }
                 else   
                 {
-                    if (target < nums[mid])
-                    {
-                        return FindTarget(nums, left, mid - 1, target);
-                    }
-                    else
-                    {
-                        return FindTarget(nums, mid + 1, right, target);
-                    }
+                    return FindTarget(nums, left, mid - 1, target);
                 }
             }
         }
