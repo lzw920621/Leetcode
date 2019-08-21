@@ -335,6 +335,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_543_二叉树的直径", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_213_打家劫舍II", "_213_打家劫舍II\_213_打家劫舍II.csproj", "{6CEC3D6E-1FFB-44A3-A0A0-8D9C6AA0D84A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_337_打家劫舍III", "_337_打家劫舍III\_337_打家劫舍III.csproj", "{A973E2B7-2161-416C-B0D8-6E3907622126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1005,6 +1007,10 @@ Global
 		{6CEC3D6E-1FFB-44A3-A0A0-8D9C6AA0D84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEC3D6E-1FFB-44A3-A0A0-8D9C6AA0D84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEC3D6E-1FFB-44A3-A0A0-8D9C6AA0D84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A973E2B7-2161-416C-B0D8-6E3907622126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A973E2B7-2161-416C-B0D8-6E3907622126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A973E2B7-2161-416C-B0D8-6E3907622126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A973E2B7-2161-416C-B0D8-6E3907622126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
