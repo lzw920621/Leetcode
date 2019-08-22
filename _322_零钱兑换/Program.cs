@@ -30,52 +30,51 @@ namespace _322_零钱兑换
     class Program
     {
         static void Main(string[] args)
-        {
-            int n = CoinChange(new int[] { 186, 419, 83, 408 }, 6249);
+        {            
+            int n = CoinChange(new int[] { 186,419,83,408 },6249);
         }
 
+        
         public static int CoinChange(int[] coins, int amount)
         {
-            Array.Sort(coins);
-            Array.Reverse(coins);
-
+            Dictionary<int, int> dic = new Dictionary<int, int>() { { 0, 0 } };
             for (int i = 0; i < coins.Length; i++)
             {
-                int n = Assist(coins, amount, i, 0);
-                if(n!=-1)
-                {
-                    return n;
-                }
+                dic[coins[i]] = 1;
             }
-            return -1;
+            return Assist(coins, amount, dic);
         }
-
-        static int Assist(int[] coins,int target,int index,int count)
+        public static int Assist(int[] coins, int amount,Dictionary<int,int> dic)
         {
-            //TODO待修改
-            if (target == 0) return count;
-            if(index < coins.Length)
+            if (amount < 0) return -1;
+            if (dic.ContainsKey(amount))
             {
-                if (target < coins[index])
-                {                    
-                    for (int i = index + 1; i < coins.Length; i++)
-                    {
-                        int n = Assist(coins, target, i, count);
-                        if(n!=-1)
-                        {
-                            return n;
-                        }
-                    }
-                    //return -1;
+                return dic[amount];
+            }
+            
+            int count = -1;
+            for (int i = 0; i < coins.Length; i++)
+            {
+                int temp = Assist(coins, amount - coins[i], dic) + 1;
+                if (temp == 0)
+                {
+                    dic[amount - coins[i]] = -1;
                 }
                 else
                 {
-                    int n = Assist(coins, target - coins[index], index, count + 1);
-                    return n;
+                    if (count > 0)
+                    {
+                        count = Math.Min(count, temp);
+                    }
+                    else
+                    {
+                        count = temp;
+                    }
                 }
             }
-
-            return -1;
+            dic[amount] = count;
+            return count;
         }
+
     }
 }
