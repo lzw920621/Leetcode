@@ -30,12 +30,29 @@ namespace _300_最长上升子序列
     {
         static void Main(string[] args)
         {
-            int longgest = LengthOfLIS(new int[]{ 10, 9, 2, 5, 3, 4});
+            int longgest = LengthOfLIS(new int[]{ 10, 9, 2, 5, 3, 7, 101, 18 });
         }
         public static int LengthOfLIS(int[] nums)
         {
-            //TODO
-            
+            if (nums == null||nums.Length<1) return 0;
+            int maxLength = 1;
+            int[] dp = new int[nums.Length];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                dp[i] = 1;
+            }
+            for (int i = 1; i < dp.Length; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    if(nums[j]<nums[i])
+                    {
+                        dp[i] = Math.Max(dp[j] + 1, dp[i]);
+                        maxLength = Math.Max(maxLength, dp[i]);
+                    }
+                }
+            }
+            return maxLength;
         }
     }
 }
