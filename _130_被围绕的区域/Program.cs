@@ -91,6 +91,7 @@ namespace _130_被围绕的区域
                 }
             }
         }
+
         static void SetNeigbour(char[][] board,int x,int y,bool[,] assist)
         {
             if (x < 0 || x >= board.Length || y < 0 || y >= board[x].Length)
