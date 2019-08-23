@@ -339,6 +339,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_337_打家劫舍III", "_33
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_322_零钱兑换", "_322_零钱兑换\_322_零钱兑换.csproj", "{1AB0D2E4-F59A-4FE8-83ED-87F677B645B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_130_被围绕的区域", "_130_被围绕的区域\_130_被围绕的区域.csproj", "{018ED672-DD18-473C-9A35-212FF5E92A02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1017,6 +1019,10 @@ Global
 		{1AB0D2E4-F59A-4FE8-83ED-87F677B645B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB0D2E4-F59A-4FE8-83ED-87F677B645B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB0D2E4-F59A-4FE8-83ED-87F677B645B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018ED672-DD18-473C-9A35-212FF5E92A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018ED672-DD18-473C-9A35-212FF5E92A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018ED672-DD18-473C-9A35-212FF5E92A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018ED672-DD18-473C-9A35-212FF5E92A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
