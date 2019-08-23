@@ -343,6 +343,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_130_被围绕的区域", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_380_常数时间插入删除和获取随机元素", "_380_常数时间插入删除和获取随机元素\_380_常数时间插入删除和获取随机元素.csproj", "{D65114D9-3189-4606-97FC-8D1C5C56CCA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_74_搜索二维矩阵", "_74_搜索二维矩阵\_74_搜索二维矩阵.csproj", "{E4C7AEA6-E192-4285-AD24-916F96F02002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1029,6 +1031,10 @@ Global
 		{D65114D9-3189-4606-97FC-8D1C5C56CCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65114D9-3189-4606-97FC-8D1C5C56CCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D65114D9-3189-4606-97FC-8D1C5C56CCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C7AEA6-E192-4285-AD24-916F96F02002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C7AEA6-E192-4285-AD24-916F96F02002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C7AEA6-E192-4285-AD24-916F96F02002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C7AEA6-E192-4285-AD24-916F96F02002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
