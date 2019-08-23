@@ -349,6 +349,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_240_搜索二维矩阵", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_628_三个数的最大乘积", "_628_三个数的最大乘积\_628_三个数的最大乘积.csproj", "{DD97180D-48FD-4C36-89B0-BD625A5287E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_152_乘积最大的子序列", "_152_乘积最大的子序列\_152_乘积最大的子序列.csproj", "{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1047,6 +1049,10 @@ Global
 		{DD97180D-48FD-4C36-89B0-BD625A5287E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD97180D-48FD-4C36-89B0-BD625A5287E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD97180D-48FD-4C36-89B0-BD625A5287E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
