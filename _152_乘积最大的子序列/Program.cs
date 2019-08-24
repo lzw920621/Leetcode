@@ -30,7 +30,7 @@ namespace _152_乘积最大的子序列
         {
         }
 
-        public static int MaxProduct(int[] nums)
+        public static int MaxProduct(int[] nums)//同时记录最大值和最小值
         {
             int max = nums[0], min = nums[0], res = nums[0];
             for (int i = 1; i < nums.Length; i++)

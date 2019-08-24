@@ -351,6 +351,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_628_三个数的最大乘�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_152_乘积最大的子序列", "_152_乘积最大的子序列\_152_乘积最大的子序列.csproj", "{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_166_分数到小数", "_166_分数到小数\_166_分数到小数.csproj", "{0997DA92-AD61-4F96-BECD-10FDE0597D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_485_最大连续1的个数", "_485_最大连续1的个数\_485_最大连续1的个数.csproj", "{FCB72876-FA0C-40F4-A7C7-3356762BD78F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1053,6 +1057,14 @@ Global
 		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8583801E-ED7E-4DEC-9A49-913C5DFA3C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0997DA92-AD61-4F96-BECD-10FDE0597D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0997DA92-AD61-4F96-BECD-10FDE0597D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0997DA92-AD61-4F96-BECD-10FDE0597D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0997DA92-AD61-4F96-BECD-10FDE0597D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB72876-FA0C-40F4-A7C7-3356762BD78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB72876-FA0C-40F4-A7C7-3356762BD78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB72876-FA0C-40F4-A7C7-3356762BD78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB72876-FA0C-40F4-A7C7-3356762BD78F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
