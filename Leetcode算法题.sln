@@ -357,6 +357,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_485_最大连续1的个数
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_75_颜色分类", "_75_颜色分类\_75_颜色分类.csproj", "{D5DC5D60-E3E4-4CF0-91C4-C3B3FFF93670}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_150_逆波兰表达式求值", "_150_逆波兰表达式求值\_150_逆波兰表达式求值.csproj", "{298C76C1-D8FB-41C7-B9B0-17C28E5C10DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1071,6 +1073,10 @@ Global
 		{D5DC5D60-E3E4-4CF0-91C4-C3B3FFF93670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5DC5D60-E3E4-4CF0-91C4-C3B3FFF93670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5DC5D60-E3E4-4CF0-91C4-C3B3FFF93670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298C76C1-D8FB-41C7-B9B0-17C28E5C10DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298C76C1-D8FB-41C7-B9B0-17C28E5C10DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298C76C1-D8FB-41C7-B9B0-17C28E5C10DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298C76C1-D8FB-41C7-B9B0-17C28E5C10DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
