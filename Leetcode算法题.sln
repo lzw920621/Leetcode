@@ -361,6 +361,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_150_逆波兰表达式求�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_263_丑数", "_263_丑数\_263_丑数.csproj", "{7E580A5F-FC53-4C4F-8BAF-867E7071474A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_415_字符串相加", "_415_字符串相加\_415_字符串相加.csproj", "{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1083,6 +1085,10 @@ Global
 		{7E580A5F-FC53-4C4F-8BAF-867E7071474A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E580A5F-FC53-4C4F-8BAF-867E7071474A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E580A5F-FC53-4C4F-8BAF-867E7071474A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
