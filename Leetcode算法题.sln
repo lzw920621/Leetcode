@@ -363,6 +363,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_263_丑数", "_263_丑数\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_415_字符串相加", "_415_字符串相加\_415_字符串相加.csproj", "{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_654_最大二叉树", "_654_最大二叉树\_654_最大二叉树.csproj", "{C2FF83A4-7604-49FA-BBEE-55EC24D1A538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1089,6 +1091,10 @@ Global
 		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE6D23BD-425D-493E-AAF7-FFDE09B3E55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FF83A4-7604-49FA-BBEE-55EC24D1A538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FF83A4-7604-49FA-BBEE-55EC24D1A538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FF83A4-7604-49FA-BBEE-55EC24D1A538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FF83A4-7604-49FA-BBEE-55EC24D1A538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
