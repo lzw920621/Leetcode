@@ -367,6 +367,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_654_最大二叉树", "_65
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_993_二叉树的堂兄弟节点", "_993_二叉树的堂兄弟节点\_993_二叉树的堂兄弟节点.csproj", "{9FB13428-CC2E-4768-81EA-161327AFB3FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_572_另一个树的子树", "_572_另一个树的子树\_572_另一个树的子树.csproj", "{FA7C7B2E-C729-4127-8908-E4484FE0E5AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1101,6 +1103,10 @@ Global
 		{9FB13428-CC2E-4768-81EA-161327AFB3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FB13428-CC2E-4768-81EA-161327AFB3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FB13428-CC2E-4768-81EA-161327AFB3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7C7B2E-C729-4127-8908-E4484FE0E5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7C7B2E-C729-4127-8908-E4484FE0E5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7C7B2E-C729-4127-8908-E4484FE0E5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7C7B2E-C729-4127-8908-E4484FE0E5AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
