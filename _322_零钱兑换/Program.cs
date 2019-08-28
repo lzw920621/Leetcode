@@ -31,7 +31,7 @@ namespace _322_零钱兑换
     {
         static void Main(string[] args)
         {            
-            int n = CoinChange(new int[] { 186,419,83,408 },6249);
+            int n = CoinChange2(new int[] { 186,419,83,408 },6249);
         }
 
         
@@ -76,5 +76,28 @@ namespace _322_零钱兑换
             return count;
         }
 
+
+        public static int CoinChange2(int[] coins, int amount)
+        {
+            if (amount == 0) return 0;
+            int[] dp = new int[amount + 1];
+            dp[0] = 0;
+            for (int i = 1; i < dp.Length; i++)
+            {
+                dp[i] = amount+1;
+            }
+                        
+            for (int i = 1; i <= amount; i++)
+            {               
+                for (int j = 0; j < coins.Length; j++)
+                {
+                    if(i>= coins[j])
+                    {
+                        dp[i] = Math.Min(dp[i], dp[i - coins[j]] + 1);
+                    }
+                }                
+            }
+            return dp[amount] < amount + 1 ? dp[amount] : -1;
+        }
     }
 }
