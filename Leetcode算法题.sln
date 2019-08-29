@@ -371,9 +371,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_572_另一个树的子树"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_814_二叉树剪枝", "_814_二叉树剪枝\_814_二叉树剪枝.csproj", "{B05EAEA7-B94E-4CF2-8029-5345973F07A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_23_合并K个排序链表", "_23_合并K个排序链表\_23_合并K个排序链表.csproj", "{6CC2AE98-E27B-42E5-A63F-B8A344F4BA0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_23_合并K个排序链表", "_23_合并K个排序链表\_23_合并K个排序链表.csproj", "{6CC2AE98-E27B-42E5-A63F-B8A344F4BA0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_148_排序链表", "_148_排序链表\_148_排序链表.csproj", "{1FCA4A66-8A5A-45D8-AFC7-ED83E3CF0F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_295_数据流中的中位数", "_295_数据流总的中位数\_295_数据流中的中位数.csproj", "{EF4BE7C9-7739-4D42-971C-29586A963231}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1125,6 +1127,10 @@ Global
 		{1FCA4A66-8A5A-45D8-AFC7-ED83E3CF0F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCA4A66-8A5A-45D8-AFC7-ED83E3CF0F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCA4A66-8A5A-45D8-AFC7-ED83E3CF0F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4BE7C9-7739-4D42-971C-29586A963231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4BE7C9-7739-4D42-971C-29586A963231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4BE7C9-7739-4D42-971C-29586A963231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4BE7C9-7739-4D42-971C-29586A963231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
