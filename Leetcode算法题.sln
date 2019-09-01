@@ -379,6 +379,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_295_数据流中的中位�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_22_括号生成", "_22_括号生成\_22_括号生成.csproj", "{FFA59C07-A0DF-4D23-8255-9DDDBDCD1A41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_476_数字的补数", "_476_数字的补数\_476_数字的补数.csproj", "{299EC435-E266-4528-B857-016F8915C265}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1137,6 +1139,10 @@ Global
 		{FFA59C07-A0DF-4D23-8255-9DDDBDCD1A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFA59C07-A0DF-4D23-8255-9DDDBDCD1A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFA59C07-A0DF-4D23-8255-9DDDBDCD1A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299EC435-E266-4528-B857-016F8915C265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299EC435-E266-4528-B857-016F8915C265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299EC435-E266-4528-B857-016F8915C265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299EC435-E266-4528-B857-016F8915C265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
