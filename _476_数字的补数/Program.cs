@@ -38,13 +38,13 @@ namespace _476_数字的补数
 
         public static int FindComplement(int num)
         {
-            int temp = num, c = 0;
-            while (temp > 0)
+            int tmp = 1;
+            while (tmp < num)
             {
-                temp >>= 1;
-                c = (c << 1) + 1;
+                tmp <<= 1;
+                tmp += 1;
             }
-            return num ^ c;
+            return (tmp ^ num);
         }
     }
 }
