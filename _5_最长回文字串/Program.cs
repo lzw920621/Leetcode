@@ -25,19 +25,109 @@ namespace _5_最长回文字串
     {
         static void Main(string[] args)
         {
+            char[] array = ProcessStr("babad");
         }
 
-        public static string LongestPalindrome(string str)
+        //穷举法
+        public static string LongestPalindrome(string s)
         {
-            if(str==null)
+            if(s==null||s.Length<2)
             {
-                return null;
+                return s;
             }
-            int mid = str.Length / 2;
-            for (int i = 0; i < mid; i++)
+            int max = 0;
+            string subString = null;
+            for (int i = 0; i < s.Length; i++)
             {
+                for (int j = i; j < s.Length; j++)
+                {
+                    if(Assist(s,i,j))
+                    {
+                        if(j-i+1>max)
+                        {
+                            max = j - i + 1;
+                            subString = s.Substring(i, max);
+                        }
+                    }
+                }
+            }
 
+            return subString;
+        }
+
+        static bool Assist(string str,int left,int right)//判断是否是回文子串
+        {
+            int mid = (left + right) / 2;
+            while(left<=mid)
+            {
+                if(str[left]!=str[right])
+                {
+                    return false;
+                }
+                else
+                {
+                    left++;
+                    right--;
+                }
             }
+            return true;
+        }
+
+        //中心点扩散法
+        public static string LongestPalindrome2(string s)
+        {
+            if (s == null || s.Length < 2)
+            {
+                return s;
+            }
+            int start = 0, end = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                int len1 = expandAroundCenter(s, i, i);
+                int len2 = expandAroundCenter(s, i, i + 1);
+                int len = Math.Max(len1, len2);
+                if (len > end - start)
+                {
+                    start = i - (len - 1) / 2;
+                    end = i + len / 2;
+                }
+            }
+            return s.Substring(start, end - start + 1);
+            
+        }
+        static int expandAroundCenter(string s, int left, int right)
+        {
+            int L = left, R = right;
+            while (L >= 0 && R < s.Length && s[L] == s[R])
+            {
+                L--;
+                R++;
+            }
+            return R - L - 1;
+        }
+
+
+
+
+
+
+
+
+
+
+        static char[] ProcessStr(string s)//给字符串的相邻字符添加 "隔板" '#'
+        {
+            char[] tempArray = new char[s.Length * 2 + 1];
+            int index = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                tempArray[index] = '#';
+                index++;
+                tempArray[index] = s[i];
+                index++;
+            }
+            tempArray[tempArray.Length - 1] = '#';
+            return tempArray;
         }
     }
 }
