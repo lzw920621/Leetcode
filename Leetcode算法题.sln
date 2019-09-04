@@ -381,6 +381,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_22_括号生成", "_22_括
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_476_数字的补数", "_476_数字的补数\_476_数字的补数.csproj", "{299EC435-E266-4528-B857-016F8915C265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_309_最佳买卖股票时机含冷冻期", "_309_最佳买卖股票时机含冷冻期\_309_最佳买卖股票时机含冷冻期.csproj", "{1E571548-D97F-4221-8A0A-97DE8700A2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_123_买卖股票的最佳时机III", "_123_买卖股票的最佳时机III\_123_买卖股票的最佳时机III.csproj", "{21F8AED7-4B05-42C0-9013-9665E853B6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_188_买卖股票的最佳时机IV", "_188_买卖股票的最佳时机IV\_188_买卖股票的最佳时机IV.csproj", "{30471591-0767-445F-BA2E-FB7E75F4352B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_714_买卖股票的最佳时机含手续费", "_714_买卖股票的最佳时机含手续费\_714_买卖股票的最佳时机含手续费.csproj", "{D6846911-F176-410D-A5E4-090DC39C2D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_693_交替位二进制数", "_693_交替位二进制数\_693_交替位二进制数.csproj", "{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1143,6 +1153,26 @@ Global
 		{299EC435-E266-4528-B857-016F8915C265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299EC435-E266-4528-B857-016F8915C265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299EC435-E266-4528-B857-016F8915C265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E571548-D97F-4221-8A0A-97DE8700A2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E571548-D97F-4221-8A0A-97DE8700A2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E571548-D97F-4221-8A0A-97DE8700A2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E571548-D97F-4221-8A0A-97DE8700A2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F8AED7-4B05-42C0-9013-9665E853B6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F8AED7-4B05-42C0-9013-9665E853B6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F8AED7-4B05-42C0-9013-9665E853B6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F8AED7-4B05-42C0-9013-9665E853B6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30471591-0767-445F-BA2E-FB7E75F4352B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30471591-0767-445F-BA2E-FB7E75F4352B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30471591-0767-445F-BA2E-FB7E75F4352B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30471591-0767-445F-BA2E-FB7E75F4352B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6846911-F176-410D-A5E4-090DC39C2D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6846911-F176-410D-A5E4-090DC39C2D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6846911-F176-410D-A5E4-090DC39C2D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6846911-F176-410D-A5E4-090DC39C2D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
