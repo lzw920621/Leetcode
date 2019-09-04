@@ -391,6 +391,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_714_买卖股票的最佳�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_693_交替位二进制数", "_693_交替位二进制数\_693_交替位二进制数.csproj", "{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1046_最后一块石头的重量", "_1046_最后一块石头的重量\_1046_最后一块石头的重量.csproj", "{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1173,6 +1175,10 @@ Global
 		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AFDDD4F-832D-46E7-BE3C-BB7AF0BF3092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
