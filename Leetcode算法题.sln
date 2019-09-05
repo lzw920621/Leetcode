@@ -395,6 +395,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1046_最后一块石头的
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_389_找不同", "_389_找不同\_389_找不同.csproj", "{470E4455-BDDB-45EC-889A-E19EA95DA91E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_868_二进制间距", "_868_二进制间距\_868_二进制间距.csproj", "{98227C1E-E4E7-4CB8-B47D-FD1ECB9D67AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1185,6 +1187,10 @@ Global
 		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98227C1E-E4E7-4CB8-B47D-FD1ECB9D67AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98227C1E-E4E7-4CB8-B47D-FD1ECB9D67AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98227C1E-E4E7-4CB8-B47D-FD1ECB9D67AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98227C1E-E4E7-4CB8-B47D-FD1ECB9D67AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
