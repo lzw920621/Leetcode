@@ -32,7 +32,7 @@ namespace _1046_最后一块石头的重量
 
         public static int LastStoneWeight(int[] stones)
         {
-            if (stones.Length == 1) return stones[0];
+            if(stones.Length==1) return stones[0];
             Array.Sort(stones);
             while(stones[stones.Length-2]>0)
             {

@@ -393,6 +393,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_693_交替位二进制数"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1046_最后一块石头的重量", "_1046_最后一块石头的重量\_1046_最后一块石头的重量.csproj", "{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_389_找不同", "_389_找不同\_389_找不同.csproj", "{470E4455-BDDB-45EC-889A-E19EA95DA91E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1179,6 +1181,10 @@ Global
 		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34670D5D-4A96-4F9F-B681-7D6F8A764B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470E4455-BDDB-45EC-889A-E19EA95DA91E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
