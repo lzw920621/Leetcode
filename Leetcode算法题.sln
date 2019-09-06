@@ -399,6 +399,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_868_二进制间距", "_86
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1137_第N个泰波那契数", "_1137_第N个泰波那契数\_1137_第N个泰波那契数.csproj", "{546F9B94-68CF-4DA5-9409-99488D5D6D43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1047_删除字符串中的所有相邻重复项", "_1047_删除字符串中的所有相邻重复项\_1047_删除字符串中的所有相邻重复项.csproj", "{ED5AC3BB-E8E0-480C-B839-BC5B1D8C0AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1009_十进制整数的反码", "_1009_十进制整数的反码\_1009_十进制整数的反码.csproj", "{35CB1C70-1C5D-406E-967D-709E8E784254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1197,6 +1201,14 @@ Global
 		{546F9B94-68CF-4DA5-9409-99488D5D6D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{546F9B94-68CF-4DA5-9409-99488D5D6D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{546F9B94-68CF-4DA5-9409-99488D5D6D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5AC3BB-E8E0-480C-B839-BC5B1D8C0AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5AC3BB-E8E0-480C-B839-BC5B1D8C0AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5AC3BB-E8E0-480C-B839-BC5B1D8C0AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5AC3BB-E8E0-480C-B839-BC5B1D8C0AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CB1C70-1C5D-406E-967D-709E8E784254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CB1C70-1C5D-406E-967D-709E8E784254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CB1C70-1C5D-406E-967D-709E8E784254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CB1C70-1C5D-406E-967D-709E8E784254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
