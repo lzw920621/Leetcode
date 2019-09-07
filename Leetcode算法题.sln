@@ -403,6 +403,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1047_删除字符串中的
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1009_十进制整数的反码", "_1009_十进制整数的反码\_1009_十进制整数的反码.csproj", "{35CB1C70-1C5D-406E-967D-709E8E784254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1089_复写零", "_1089_复写零\_1089_复写零.csproj", "{A9FB36B9-BCFF-4749-9D14-54A9AC1BD699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1209,6 +1211,10 @@ Global
 		{35CB1C70-1C5D-406E-967D-709E8E784254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CB1C70-1C5D-406E-967D-709E8E784254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35CB1C70-1C5D-406E-967D-709E8E784254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FB36B9-BCFF-4749-9D14-54A9AC1BD699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FB36B9-BCFF-4749-9D14-54A9AC1BD699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FB36B9-BCFF-4749-9D14-54A9AC1BD699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FB36B9-BCFF-4749-9D14-54A9AC1BD699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
