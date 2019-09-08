@@ -411,6 +411,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_167_两数之和II输入�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_976_三角形的最大周长", "_976_三角形的最大周长\_976_三角形的最大周长.csproj", "{97F64312-5448-40E6-A94F-A2C32BDCAA5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_520_检测大写字母", "_520_检测大写字母\_520_检测大写字母.csproj", "{CDBDDAA8-D6A1-46B2-A970-A1C51243A4A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1233,6 +1235,10 @@ Global
 		{97F64312-5448-40E6-A94F-A2C32BDCAA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F64312-5448-40E6-A94F-A2C32BDCAA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97F64312-5448-40E6-A94F-A2C32BDCAA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBDDAA8-D6A1-46B2-A970-A1C51243A4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBDDAA8-D6A1-46B2-A970-A1C51243A4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBDDAA8-D6A1-46B2-A970-A1C51243A4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBDDAA8-D6A1-46B2-A970-A1C51243A4A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
