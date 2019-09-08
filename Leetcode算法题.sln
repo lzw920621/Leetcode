@@ -419,6 +419,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_706_设计哈希映射", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_705_设计哈希集合", "_705_设计哈希集合\_705_设计哈希集合.csproj", "{B7B68769-B1C8-4DBA-9C3F-2680AC16FE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_908_最小差值", "_908_最小差值\_908_最小差值.csproj", "{03091D25-7632-4EB0-8298-AE9DB8745DDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1257,6 +1259,10 @@ Global
 		{B7B68769-B1C8-4DBA-9C3F-2680AC16FE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B68769-B1C8-4DBA-9C3F-2680AC16FE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B68769-B1C8-4DBA-9C3F-2680AC16FE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03091D25-7632-4EB0-8298-AE9DB8745DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03091D25-7632-4EB0-8298-AE9DB8745DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03091D25-7632-4EB0-8298-AE9DB8745DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03091D25-7632-4EB0-8298-AE9DB8745DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
