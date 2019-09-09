@@ -437,6 +437,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_766_托普利兹矩阵", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_682_棒球比赛", "_682_棒球比赛\_682_棒球比赛.csproj", "{F8ADDF0F-C5BD-4B64-AA6B-6A509579EAF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_303_区域和检索_数组不可变", "_303_区域和检索_数组不可变\_303_区域和检索_数组不可变.csproj", "{2959F206-5432-48F4-95C4-18ACB5CF16B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1311,6 +1313,10 @@ Global
 		{F8ADDF0F-C5BD-4B64-AA6B-6A509579EAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8ADDF0F-C5BD-4B64-AA6B-6A509579EAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8ADDF0F-C5BD-4B64-AA6B-6A509579EAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2959F206-5432-48F4-95C4-18ACB5CF16B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2959F206-5432-48F4-95C4-18ACB5CF16B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2959F206-5432-48F4-95C4-18ACB5CF16B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2959F206-5432-48F4-95C4-18ACB5CF16B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
