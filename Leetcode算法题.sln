@@ -445,6 +445,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1114_按序打印", "_1114
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_695_岛屿的最大面积", "_695_岛屿的最大面积\_695_岛屿的最大面积.csproj", "{001FE83C-D02B-4956-9579-EBDFE175D9D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_998_最大二叉树II", "_998_最大二叉树II\_998_最大二叉树II.csproj", "{08B2D05A-B3EF-4F84-896C-237E8DF07906}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1335,6 +1337,10 @@ Global
 		{001FE83C-D02B-4956-9579-EBDFE175D9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{001FE83C-D02B-4956-9579-EBDFE175D9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{001FE83C-D02B-4956-9579-EBDFE175D9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B2D05A-B3EF-4F84-896C-237E8DF07906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B2D05A-B3EF-4F84-896C-237E8DF07906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B2D05A-B3EF-4F84-896C-237E8DF07906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B2D05A-B3EF-4F84-896C-237E8DF07906}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
