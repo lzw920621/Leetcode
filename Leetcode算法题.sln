@@ -427,6 +427,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_405_数字转化为十六�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_504_七进制数", "_504_七进制数\_504_七进制数.csproj", "{532D06DA-F77F-4ACB-B773-D98E4B62C3EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_232_用栈实现队列", "_232_用栈实现队列\_232_用栈实现队列.csproj", "{5AE5852B-0ED1-4904-8B47-7337048BDF50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1281,6 +1283,10 @@ Global
 		{532D06DA-F77F-4ACB-B773-D98E4B62C3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532D06DA-F77F-4ACB-B773-D98E4B62C3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532D06DA-F77F-4ACB-B773-D98E4B62C3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE5852B-0ED1-4904-8B47-7337048BDF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE5852B-0ED1-4904-8B47-7337048BDF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE5852B-0ED1-4904-8B47-7337048BDF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE5852B-0ED1-4904-8B47-7337048BDF50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
