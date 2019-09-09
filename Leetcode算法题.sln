@@ -431,6 +431,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_232_用栈实现队列", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_225_用队列实现栈", "_225_用队列实现栈\_225_用队列实现栈.csproj", "{28B1E9F9-0EB4-46A1-9C35-D5C321D9D518}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_883_三维形体投影面积", "_883_三维形体投影面积\_883_三维形体投影面积.csproj", "{EAA10098-BAD9-466B-B417-31668BB2E985}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1293,6 +1295,10 @@ Global
 		{28B1E9F9-0EB4-46A1-9C35-D5C321D9D518}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B1E9F9-0EB4-46A1-9C35-D5C321D9D518}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B1E9F9-0EB4-46A1-9C35-D5C321D9D518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA10098-BAD9-466B-B417-31668BB2E985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA10098-BAD9-466B-B417-31668BB2E985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA10098-BAD9-466B-B417-31668BB2E985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA10098-BAD9-466B-B417-31668BB2E985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
