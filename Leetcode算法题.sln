@@ -423,6 +423,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_908_最小差值", "_908_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_674_最长连续递增序列", "_674_最长连续递增序列\_674_最长连续递增序列.csproj", "{42A353A7-FE95-4E15-A5D9-83F9EEDCF029}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_405_数字转化为十六进制数", "_405_数字转化为十六进制数\_405_数字转化为十六进制数.csproj", "{AE147C97-1AF8-4614-830A-A4D5668333D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1269,6 +1271,10 @@ Global
 		{42A353A7-FE95-4E15-A5D9-83F9EEDCF029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A353A7-FE95-4E15-A5D9-83F9EEDCF029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A353A7-FE95-4E15-A5D9-83F9EEDCF029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE147C97-1AF8-4614-830A-A4D5668333D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE147C97-1AF8-4614-830A-A4D5668333D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE147C97-1AF8-4614-830A-A4D5668333D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE147C97-1AF8-4614-830A-A4D5668333D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
