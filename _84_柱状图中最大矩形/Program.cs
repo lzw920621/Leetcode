@@ -29,6 +29,7 @@ namespace _84_柱状图中最大矩形
     {
         static void Main(string[] args)
         {
+            int area = LargestRectangleArea(new int[] { 2, 1, 2 });
         }
 
         public static int LargestRectangleArea1(int[] heights)//暴力法
@@ -49,9 +50,57 @@ namespace _84_柱状图中最大矩形
             }
             return max;
         }
-        public int LargestRectangleArea(int[] heights)
+
+        //
+        public static int LargestRectangleArea(int[] heights)
         {
-            //TODO
+            if (heights.Length < 1) return 0;
+            int max = 0;
+            
+            int tempWigth;
+            int index;
+            int lastHeight = 0;
+            for (int i = 0; i < heights.Length; i++)
+            {
+                if(lastHeight==heights[i])
+                {
+                    continue;
+                }
+                lastHeight = heights[i];
+
+                tempWigth = 1;                
+                index = i;
+                while(index>=0)
+                {
+                    index--;
+                    if(index>=0 && heights[index]>= heights[i])
+                    {
+                        tempWigth++;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                index = i;
+                while(index<heights.Length)
+                {
+                    index++;
+                    if(index<heights.Length && heights[index]>= heights[i])
+                    {
+                        tempWigth++;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+
+                max = Math.Max(max, heights[i] * tempWigth);
+            }
+
+            return max;
         }
+        
     }
 }
