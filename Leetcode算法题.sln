@@ -451,6 +451,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_41_缺失的第一个正�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_18_四数之和", "_18_四数之和\_18_四数之和.csproj", "{5E91CACB-8BC1-4E30-AC40-AF98F362F3F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_24_两两交换链表中的节点", "_24_两两交换链表中的节点\_24_两两交换链表中的节点.csproj", "{7B71A2A9-2521-4677-A10A-F5B1F9874262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1353,6 +1355,10 @@ Global
 		{5E91CACB-8BC1-4E30-AC40-AF98F362F3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E91CACB-8BC1-4E30-AC40-AF98F362F3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E91CACB-8BC1-4E30-AC40-AF98F362F3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
