@@ -457,6 +457,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_82_删除排序链表中�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_80_删除排序数组中的重复项II", "_80_删除排序数组中的重复项II\_80_删除排序数组中的重复项II.csproj", "{53B94923-0405-4539-B71C-DA3B9CC5790C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_81_搜索旋转排序数组II", "_81_搜索旋转排序数组II\_81_搜索旋转排序数组II.csproj", "{F37AEF33-4D11-407A-A15F-17B1A0F52B5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1371,6 +1373,10 @@ Global
 		{53B94923-0405-4539-B71C-DA3B9CC5790C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53B94923-0405-4539-B71C-DA3B9CC5790C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53B94923-0405-4539-B71C-DA3B9CC5790C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37AEF33-4D11-407A-A15F-17B1A0F52B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37AEF33-4D11-407A-A15F-17B1A0F52B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37AEF33-4D11-407A-A15F-17B1A0F52B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37AEF33-4D11-407A-A15F-17B1A0F52B5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
