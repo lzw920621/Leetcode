@@ -453,6 +453,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_18_四数之和", "_18_四
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_24_两两交换链表中的节点", "_24_两两交换链表中的节点\_24_两两交换链表中的节点.csproj", "{7B71A2A9-2521-4677-A10A-F5B1F9874262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_82_删除排序链表中的重复元素II", "_82_删除排序链表中的重复元素II\_82_删除排序链表中的重复元素II.csproj", "{EE178036-965A-4DFD-AB1C-458E5ED272F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1359,6 +1361,10 @@ Global
 		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B71A2A9-2521-4677-A10A-F5B1F9874262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE178036-965A-4DFD-AB1C-458E5ED272F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE178036-965A-4DFD-AB1C-458E5ED272F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE178036-965A-4DFD-AB1C-458E5ED272F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE178036-965A-4DFD-AB1C-458E5ED272F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
