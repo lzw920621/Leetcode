@@ -487,6 +487,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_701_二叉搜索树中的�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_606_根据二叉树创建字符串", "_606_根据二叉树创建字符串\_606_根据二叉树创建字符串.csproj", "{47A01574-C241-4714-ABAF-37B70806595D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_515_在每个树行中找最大值", "_515_在每个树行中找最大值\_515_在每个树行中找最大值.csproj", "{410EE9E6-BA6E-4B66-BF8C-D9E16E2E4A7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1461,6 +1463,10 @@ Global
 		{47A01574-C241-4714-ABAF-37B70806595D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A01574-C241-4714-ABAF-37B70806595D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A01574-C241-4714-ABAF-37B70806595D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410EE9E6-BA6E-4B66-BF8C-D9E16E2E4A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410EE9E6-BA6E-4B66-BF8C-D9E16E2E4A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410EE9E6-BA6E-4B66-BF8C-D9E16E2E4A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410EE9E6-BA6E-4B66-BF8C-D9E16E2E4A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
