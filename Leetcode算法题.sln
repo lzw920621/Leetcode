@@ -491,6 +491,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_515_在每个树行中找�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_501_二叉搜索树中的众数", "_501_二叉搜索树中的众数\_501_二叉搜索树中的众数.csproj", "{88F3161F-CC2D-4787-970E-23C2FDE43DAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_116_填充每个结点的下一个右侧节点指针", "_116_填充每个结点的下一个右侧节点指针\_116_填充每个结点的下一个右侧节点指针.csproj", "{7BD9CF1C-B0BD-45D1-8732-B7FA6A77393A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1473,6 +1475,10 @@ Global
 		{88F3161F-CC2D-4787-970E-23C2FDE43DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88F3161F-CC2D-4787-970E-23C2FDE43DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88F3161F-CC2D-4787-970E-23C2FDE43DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD9CF1C-B0BD-45D1-8732-B7FA6A77393A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD9CF1C-B0BD-45D1-8732-B7FA6A77393A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD9CF1C-B0BD-45D1-8732-B7FA6A77393A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD9CF1C-B0BD-45D1-8732-B7FA6A77393A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
