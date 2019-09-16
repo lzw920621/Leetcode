@@ -481,6 +481,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_95_不同的二叉搜索�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_199_二叉树的右视图", "_199_二叉树的右视图\_199_二叉树的右视图.csproj", "{DD088675-36B0-4710-AE88-C6A0F1705413}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1022_从根到叶的二进制数之和", "_1022_从根到叶的二进制数之和\_1022_从根到叶的二进制数之和.csproj", "{08613D83-FB46-436A-B17E-6900488782B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1443,6 +1445,10 @@ Global
 		{DD088675-36B0-4710-AE88-C6A0F1705413}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD088675-36B0-4710-AE88-C6A0F1705413}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD088675-36B0-4710-AE88-C6A0F1705413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08613D83-FB46-436A-B17E-6900488782B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08613D83-FB46-436A-B17E-6900488782B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08613D83-FB46-436A-B17E-6900488782B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08613D83-FB46-436A-B17E-6900488782B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
