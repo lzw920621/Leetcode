@@ -461,6 +461,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_81_搜索旋转排序数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_51_N皇后", "_51_N皇后\_51_N皇后.csproj", "{94334705-8775-421B-889C-DA6F53E08D58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_124_二叉树中的最大路径和", "_124_二叉树中的最大路径和\_124_二叉树中的最大路径和.csproj", "{F30F2B63-3A4D-4BFD-A8CE-9F0F2FEBE324}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1383,6 +1385,10 @@ Global
 		{94334705-8775-421B-889C-DA6F53E08D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94334705-8775-421B-889C-DA6F53E08D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94334705-8775-421B-889C-DA6F53E08D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30F2B63-3A4D-4BFD-A8CE-9F0F2FEBE324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30F2B63-3A4D-4BFD-A8CE-9F0F2FEBE324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30F2B63-3A4D-4BFD-A8CE-9F0F2FEBE324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30F2B63-3A4D-4BFD-A8CE-9F0F2FEBE324}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
