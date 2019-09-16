@@ -465,6 +465,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_124_二叉树中的最大�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_687_最长同值路径", "_687_最长同值路径\_687_最长同值路径.csproj", "{87DB314D-F564-4726-B5EA-F5E48B57A748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_513_找树左下角的值", "_513_找树左下角的值\_513_找树左下角的值.csproj", "{0C139313-9519-4E4A-8518-AF7EA6374A15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1395,6 +1397,10 @@ Global
 		{87DB314D-F564-4726-B5EA-F5E48B57A748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87DB314D-F564-4726-B5EA-F5E48B57A748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87DB314D-F564-4726-B5EA-F5E48B57A748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C139313-9519-4E4A-8518-AF7EA6374A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C139313-9519-4E4A-8518-AF7EA6374A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C139313-9519-4E4A-8518-AF7EA6374A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C139313-9519-4E4A-8518-AF7EA6374A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
