@@ -64,6 +64,27 @@ namespace _700_二叉搜索树中的搜索
                 }               
             }
         }
+
+        public TreeNode SearchBST2(TreeNode root, int val)
+        {
+            if (root == null)
+            {
+                return null;
+            }
+
+            if (root.val == val)//当前节点的值等于给定值
+            {
+                return root;
+            }
+            else if(val>root.val)
+            {
+                return SearchBST2(root.right, val);
+            }
+            else
+            {
+                return SearchBST2(root.left, val);
+            }
+        }
     }
 
     public class TreeNode
