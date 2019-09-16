@@ -471,6 +471,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_222_完全二叉树的节�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1008_先序遍历构造二叉树", "_1008_先序遍历构造二叉树\_1008_先序遍历构造二叉树.csproj", "{FC3C8C74-BCC6-4721-B77F-7116C3E58CC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_951_翻转等价二叉树", "_951_翻转等价二叉树\_951_翻转等价二叉树.csproj", "{1BA6E4AC-C006-4EE8-B3D3-5A94E0D67E3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1413,6 +1415,10 @@ Global
 		{FC3C8C74-BCC6-4721-B77F-7116C3E58CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3C8C74-BCC6-4721-B77F-7116C3E58CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3C8C74-BCC6-4721-B77F-7116C3E58CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA6E4AC-C006-4EE8-B3D3-5A94E0D67E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA6E4AC-C006-4EE8-B3D3-5A94E0D67E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA6E4AC-C006-4EE8-B3D3-5A94E0D67E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA6E4AC-C006-4EE8-B3D3-5A94E0D67E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
