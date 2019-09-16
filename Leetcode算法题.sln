@@ -485,6 +485,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1022_从根到叶的二进
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_701_二叉搜索树中的插入操作", "_701_二叉搜索树中的插入操作\_701_二叉搜索树中的插入操作.csproj", "{0D83C1BF-CFA3-418C-B493-E2CBDDCDE1BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_606_根据二叉树创建字符串", "_606_根据二叉树创建字符串\_606_根据二叉树创建字符串.csproj", "{47A01574-C241-4714-ABAF-37B70806595D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1455,6 +1457,10 @@ Global
 		{0D83C1BF-CFA3-418C-B493-E2CBDDCDE1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D83C1BF-CFA3-418C-B493-E2CBDDCDE1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D83C1BF-CFA3-418C-B493-E2CBDDCDE1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A01574-C241-4714-ABAF-37B70806595D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A01574-C241-4714-ABAF-37B70806595D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A01574-C241-4714-ABAF-37B70806595D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A01574-C241-4714-ABAF-37B70806595D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
