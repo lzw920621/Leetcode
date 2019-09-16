@@ -475,6 +475,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_951_翻转等价二叉树"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1019_链表中的下一个更大的节点", "_1019_链表中的下一个更大的节点\_1019_链表中的下一个更大的节点.csproj", "{577A8D1E-F8F7-44F8-8151-9901FD159D27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_96_不同的二叉搜索树", "_96_不同的二叉搜索树\_96_不同的二叉搜索树.csproj", "{724F3635-33EB-4755-979B-24477EA1371B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1425,6 +1427,10 @@ Global
 		{577A8D1E-F8F7-44F8-8151-9901FD159D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{577A8D1E-F8F7-44F8-8151-9901FD159D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{577A8D1E-F8F7-44F8-8151-9901FD159D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724F3635-33EB-4755-979B-24477EA1371B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724F3635-33EB-4755-979B-24477EA1371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724F3635-33EB-4755-979B-24477EA1371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724F3635-33EB-4755-979B-24477EA1371B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
