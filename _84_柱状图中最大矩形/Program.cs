@@ -8,11 +8,8 @@ namespace _84_柱状图中最大矩形
 {
     /*
     给定 n 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
-
     求在该柱状图中，能够勾勒出来的矩形的最大面积。
-
     以上是柱状图的示例，其中每个柱子的宽度为 1，给定的高度为 [2,1,5,6,2,3]。
-
     图中阴影部分为所能勾勒出的最大矩形面积，其面积为 10 个单位。
 
     示例:
@@ -25,11 +22,12 @@ namespace _84_柱状图中最大矩形
     著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
     */
+
     class Program
     {
         static void Main(string[] args)
         {
-            int area = LargestRectangleArea(new int[] { 2, 1, 2 });
+            int area = LargestRectangleArea2(new int[] { 1,1 });
         }
 
         public static int LargestRectangleArea1(int[] heights)//暴力法
@@ -101,6 +99,58 @@ namespace _84_柱状图中最大矩形
 
             return max;
         }
-        
+
+
+        public static int LargestRectangleArea2(int[] heights)
+        {
+            int[] arrayL = new int[heights.Length];//前一个更小元素的索引
+            int[] arrayR = new int[heights.Length];//后一个更小元素的索引
+
+            Stack<int> stack = new Stack<int>();
+            for (int i = 0; i < heights.Length; i++)
+            {
+                while(stack.Count>0 && heights[stack.Peek()] >= heights[i])
+                {
+                    stack.Pop();
+                }
+                if(stack.Count>0)
+                {
+                    arrayL[i] = stack.Peek();
+                }
+                else
+                {
+                    arrayL[i] = -1;
+                }
+                stack.Push(i);
+            }
+            stack.Clear();
+            for (int i = heights.Length-1; i >=0; i--)
+            {
+                while (stack.Count > 0 && heights[stack.Peek()] >= heights[i])
+                {
+                    stack.Pop();
+                }
+                if (stack.Count > 0)
+                {
+                    arrayR[i] = stack.Peek();
+                }
+                else
+                {
+                    arrayR[i] = heights.Length;
+                }
+                stack.Push(i);
+            }
+
+            int max = 0;
+            int temp;
+            for (int i = 0; i < heights.Length; i++)
+            {
+                temp = ( arrayR[i] - arrayL[i] -1 ) * heights[i];
+                max = Math.Max(max, temp);
+            }
+            return max;
+        }
+
+
     }
 }
