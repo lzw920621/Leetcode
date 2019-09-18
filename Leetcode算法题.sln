@@ -509,6 +509,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_508_出现次数最多的�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_105_从前序与中序遍历序列构造二叉树", "_105_从前序与中序遍历序列构造二叉树\_105_从前序与中序遍历序列构造二叉树.csproj", "{51F785C5-A904-4880-B477-E0C288EF71A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_106_从中序与后序遍历序列构造二叉树", "_106_从中序与后序遍历序列构造二叉树\_106_从中序与后序遍历序列构造二叉树.csproj", "{7169748A-7892-484C-852C-CD2DAE951B95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1527,6 +1529,10 @@ Global
 		{51F785C5-A904-4880-B477-E0C288EF71A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51F785C5-A904-4880-B477-E0C288EF71A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51F785C5-A904-4880-B477-E0C288EF71A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7169748A-7892-484C-852C-CD2DAE951B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7169748A-7892-484C-852C-CD2DAE951B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7169748A-7892-484C-852C-CD2DAE951B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7169748A-7892-484C-852C-CD2DAE951B95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

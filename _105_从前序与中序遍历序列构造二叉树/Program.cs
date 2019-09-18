@@ -50,7 +50,6 @@ namespace _105_从前序与中序遍历序列构造二叉树
             
             //rootIndex是根节点值 在inorder中对应的索引   rootIndex左侧的值都是左子树的值,rootIndex右侧的值都是右子树的值
             int rootIndex = Array.IndexOf(inorder, rootVal);
-
             int countLeft = rootIndex - left2;//左子树节点个数
 
             root.left = Assist(perorder, left1 + 1, left1 + countLeft, inorder, left2, rootIndex - 1);
