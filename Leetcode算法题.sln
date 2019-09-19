@@ -513,6 +513,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_106_从中序与后序遍�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_137_只出现一次的数字II", "_137_只出现一次的数字II\_137_只出现一次的数字II.csproj", "{E9EC324E-983D-40E7-A37C-1783720B3007}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_477_汉明距离总和", "_477_汉明距离总和\_477_汉明距离总和.csproj", "{AF73AA0A-4402-4B94-AD21-C9B5CE184DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_7_整数反转", "_7_整数反转\_7_整数反转.csproj", "{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1539,6 +1543,14 @@ Global
 		{E9EC324E-983D-40E7-A37C-1783720B3007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9EC324E-983D-40E7-A37C-1783720B3007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9EC324E-983D-40E7-A37C-1783720B3007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF73AA0A-4402-4B94-AD21-C9B5CE184DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF73AA0A-4402-4B94-AD21-C9B5CE184DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF73AA0A-4402-4B94-AD21-C9B5CE184DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF73AA0A-4402-4B94-AD21-C9B5CE184DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
