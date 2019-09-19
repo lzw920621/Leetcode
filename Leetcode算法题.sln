@@ -527,6 +527,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1161_最大层内元素和
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_540_有序数组中的单一元素", "_540_有序数组中的单一元素\_540_有序数组中的单一元素.csproj", "{0860B3DD-06E6-4F1E-895D-78230B4057E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_537_复数乘法", "_537_复数乘法\_537_复数乘法.csproj", "{BA98091F-4952-4836-9B8E-58940141CCC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1581,6 +1583,10 @@ Global
 		{0860B3DD-06E6-4F1E-895D-78230B4057E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0860B3DD-06E6-4F1E-895D-78230B4057E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0860B3DD-06E6-4F1E-895D-78230B4057E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA98091F-4952-4836-9B8E-58940141CCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA98091F-4952-4836-9B8E-58940141CCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA98091F-4952-4836-9B8E-58940141CCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA98091F-4952-4836-9B8E-58940141CCC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
