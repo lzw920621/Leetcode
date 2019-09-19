@@ -529,6 +529,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_540_有序数组中的单�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_537_复数乘法", "_537_复数乘法\_537_复数乘法.csproj", "{BA98091F-4952-4836-9B8E-58940141CCC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1189_气球的最大数量", "_1189_气球的最大数量\_1189_气球的最大数量.csproj", "{E574847C-18DF-430C-AED7-8F1F9E5640BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1587,6 +1589,10 @@ Global
 		{BA98091F-4952-4836-9B8E-58940141CCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA98091F-4952-4836-9B8E-58940141CCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA98091F-4952-4836-9B8E-58940141CCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E574847C-18DF-430C-AED7-8F1F9E5640BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E574847C-18DF-430C-AED7-8F1F9E5640BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E574847C-18DF-430C-AED7-8F1F9E5640BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E574847C-18DF-430C-AED7-8F1F9E5640BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
