@@ -523,6 +523,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1038_从二叉搜索树到
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_442_数组中重复的数据", "_442_数组中重复的数据\_442_数组中重复的数据.csproj", "{4F3C31C5-AA76-4466-A929-C01AD0092D51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1161_最大层内元素和", "_1161_最大层内元素和\_1161_最大层内元素和.csproj", "{D968970E-9B12-47A0-A1BE-A9CC70287020}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1569,6 +1571,10 @@ Global
 		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D968970E-9B12-47A0-A1BE-A9CC70287020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D968970E-9B12-47A0-A1BE-A9CC70287020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D968970E-9B12-47A0-A1BE-A9CC70287020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D968970E-9B12-47A0-A1BE-A9CC70287020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
