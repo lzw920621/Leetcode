@@ -521,6 +521,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_208_实现Trie前缀树", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1038_从二叉搜索树到更大和树", "_1038_从二叉搜索树到更大和树\_1038_从二叉搜索树到更大和树.csproj", "{8BFEF329-0079-48EB-B32D-CE2D4CCDDD80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_442_数组中重复的数据", "_442_数组中重复的数据\_442_数组中重复的数据.csproj", "{4F3C31C5-AA76-4466-A929-C01AD0092D51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1563,6 +1565,10 @@ Global
 		{8BFEF329-0079-48EB-B32D-CE2D4CCDDD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BFEF329-0079-48EB-B32D-CE2D4CCDDD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BFEF329-0079-48EB-B32D-CE2D4CCDDD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3C31C5-AA76-4466-A929-C01AD0092D51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
