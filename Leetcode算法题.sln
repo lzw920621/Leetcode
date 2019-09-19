@@ -517,6 +517,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_477_汉明距离总和", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_7_整数反转", "_7_整数反转\_7_整数反转.csproj", "{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_208_实现Trie前缀树", "_208_实现Trie前缀树\_208_实现Trie前缀树.csproj", "{9F306596-9CF5-4721-9B17-F8AFE2FCF483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1551,6 +1553,10 @@ Global
 		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51538DCA-1F52-4D6D-B7A2-E9CE92A59A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F306596-9CF5-4721-9B17-F8AFE2FCF483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F306596-9CF5-4721-9B17-F8AFE2FCF483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F306596-9CF5-4721-9B17-F8AFE2FCF483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F306596-9CF5-4721-9B17-F8AFE2FCF483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
