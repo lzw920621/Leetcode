@@ -537,6 +537,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1160_拼写单词", "_1160
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_677_键值映射", "_677_键值映射\_677_键值映射.csproj", "{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_451_根据字符出现的频率排序", "_451_根据字符出现的频率排序\_451_根据字符出现的频率排序.csproj", "{7E09EBBB-7688-461C-9924-C1B14AD4CB3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1611,6 +1613,10 @@ Global
 		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E09EBBB-7688-461C-9924-C1B14AD4CB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E09EBBB-7688-461C-9924-C1B14AD4CB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E09EBBB-7688-461C-9924-C1B14AD4CB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E09EBBB-7688-461C-9924-C1B14AD4CB3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
