@@ -543,6 +543,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_986_区间列表的交集"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_119_杨辉三角II", "_119_杨辉三角II\_119_杨辉三角II.csproj", "{D6F0EAB1-2DC4-4445-8259-9E06D713445C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_318_最大单词长度乘积", "_318_最大单词长度乘积\_318_最大单词长度乘积.csproj", "{8F639702-249A-4906-8321-277004EF0C0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1629,6 +1631,10 @@ Global
 		{D6F0EAB1-2DC4-4445-8259-9E06D713445C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F0EAB1-2DC4-4445-8259-9E06D713445C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F0EAB1-2DC4-4445-8259-9E06D713445C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F639702-249A-4906-8321-277004EF0C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F639702-249A-4906-8321-277004EF0C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F639702-249A-4906-8321-277004EF0C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F639702-249A-4906-8321-277004EF0C0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
