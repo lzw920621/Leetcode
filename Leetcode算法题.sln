@@ -535,6 +535,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_120_三角形最小路径�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1160_拼写单词", "_1160_拼写单词\_1160_拼写单词.csproj", "{94CC08BE-DF51-47CD-8827-C253C6646683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_677_键值映射", "_677_键值映射\_677_键值映射.csproj", "{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1605,6 +1607,10 @@ Global
 		{94CC08BE-DF51-47CD-8827-C253C6646683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CC08BE-DF51-47CD-8827-C253C6646683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94CC08BE-DF51-47CD-8827-C253C6646683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C61D9F3-E708-4D77-B6BB-F3734659BDF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
