@@ -33,13 +33,13 @@ namespace _94_二叉树的中序遍历
         {
         }
 
-        public static  IList<int> InorderTraversal(TreeNode root)
+        public static IList<int> InorderTraversal(TreeNode root)
         {
             IList<int> list = new List<int>();
             if (root == null) return list;
             Stack<TreeNode> stack = new Stack<TreeNode>();
             TreeNode curr = root;
-            while (curr!=null || stack.Count>0)
+            while (curr != null || stack.Count > 0)
             {
                 while (curr != null)
                 {
@@ -51,7 +51,8 @@ namespace _94_二叉树的中序遍历
                 curr = curr.right;
             }
             return list;
-            
+
+        }        
     }
 
     public class TreeNode

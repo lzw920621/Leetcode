@@ -545,6 +545,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_119_杨辉三角II", "_119
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_318_最大单词长度乘积", "_318_最大单词长度乘积\_318_最大单词长度乘积.csproj", "{8F639702-249A-4906-8321-277004EF0C0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_712_两个字符串的最小ASCLL删除和", "_712_两个字符串的最小ASCLL删除和\_712_两个字符串的最小ASCLL删除和.csproj", "{CD50300A-2FA8-4BC5-B1C5-A1A3F68142B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_103_二叉树的锯齿形层次遍历", "_103_二叉树的锯齿形层次遍历\_103_二叉树的锯齿形层次遍历.csproj", "{158DB60E-904F-415F-89D7-06E351EE5801}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1635,6 +1639,14 @@ Global
 		{8F639702-249A-4906-8321-277004EF0C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F639702-249A-4906-8321-277004EF0C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F639702-249A-4906-8321-277004EF0C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD50300A-2FA8-4BC5-B1C5-A1A3F68142B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD50300A-2FA8-4BC5-B1C5-A1A3F68142B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD50300A-2FA8-4BC5-B1C5-A1A3F68142B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD50300A-2FA8-4BC5-B1C5-A1A3F68142B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158DB60E-904F-415F-89D7-06E351EE5801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158DB60E-904F-415F-89D7-06E351EE5801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158DB60E-904F-415F-89D7-06E351EE5801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158DB60E-904F-415F-89D7-06E351EE5801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
