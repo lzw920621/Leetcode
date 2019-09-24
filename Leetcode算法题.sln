@@ -561,6 +561,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_919_完全二叉树插入�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_563_二叉树的坡度", "_563_二叉树的坡度\_563_二叉树的坡度.csproj", "{ADDAAFC5-27EA-4B1F-934D-655E81BEAB73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_987_二叉树的垂序遍历", "_987_二叉树的垂序遍历\_987_二叉树的垂序遍历.csproj", "{A5EFF386-5D38-4F86-97D0-87B92C5E5E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1683,6 +1685,10 @@ Global
 		{ADDAAFC5-27EA-4B1F-934D-655E81BEAB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDAAFC5-27EA-4B1F-934D-655E81BEAB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDAAFC5-27EA-4B1F-934D-655E81BEAB73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EFF386-5D38-4F86-97D0-87B92C5E5E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EFF386-5D38-4F86-97D0-87B92C5E5E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EFF386-5D38-4F86-97D0-87B92C5E5E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EFF386-5D38-4F86-97D0-87B92C5E5E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
