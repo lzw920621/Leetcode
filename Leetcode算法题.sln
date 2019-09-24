@@ -557,6 +557,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_662_二叉树的最大宽�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_450_删除二叉搜索树中的节点", "_450_删除二叉搜索树中的节点\_450_删除二叉搜索树中的节点.csproj", "{1AC36006-FDC4-43EE-99D1-A8D2D938497A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_919_完全二叉树插入器", "_919_完全二叉树插入器\_919_完全二叉树插入器.csproj", "{7EB2CDD1-9951-474E-B797-721D578B7F4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1671,6 +1673,10 @@ Global
 		{1AC36006-FDC4-43EE-99D1-A8D2D938497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AC36006-FDC4-43EE-99D1-A8D2D938497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AC36006-FDC4-43EE-99D1-A8D2D938497A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EB2CDD1-9951-474E-B797-721D578B7F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB2CDD1-9951-474E-B797-721D578B7F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB2CDD1-9951-474E-B797-721D578B7F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB2CDD1-9951-474E-B797-721D578B7F4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
