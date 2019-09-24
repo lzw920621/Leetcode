@@ -553,6 +553,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_297_二叉树的序列化�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_449_序列化和反序列化二叉搜索树", "_449_序列化和反序列化二叉搜索树\_449_序列化和反序列化二叉搜索树.csproj", "{9FA4EBD1-DC64-44EA-BDAA-C221B5682DA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_662_二叉树的最大宽度", "_662_二叉树的最大宽度\_662_二叉树的最大宽度.csproj", "{24273ECB-3589-487B-ADE8-93672E21CED1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1659,6 +1661,10 @@ Global
 		{9FA4EBD1-DC64-44EA-BDAA-C221B5682DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA4EBD1-DC64-44EA-BDAA-C221B5682DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA4EBD1-DC64-44EA-BDAA-C221B5682DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24273ECB-3589-487B-ADE8-93672E21CED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24273ECB-3589-487B-ADE8-93672E21CED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24273ECB-3589-487B-ADE8-93672E21CED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24273ECB-3589-487B-ADE8-93672E21CED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
