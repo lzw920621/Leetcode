@@ -583,6 +583,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_492_构造矩形", "_492_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_746_使用最小花费爬楼梯", "_746_使用最小花费爬楼梯\_746_使用最小花费爬楼梯.csproj", "{1838E07D-0957-463A-A2BB-DEF30359F7CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_454_四数相加", "_454_四数相加\_454_四数相加.csproj", "{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1749,6 +1751,10 @@ Global
 		{1838E07D-0957-463A-A2BB-DEF30359F7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1838E07D-0957-463A-A2BB-DEF30359F7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1838E07D-0957-463A-A2BB-DEF30359F7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
