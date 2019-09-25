@@ -569,6 +569,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_623_在二叉树中增加�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_844_比较含退格的字符串", "_844_比较含退格的字符串\_844_比较含退格的字符串.csproj", "{2D008D4C-EEAF-4E05-B023-80A4A80448D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_933_最近的请求次数", "_933_最近的请求次数\_933_最近的请求次数.csproj", "{204E413D-266E-4C1C-BF8E-AACB00403883}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1707,6 +1709,10 @@ Global
 		{2D008D4C-EEAF-4E05-B023-80A4A80448D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D008D4C-EEAF-4E05-B023-80A4A80448D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D008D4C-EEAF-4E05-B023-80A4A80448D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204E413D-266E-4C1C-BF8E-AACB00403883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204E413D-266E-4C1C-BF8E-AACB00403883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204E413D-266E-4C1C-BF8E-AACB00403883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204E413D-266E-4C1C-BF8E-AACB00403883}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
