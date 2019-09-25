@@ -573,6 +573,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_933_最近的请求次数"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_796_旋转字符串", "_796_旋转字符串\_796_旋转字符串.csproj", "{B208B60D-6480-4E09-B79D-CA9D98C06E56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_392_判断子序列", "_392_判断子序列\_392_判断子序列.csproj", "{7E3D36F0-92D8-4F42-AA99-763A74FC3029}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1719,6 +1721,10 @@ Global
 		{B208B60D-6480-4E09-B79D-CA9D98C06E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B208B60D-6480-4E09-B79D-CA9D98C06E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B208B60D-6480-4E09-B79D-CA9D98C06E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E3D36F0-92D8-4F42-AA99-763A74FC3029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3D36F0-92D8-4F42-AA99-763A74FC3029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E3D36F0-92D8-4F42-AA99-763A74FC3029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E3D36F0-92D8-4F42-AA99-763A74FC3029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
