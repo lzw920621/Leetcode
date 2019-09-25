@@ -577,6 +577,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_392_判断子序列", "_39
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_551_学生出勤记录I", "_551_学生出勤记录I\_551_学生出勤记录I.csproj", "{5AEC00F9-7FE5-4869-A0E1-BD8873200AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_599_两个列表的最小索引总和", "_599_两个列表的最小索引总和\_599_两个列表的最小索引总和.csproj", "{98193096-EDDD-4E0D-929F-DDF67AD06DB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1731,6 +1733,10 @@ Global
 		{5AEC00F9-7FE5-4869-A0E1-BD8873200AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEC00F9-7FE5-4869-A0E1-BD8873200AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEC00F9-7FE5-4869-A0E1-BD8873200AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98193096-EDDD-4E0D-929F-DDF67AD06DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98193096-EDDD-4E0D-929F-DDF67AD06DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98193096-EDDD-4E0D-929F-DDF67AD06DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98193096-EDDD-4E0D-929F-DDF67AD06DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
