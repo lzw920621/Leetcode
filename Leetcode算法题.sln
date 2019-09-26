@@ -585,6 +585,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_746_使用最小花费爬�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_454_四数相加", "_454_四数相加\_454_四数相加.csproj", "{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_134_加油站", "_134_加油站\_134_加油站.csproj", "{DFC1A8C2-36A4-4AA7-8680-980F4AEDDB8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1755,6 +1757,10 @@ Global
 		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AE2BA4B-FD19-408F-B8E1-67DB063B0A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC1A8C2-36A4-4AA7-8680-980F4AEDDB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC1A8C2-36A4-4AA7-8680-980F4AEDDB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC1A8C2-36A4-4AA7-8680-980F4AEDDB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC1A8C2-36A4-4AA7-8680-980F4AEDDB8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
