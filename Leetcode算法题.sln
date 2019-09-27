@@ -593,6 +593,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_128_最长连续序列", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_147_对链表进行插入排序", "_147_对有序链表进行插入排序\_147_对链表进行插入排序.csproj", "{895D74FF-F85F-4C9A-9E77-681C850354F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_151_翻转字符串里的单词", "_151_翻转字符串里的单词\_151_翻转字符串里的单词.csproj", "{63DF913F-13AE-45DD-8106-6CEF436357B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1779,6 +1781,10 @@ Global
 		{895D74FF-F85F-4C9A-9E77-681C850354F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{895D74FF-F85F-4C9A-9E77-681C850354F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{895D74FF-F85F-4C9A-9E77-681C850354F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DF913F-13AE-45DD-8106-6CEF436357B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DF913F-13AE-45DD-8106-6CEF436357B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DF913F-13AE-45DD-8106-6CEF436357B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DF913F-13AE-45DD-8106-6CEF436357B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
