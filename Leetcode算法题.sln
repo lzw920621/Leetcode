@@ -117,7 +117,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_62_不同路径", "_62_不
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_88_合并两个有序数组", "_88_合并两个有序数组\_88_合并两个有序数组.csproj", "{17F310D7-808D-4FDB-838D-6C2726A1582F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符串的排列", "字符串的排列\字符串的排列.csproj", "{AC2C0946-C98F-4367-BFBC-5908053046F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_567_字符串的排列", "字符串的排列\_567_字符串的排列.csproj", "{AC2C0946-C98F-4367-BFBC-5908053046F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1108_地址无效化", "_1108_地址无效化\_1108_地址无效化.csproj", "{A71A0D83-993C-436B-AD6C-43EC52937547}"
 EndProject
