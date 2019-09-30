@@ -597,6 +597,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_151_翻转字符串里的�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_153_寻找旋转排序数组总的最小值", "_153_寻找旋转排序数组总的最小值\_153_寻找旋转排序数组总的最小值.csproj", "{130E0453-AC4A-4067-96DF-E90F85C02D48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_220_存在重复元素III", "_220_存在重复元素III\_220_存在重复元素III.csproj", "{D1EB1F4B-59DF-4C14-82B6-D33BC773DFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_47_全排列II", "_47_全排列II\_47_全排列II.csproj", "{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1791,6 +1795,14 @@ Global
 		{130E0453-AC4A-4067-96DF-E90F85C02D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130E0453-AC4A-4067-96DF-E90F85C02D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{130E0453-AC4A-4067-96DF-E90F85C02D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EB1F4B-59DF-4C14-82B6-D33BC773DFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EB1F4B-59DF-4C14-82B6-D33BC773DFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EB1F4B-59DF-4C14-82B6-D33BC773DFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EB1F4B-59DF-4C14-82B6-D33BC773DFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
