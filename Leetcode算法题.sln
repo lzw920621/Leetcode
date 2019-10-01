@@ -605,6 +605,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_784_字母大小写全排�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1175_质数排列", "_1175_质数排列\_1175_质数排列.csproj", "{552CC545-8BC9-41F6-AA77-3603FB386E5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_60_第K个排列", "_60_第K个排列\_60_第K个排列.csproj", "{91E45F43-5251-4ABD-B8B9-14764478D420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1815,6 +1817,10 @@ Global
 		{552CC545-8BC9-41F6-AA77-3603FB386E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{552CC545-8BC9-41F6-AA77-3603FB386E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{552CC545-8BC9-41F6-AA77-3603FB386E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E45F43-5251-4ABD-B8B9-14764478D420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E45F43-5251-4ABD-B8B9-14764478D420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E45F43-5251-4ABD-B8B9-14764478D420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E45F43-5251-4ABD-B8B9-14764478D420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
