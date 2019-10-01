@@ -601,6 +601,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_220_存在重复元素III"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_47_全排列II", "_47_全排列II\_47_全排列II.csproj", "{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_784_字母大小写全排列", "_784_字母大小写全排列\_784_字母大小写全排列.csproj", "{379DE28E-1F08-458A-A87D-2BBC81201BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1803,6 +1805,10 @@ Global
 		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D41E27-CC60-41A0-AAE5-BC4EDF62C2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379DE28E-1F08-458A-A87D-2BBC81201BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379DE28E-1F08-458A-A87D-2BBC81201BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379DE28E-1F08-458A-A87D-2BBC81201BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379DE28E-1F08-458A-A87D-2BBC81201BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
