@@ -37,6 +37,9 @@ namespace _784_字母大小写全排列
 
         public IList<string> LetterCasePermutation(string S)
         {
+            IList<string> list = new List<string>();
+            if (S.Length < 1) return list;
+
             char[] array = S.ToCharArray();
             for (int i = 0; i < array.Length; i++)
             {
@@ -45,8 +48,33 @@ namespace _784_字母大小写全排列
                     array[i] = (char)(array[i] + 32);
                 }
             }
+            list.Add(new string(array));
+            while(GetNext(array))
+            {
+                list.Add(new string(array));
+            }
 
-            return null;
+            return list;
+        }
+
+        bool GetNext(char[] array)
+        {
+            for (int i = array.Length-1; i>=0 ; i--)//从右往左找到第一个 小写字母,将其转化为大写字母
+            {
+                if(array[i]>'Z')
+                {
+                    array[i] = (char)(array[i] - 32);
+                    for (int j = i+1; j < array.Length; j++)
+                    {
+                        if(array[j]>'9' && array[j]<'a')
+                        {
+                            array[j] = (char)(array[j] + 32);
+                        }                        
+                    }
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
