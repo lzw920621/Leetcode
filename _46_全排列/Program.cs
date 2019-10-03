@@ -86,5 +86,56 @@ namespace _46_全排列
             }
             return newList;
         }
+
+
+        public IList<IList<int>> Permute2(int[] nums)
+        {
+            IList<IList<int>> list = new List<IList<int>>();
+            Array.Sort(nums);
+            list.Add(nums.ToList());
+            while(GetNext(nums))
+            {
+                list.Add(nums.ToList());
+            }
+            return list;
+        }
+
+        bool GetNext(int[] array)
+        {
+            for (int i = array.Length - 1; i > 0; i--)
+            {
+                if (array[i] > array[i - 1])
+                {
+                    for (int j = array.Length - 1; j >= i; j--)
+                    {
+                        if (array[j] > array[i - 1])
+                        {
+                            Swap(array, i - 1, j);
+                            Reverse(array, i, array.Length - 1);
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+        void Swap(int[] array, int i, int j)
+        {
+            int temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        void Reverse(int[] array, int left, int right)
+        {
+            int temp;
+            while (left < right)
+            {
+                temp = array[left];
+                array[left] = array[right];
+                array[right] = temp;
+                left++;
+                right--;
+            }
+        }
     }
 }
