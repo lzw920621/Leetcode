@@ -66,22 +66,36 @@ namespace _78_子集
             int count = set.Count;
             for (int i = 0; i < count; i++)
             {
-                IList<int> tempList = CopyList(set[i]);
+                IList<int> tempList = new List<int>(set[i]);
                 tempList.Add(num);
                 set.Add(tempList);                
             }            
         }
 
-        public static IList<int> CopyList(IList<int> list)
+
+
+        public IList<IList<int>> Subsets2(int[] nums)
         {
-            IList<int> newList = new List<int>();
-            foreach (var item in list)
+            IList<IList<int>> set = new List<IList<int>>();
+            if (nums.Length < 1)
             {
-                newList.Add(item);
+                return set;
             }
-            return newList;
+
+            set.Add(new List<int>());//添加空集
+            Helper(nums, 0, new List<int>(), set);
+            return set;
         }
 
-
+        void Helper(int[] nums,int index,List<int> tempList, IList<IList<int>> set)
+        {
+            for (int i = index; i < nums.Length; i++)
+            {
+                List<int> tempList2 = new List<int>(tempList);
+                tempList2.Add(nums[i]);
+                set.Add(tempList2);
+                Helper(nums, i + 1, tempList2, set);
+            }
+        }
     }
 }

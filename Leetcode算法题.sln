@@ -627,6 +627,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1026_节点与其祖先之
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_40_组合总和II", "_40_组合总和II\_40_组合总和II.csproj", "{ADDFA635-19B6-4D83-B213-680D4C1359E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_90_子集II", "_90_子集II\_90_子集II.csproj", "{FD792F7D-665F-4A88-A4E0-0649A9FDAAB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1881,6 +1883,10 @@ Global
 		{ADDFA635-19B6-4D83-B213-680D4C1359E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDFA635-19B6-4D83-B213-680D4C1359E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDFA635-19B6-4D83-B213-680D4C1359E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD792F7D-665F-4A88-A4E0-0649A9FDAAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD792F7D-665F-4A88-A4E0-0649A9FDAAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD792F7D-665F-4A88-A4E0-0649A9FDAAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD792F7D-665F-4A88-A4E0-0649A9FDAAB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
