@@ -631,6 +631,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_90_子集II", "_90_子集I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_49_字母异位词分组", "_49_字母异位词分组\_49_字母异位词分组.csproj", "{0DDCDF5B-AAB4-4002-B3FE-9D7443C83789}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_139_单词拆分", "_139_单词拆分\_139_单词拆分.csproj", "{5A3DD793-60B6-4B38-BCE2-DA9667A4F032}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1893,6 +1895,10 @@ Global
 		{0DDCDF5B-AAB4-4002-B3FE-9D7443C83789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DDCDF5B-AAB4-4002-B3FE-9D7443C83789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DDCDF5B-AAB4-4002-B3FE-9D7443C83789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3DD793-60B6-4B38-BCE2-DA9667A4F032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3DD793-60B6-4B38-BCE2-DA9667A4F032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3DD793-60B6-4B38-BCE2-DA9667A4F032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3DD793-60B6-4B38-BCE2-DA9667A4F032}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
