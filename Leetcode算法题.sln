@@ -623,6 +623,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_386_字典序排数", "_38
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_541_反转字符串II", "_541_反转字符串II\_541_反转字符串II.csproj", "{838D22E7-6659-4479-8DB8-B70499D073B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1026_节点与其祖先之间的最大差值", "_1026_节点与其祖先之间的最大差值\_1026_节点与其祖先之间的最大差值.csproj", "{A8B16D45-48F2-45D4-80C5-7FD196B0678E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1869,6 +1871,10 @@ Global
 		{838D22E7-6659-4479-8DB8-B70499D073B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{838D22E7-6659-4479-8DB8-B70499D073B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{838D22E7-6659-4479-8DB8-B70499D073B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B16D45-48F2-45D4-80C5-7FD196B0678E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B16D45-48F2-45D4-80C5-7FD196B0678E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B16D45-48F2-45D4-80C5-7FD196B0678E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B16D45-48F2-45D4-80C5-7FD196B0678E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
