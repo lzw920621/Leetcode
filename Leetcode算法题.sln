@@ -635,6 +635,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_139_单词拆分", "_139_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_28_实现strStr()", "_28_实现strStr()\_28_实现strStr().csproj", "{D2AADCF8-F3B6-4E41-A154-B9B35E3A4BE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_65_有效数字", "_65_有效数字\_65_有效数字.csproj", "{B90BE2BE-79BB-4DCA-8287-34E6F6307834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_30_串联所有单词的字串", "_30_串联所有单词的字串\_30_串联所有单词的字串.csproj", "{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1905,6 +1909,14 @@ Global
 		{D2AADCF8-F3B6-4E41-A154-B9B35E3A4BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2AADCF8-F3B6-4E41-A154-B9B35E3A4BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2AADCF8-F3B6-4E41-A154-B9B35E3A4BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90BE2BE-79BB-4DCA-8287-34E6F6307834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90BE2BE-79BB-4DCA-8287-34E6F6307834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90BE2BE-79BB-4DCA-8287-34E6F6307834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90BE2BE-79BB-4DCA-8287-34E6F6307834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
