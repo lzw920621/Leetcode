@@ -639,6 +639,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_65_有效数字", "_65_有
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_30_串联所有单词的字串", "_30_串联所有单词的字串\_30_串联所有单词的字串.csproj", "{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_52_N皇后II", "_52_N皇后II\_52_N皇后II.csproj", "{5596C231-72E0-4711-AF14-D0AA97CA5B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1917,6 +1919,10 @@ Global
 		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCEA4337-0C9C-47DA-B84C-B3D9EC883DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5596C231-72E0-4711-AF14-D0AA97CA5B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5596C231-72E0-4711-AF14-D0AA97CA5B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5596C231-72E0-4711-AF14-D0AA97CA5B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5596C231-72E0-4711-AF14-D0AA97CA5B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
