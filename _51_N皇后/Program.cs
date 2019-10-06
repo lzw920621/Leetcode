@@ -42,11 +42,72 @@ namespace _51_N皇后
     {
         static void Main(string[] args)
         {
+            IList<IList<string>> list = new Program().SolveNQueens(3);
+
         }
 
-        public static IList<IList<string>> SolveNQueens(int n)
+        public IList<IList<string>> SolveNQueens(int n)
         {
+            IList<IList<string>> list = new List<IList<string>>();
+            if (n < 1) return list;
 
+            NQueens(new List<int>(), 0, n, list);
+            return list;
+        }
+
+        void NQueens(List<int> tempList,int index, int count,IList<IList<string>> list)
+        {
+            if(index==count)
+            {
+                list.Add(ListIntToListString(tempList));
+            }
+            else
+            {
+                for (int i = 0; i < count; i++)
+                {
+                    if(IsValid(tempList,i))
+                    {
+                        List<int> tempList2 = new List<int>(tempList);
+                        tempList2.Add(i);
+                        NQueens(tempList2, index + 1, count, list);
+                    }
+                }
+            }
+        }
+
+        List<string> ListIntToListString(List<int> tempList)
+        {
+            List<string> list = new List<string>();
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                StringBuilder sb = new StringBuilder(tempList.Count);
+                for (int j = 0; j < tempList.Count; j++)
+                {
+                    if (tempList[i] == j)
+                    {
+                        sb.Append('Q');
+                    } else
+                    {
+                        sb.Append('.');
+                    }
+                }
+                list.Add(sb.ToString());
+            }
+            return list;
+        }
+
+
+        bool IsValid(List<int> tempList,int current)
+        {
+            if (tempList.Count < 1) return true;
+            for (int i = 0; i < tempList.Count; i++)
+            {
+                if(Math.Abs(current-tempList[i])==tempList.Count-i || current==tempList[i])
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
