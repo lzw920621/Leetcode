@@ -78,7 +78,7 @@ namespace _37_解数独
 
             BackTrace(board, points, 0);
         }
-
+        //回溯算法
         bool BackTrace(char[][] board, List<Point> points, int index)
         {
             if(index==points.Count)
