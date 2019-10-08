@@ -33,101 +33,106 @@ namespace _37_解数独
 
 
     */
+    struct Point
+    {
+        public int rowIndex;
+        public int colomnIndex;
+        public Point(int x,int y)
+        {
+            rowIndex = x;
+            colomnIndex = y;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
+            char[][] board = new char[9][] {
+                new char[] { '5', '3', '.', '.', '7', '.', '.', '.', '.' },
+                new char[] { '6', '.', '.', '1', '9', '5', '.', '.', '.' },
+                new char[] { '.', '9', '8', '.', '.', '.', '.', '6', '.' },
+                new char[] { '8', '.', '.', '.', '6', '.', '.', '.', '3' },
+                new char[] { '4', '.', '.', '8', '.', '3', '.', '.', '1' },
+                new char[] { '7', '.', '.', '.', '2', '.', '.', '.', '6' },
+                new char[] { '.', '6', '.', '.', '.', '.', '2', '8', '.' },
+                new char[] { '.', '.', '.', '4', '1', '9', '.', '.', '5' },
+                new char[] { '.', '.', '.', '.', '8', '.', '.', '7', '9' },
+            };
+
+            new Program().SolveSudoku(board);
         }
 
         public void SolveSudoku(char[][] board)
         {
-            BackTrace(board, 0);
+            List<Point> points = new List<Point>();
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    if(board[i][j]=='.')
+                    {
+                        points.Add(new Point(i, j));
+                    }
+                }
+            }
+
+            BackTrace(board, points, 0);
         }
 
-        bool BackTrace(char[][] board,int index)
+        bool BackTrace(char[][] board, List<Point> points, int index)
         {
-            if(index==81)
+            if(index==points.Count)
             {
                 return true;
             }
 
-            int rowIndex = index / 9;
-            int colomnIndex = index % 9;
+            int blockRowIndex = points[index].rowIndex / 3 * 3;
+            int blockColomnIndex = points[index].colomnIndex / 3 * 3;
 
-            if(board[rowIndex][colomnIndex]>='1')
-            {
-                return BackTrace(board, index + 1);
-            }
-            else
-            {
-                int blockRowIndex = rowIndex / 3;
-                int blockColomnIndex = colomnIndex / 3;
-
-                for (int k = 1; k < 10; k++)
+            for (int k = 1; k < 10; k++)
+            {            
+                char tempChar= (char)(k + '0');
+                if (IsRowValid(board, points[index].rowIndex,tempChar) && IsColomnValid(board, points[index].colomnIndex,tempChar) && IsBoxValid(board, blockRowIndex, blockColomnIndex,tempChar))
                 {
-                    board[rowIndex][colomnIndex] = (char)(k + '0');
-                    if(!IsRowValid(board,rowIndex) || !IsColomnValid(board,colomnIndex) || !IsBoxValid(board,blockRowIndex,blockColomnIndex))
+                    board[points[index].rowIndex][points[index].colomnIndex] = tempChar;
+                    if (BackTrace(board, points, index + 1)==true)
                     {
-                        board[rowIndex][colomnIndex] = '.';
+                        return true;                        
                     }
                     else
                     {
-                        if(!BackTrace(board,index+1))
-                        {
-                            board[rowIndex][colomnIndex] = '.';
-                        }
-                        else
-                        {
-                            return true;
-                        }
-                    }
-                }
-                return false;
+                        board[points[index].rowIndex][points[index].colomnIndex] = '.';
+                    }                    
+                }               
             }
-            
-
+            return false;
         }
 
-        bool IsRowValid(char[][] board, int rowIndex)
+        bool IsRowValid(char[][] board, int rowIndex,char value)
         {
-            int[] map = new int[9];
             for (int i = 0; i < 9; i++)
-            {
-                if (board[rowIndex][i] >= '1')
-                {
-                    map[board[rowIndex][i] - '1']++;
-                    if (map[board[rowIndex][i] - '1'] > 1) return false;
-                }
+            {                
+                if (board[rowIndex][i] == value) return false;
             }
             return true;
         }
 
-        bool IsColomnValid(char[][] board, int colomnIndex)
+        bool IsColomnValid(char[][] board, int colomnIndex, char value)
         {
-            int[] map = new int[9];
             for (int i = 0; i < 9; i++)
             {
-                if (board[i][colomnIndex] >= '1')
-                {
-                    map[board[i][colomnIndex] - '1']++;
-                    if (map[board[i][colomnIndex] - '1'] > 1) return false;
-                }
+                if (board[i][colomnIndex] == value) return false;
             }
             return true;
         }
 
-        bool IsBoxValid(char[][] board, int rowIndex, int colomnIndex)
-        {
-            int[] map = new int[9];
+        bool IsBoxValid(char[][] board, int rowIndex, int colomnIndex, char value)
+        {           
             for (int i = rowIndex; i < rowIndex + 3; i++)
             {
                 for (int j = colomnIndex; j < colomnIndex + 3; j++)
                 {
-                    if (board[i][j] >= '1')
-                    {
-                        map[board[i][j] - '1']++;
-                        if (map[board[i][j] - '1'] > 1) return false;
-                    }
+                    if (board[i][j] == value) return false;
                 }
             }
             return true;
