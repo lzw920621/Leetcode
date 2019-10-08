@@ -28,7 +28,6 @@ namespace _22_括号生成
     {
         static void Main(string[] args)
         {
-            //TODO
             IList<string> list = new Program().GenerateParenthesis(3);
         }
 

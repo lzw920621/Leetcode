@@ -647,6 +647,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_37_解数独", "_37_解数
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_382_链表随机节点", "_382_链表随机节点\_382_链表随机节点.csproj", "{B058A9EA-6994-4EA0-A6BD-3E87D55DE64A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_980_不同路径", "_980_不同路径\_980_不同路径.csproj", "{D43075BC-6280-4AE1-A842-127623BD968A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1941,6 +1943,10 @@ Global
 		{B058A9EA-6994-4EA0-A6BD-3E87D55DE64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B058A9EA-6994-4EA0-A6BD-3E87D55DE64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B058A9EA-6994-4EA0-A6BD-3E87D55DE64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43075BC-6280-4AE1-A842-127623BD968A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43075BC-6280-4AE1-A842-127623BD968A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43075BC-6280-4AE1-A842-127623BD968A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43075BC-6280-4AE1-A842-127623BD968A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
