@@ -51,7 +51,7 @@ namespace _206_反转链表
             node.next = null;
             return newHead;
         }
-
+        //迭代
         public ListNode ReverseList2(ListNode head)
         {
             ListNode node1 = null;
@@ -65,6 +65,21 @@ namespace _206_反转链表
                 node2 = tempNode;                
             }
             return node1;
+        }
+
+        //递归
+        public ListNode ReverseList3(ListNode head)
+        {
+            if (head == null || head.next == null)
+            {
+                return head;
+            }
+
+            ListNode nextNode = head.next;
+            head.next = null;
+            ListNode newHead= ReverseList3(nextNode);
+            nextNode.next = head;
+            return newHead;
         }
     }
 
