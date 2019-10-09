@@ -653,6 +653,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_86_分隔链表", "_86_分
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_91_解码方法", "_91_解码方法\_91_解码方法.csproj", "{5BA1ABCD-6624-4C82-8057-28A5CB26D965}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_97_交错字符串", "_97_交错字符串\_97_交错字符串.csproj", "{AF1C6CBA-5D70-4994-8CCB-0B2B91ACF6C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1959,6 +1961,10 @@ Global
 		{5BA1ABCD-6624-4C82-8057-28A5CB26D965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BA1ABCD-6624-4C82-8057-28A5CB26D965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA1ABCD-6624-4C82-8057-28A5CB26D965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1C6CBA-5D70-4994-8CCB-0B2B91ACF6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1C6CBA-5D70-4994-8CCB-0B2B91ACF6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1C6CBA-5D70-4994-8CCB-0B2B91ACF6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1C6CBA-5D70-4994-8CCB-0B2B91ACF6C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
