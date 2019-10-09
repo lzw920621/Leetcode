@@ -649,6 +649,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_382_链表随机节点", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_980_不同路径", "_980_不同路径\_980_不同路径.csproj", "{D43075BC-6280-4AE1-A842-127623BD968A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_86_分隔链表", "_86_分隔链表\_86_分隔链表.csproj", "{0E59FCF5-FFFE-470F-B580-D16ECF6F643C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1947,6 +1949,10 @@ Global
 		{D43075BC-6280-4AE1-A842-127623BD968A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43075BC-6280-4AE1-A842-127623BD968A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43075BC-6280-4AE1-A842-127623BD968A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E59FCF5-FFFE-470F-B580-D16ECF6F643C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E59FCF5-FFFE-470F-B580-D16ECF6F643C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E59FCF5-FFFE-470F-B580-D16ECF6F643C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E59FCF5-FFFE-470F-B580-D16ECF6F643C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
