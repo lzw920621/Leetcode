@@ -669,6 +669,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_665_非递减数列", "_66
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_409_最长回文串", "_409_最长回文串\_409_最长回文串.csproj", "{AEB968DC-A67C-4719-8C60-E5892F4E48D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_647_回文子串", "_647_回文子串\_647_回文子串.csproj", "{1A6C09FD-CCAF-48F7-AFB4-C39D8F34BFFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2007,6 +2009,10 @@ Global
 		{AEB968DC-A67C-4719-8C60-E5892F4E48D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB968DC-A67C-4719-8C60-E5892F4E48D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB968DC-A67C-4719-8C60-E5892F4E48D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6C09FD-CCAF-48F7-AFB4-C39D8F34BFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6C09FD-CCAF-48F7-AFB4-C39D8F34BFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6C09FD-CCAF-48F7-AFB4-C39D8F34BFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6C09FD-CCAF-48F7-AFB4-C39D8F34BFFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
