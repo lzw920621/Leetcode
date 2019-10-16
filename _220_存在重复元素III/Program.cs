@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace _220_存在重复元素III
 {
     /*
-        给定一个整数数组，判断数组中是否有两个不同的索引 i 和 j，使得 nums [i] 和 nums [j] 的差的绝对值最大为 t，并且 i 和 j 之间的差的绝对值最大为 ķ。
+        给定一个整数数组，判断数组中是否有两个不同的索引 i 和 j，使得 nums [i] 和 nums [j] 的差的绝对值最大为 t，
+    并且 i 和 j 之间的差的绝对值最大为 ķ。
 
     示例 1:
 
@@ -38,6 +39,17 @@ namespace _220_存在重复元素III
         public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t)
         {
             //TODO
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = i+1; j < nums.Length && j<=i+k; j++)
+                {
+                    if(Math.Abs(nums[i]-nums[j])<=t)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
     }
 }
