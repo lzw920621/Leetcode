@@ -673,6 +673,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_647_回文子串", "_647_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_92_反转链表II", "_92_反转链表II\_92_反转链表II.csproj", "{1D18DD64-B6CF-4F19-8D04-C3259BA17907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_25_K个一组翻转链表", "_25_K个一组翻转链表\_25_K个一组翻转链表.csproj", "{9A475307-2043-4B34-BF53-E33273B9542D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2019,6 +2021,10 @@ Global
 		{1D18DD64-B6CF-4F19-8D04-C3259BA17907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D18DD64-B6CF-4F19-8D04-C3259BA17907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D18DD64-B6CF-4F19-8D04-C3259BA17907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A475307-2043-4B34-BF53-E33273B9542D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A475307-2043-4B34-BF53-E33273B9542D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A475307-2043-4B34-BF53-E33273B9542D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A475307-2043-4B34-BF53-E33273B9542D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
