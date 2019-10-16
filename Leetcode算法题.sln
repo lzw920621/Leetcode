@@ -663,6 +663,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_143_重排链表", "_143_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_131_分割回文串", "_131_分割回文串\_131_分割回文串.csproj", "{8D1A25D7-60E6-4116-8B5F-9FB779978F12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_132_分割回文串II", "_132_分割回文串II\_132_分割回文串II.csproj", "{776A5BB5-B819-4EBF-932B-AF61EA009D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_665_非递减数列", "_665_非递减数列\_665_非递减数列.csproj", "{E622A1A3-BB32-43A4-930F-B2A75631403F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1989,6 +1993,14 @@ Global
 		{8D1A25D7-60E6-4116-8B5F-9FB779978F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1A25D7-60E6-4116-8B5F-9FB779978F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1A25D7-60E6-4116-8B5F-9FB779978F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776A5BB5-B819-4EBF-932B-AF61EA009D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776A5BB5-B819-4EBF-932B-AF61EA009D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776A5BB5-B819-4EBF-932B-AF61EA009D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776A5BB5-B819-4EBF-932B-AF61EA009D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E622A1A3-BB32-43A4-930F-B2A75631403F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E622A1A3-BB32-43A4-930F-B2A75631403F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E622A1A3-BB32-43A4-930F-B2A75631403F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E622A1A3-BB32-43A4-930F-B2A75631403F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
