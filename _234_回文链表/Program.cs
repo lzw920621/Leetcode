@@ -31,14 +31,45 @@ namespace _234_回文链表
     {
         static void Main(string[] args)
         {
+            ListNode head = new ListNode(1);
+            head.next = new ListNode(2);
+            head.next.next = new ListNode(2);
+            head.next.next.next = new ListNode(1);
+            bool isTrue = IsPalindrome(head);
         }
 
         public static bool IsPalindrome(ListNode head)
         {
-            ListNode current1 = head;
-            ListNode current2 = head.next;
-
-            //TODO
+            if (head == null || head.next == null) return true;
+            ListNode temp1 = head;
+            ListNode temp2 = head;
+            while(temp2!=null && temp2.next!=null)//快慢指针找中点
+            {
+                temp1 = temp1.next;
+                temp2 = temp2.next.next;
+            }
+            //将后半部分翻转
+            ListNode temp = null;
+            while(temp1!=null)
+            {
+                ListNode temp3 = temp1.next;
+                temp1.next = temp;
+                temp = temp1;
+                temp1 = temp3;
+            }
+            while(temp!=null)
+            {
+                if(head.val==temp.val)
+                {
+                    head = head.next;
+                    temp = temp.next;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
