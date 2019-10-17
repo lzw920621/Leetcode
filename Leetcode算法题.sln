@@ -681,6 +681,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_12_整数转罗马数字",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_211_添加与搜索单词_数据结构设计", "_211_添加与搜索单词_数据结构设计\_211_添加与搜索单词_数据结构设计.csproj", "{F994381C-5E23-4772-BAC8-30D852F715DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_341_扁平化嵌套列表迭代器", "_341_扁平化嵌套列表迭代器\_341_扁平化嵌套列表迭代器.csproj", "{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2043,6 +2045,10 @@ Global
 		{F994381C-5E23-4772-BAC8-30D852F715DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F994381C-5E23-4772-BAC8-30D852F715DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F994381C-5E23-4772-BAC8-30D852F715DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
