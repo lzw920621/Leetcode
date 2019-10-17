@@ -45,7 +45,7 @@ namespace _341_扁平化嵌套列表迭代器
                 Helper(nestedList, list);
             }
 
-            void Helper(IList<NestedInteger> nestedList, List<int> list)
+            void Helper(IList<NestedInteger> nestedList, List<int> list)//把值都取出来放入list里面
             {
                 for (int i = 0; i < nestedList.Count; i++)
                 {

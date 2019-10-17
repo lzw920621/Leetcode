@@ -683,6 +683,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_211_添加与搜索单词_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_341_扁平化嵌套列表迭代器", "_341_扁平化嵌套列表迭代器\_341_扁平化嵌套列表迭代器.csproj", "{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_622_设计循环队列", "_622_设计循环队列\_622_设计循环队列.csproj", "{CDC17787-4654-4410-B595-260CAB358C6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2049,6 +2051,10 @@ Global
 		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EED0E3E-CA88-4BDF-AADA-51B636F9401B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC17787-4654-4410-B595-260CAB358C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC17787-4654-4410-B595-260CAB358C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC17787-4654-4410-B595-260CAB358C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC17787-4654-4410-B595-260CAB358C6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
