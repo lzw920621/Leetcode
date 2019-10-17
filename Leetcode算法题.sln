@@ -685,6 +685,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_341_扁平化嵌套列表�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_622_设计循环队列", "_622_设计循环队列\_622_设计循环队列.csproj", "{CDC17787-4654-4410-B595-260CAB358C6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_168_Excel表列名称", "_168_Excel表列名称\_168_Excel表列名称.csproj", "{05741159-1F13-47BA-AD31-072717430F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2055,6 +2057,10 @@ Global
 		{CDC17787-4654-4410-B595-260CAB358C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC17787-4654-4410-B595-260CAB358C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC17787-4654-4410-B595-260CAB358C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05741159-1F13-47BA-AD31-072717430F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05741159-1F13-47BA-AD31-072717430F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05741159-1F13-47BA-AD31-072717430F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05741159-1F13-47BA-AD31-072717430F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
