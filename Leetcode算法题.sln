@@ -677,6 +677,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_25_K个一组翻转链表"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_367_有效的完全平方数", "_367_有效的完全平方数\_367_有效的完全平方数.csproj", "{C6CE545B-7F83-484C-A3D2-51D156AA2645}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_12_整数转罗马数字", "_12_整数转罗马数字\_12_整数转罗马数字.csproj", "{6A0F4A9C-E5BC-4AC5-AAC6-11860F79D395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2031,6 +2033,10 @@ Global
 		{C6CE545B-7F83-484C-A3D2-51D156AA2645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6CE545B-7F83-484C-A3D2-51D156AA2645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6CE545B-7F83-484C-A3D2-51D156AA2645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0F4A9C-E5BC-4AC5-AAC6-11860F79D395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0F4A9C-E5BC-4AC5-AAC6-11860F79D395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0F4A9C-E5BC-4AC5-AAC6-11860F79D395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0F4A9C-E5BC-4AC5-AAC6-11860F79D395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
