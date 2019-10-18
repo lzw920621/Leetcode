@@ -691,6 +691,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_209_长度最小的子数�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_216_组合总和III", "_216_组合总和III\_216_组合总和III.csproj", "{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_221_最大正方形", "_221_最大正方形\_221_最大正方形.csproj", "{B9244721-96A6-4003-BFFA-55069657AD9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2073,6 +2075,10 @@ Global
 		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9244721-96A6-4003-BFFA-55069657AD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9244721-96A6-4003-BFFA-55069657AD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9244721-96A6-4003-BFFA-55069657AD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9244721-96A6-4003-BFFA-55069657AD9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
