@@ -150,7 +150,5 @@ namespace _84_柱状图中最大矩形
             }
             return max;
         }
-
-
     }
 }

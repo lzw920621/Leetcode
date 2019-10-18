@@ -104,7 +104,6 @@ namespace _221_最大正方形
                 }
             }
             return maxLen * maxLen;
-
         }
     }
 }

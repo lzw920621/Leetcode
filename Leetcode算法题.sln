@@ -693,6 +693,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_216_组合总和III", "_21
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_221_最大正方形", "_221_最大正方形\_221_最大正方形.csproj", "{B9244721-96A6-4003-BFFA-55069657AD9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_57_插入区间", "_57_插入区间\_57_插入区间.csproj", "{6309C27E-4968-46F8-8922-A36AABC662BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2079,6 +2081,10 @@ Global
 		{B9244721-96A6-4003-BFFA-55069657AD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9244721-96A6-4003-BFFA-55069657AD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9244721-96A6-4003-BFFA-55069657AD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6309C27E-4968-46F8-8922-A36AABC662BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6309C27E-4968-46F8-8922-A36AABC662BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6309C27E-4968-46F8-8922-A36AABC662BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6309C27E-4968-46F8-8922-A36AABC662BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
