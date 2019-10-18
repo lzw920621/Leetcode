@@ -689,6 +689,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_168_Excel表列名称", "_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_209_长度最小的子数组", "_209_长度最小的子数组\_209_长度最小的子数组.csproj", "{21794E28-ACA4-4188-8F15-504457B04B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_216_组合总和III", "_216_组合总和III\_216_组合总和III.csproj", "{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2067,6 +2069,10 @@ Global
 		{21794E28-ACA4-4188-8F15-504457B04B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21794E28-ACA4-4188-8F15-504457B04B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21794E28-ACA4-4188-8F15-504457B04B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{544DB80F-F2F0-4014-8EF0-A44A3AC033EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
