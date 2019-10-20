@@ -703,6 +703,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_398_随机数索引", "_39
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_343_整数拆分", "_343_整数拆分\_343_整数拆分.csproj", "{D66E6E0B-9E0F-4EA3-A714-0508EAC38C61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_307_区域和检索_数组可修改", "_307_区域和检索_数组可修改\_307_区域和检索_数组可修改.csproj", "{58585D68-069D-4870-B412-0FD312703075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_306_累加数", "_306_累加数\_306_累加数.csproj", "{7F7E3947-1266-4083-A2E8-5299E98074C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2109,6 +2113,14 @@ Global
 		{D66E6E0B-9E0F-4EA3-A714-0508EAC38C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66E6E0B-9E0F-4EA3-A714-0508EAC38C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66E6E0B-9E0F-4EA3-A714-0508EAC38C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58585D68-069D-4870-B412-0FD312703075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58585D68-069D-4870-B412-0FD312703075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58585D68-069D-4870-B412-0FD312703075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58585D68-069D-4870-B412-0FD312703075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
