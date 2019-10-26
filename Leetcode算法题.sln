@@ -713,6 +713,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_229_求众数II", "_229_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_228_汇总区间", "_228_汇总区间\_228_汇总区间.csproj", "{85F5349B-EC81-413B-8410-D531253500E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_278_第一个错误的版本", "_278_第一个错误的版本\_278_第一个错误的版本.csproj", "{E783523B-A1B2-4C9A-8762-2502F53E611D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2139,6 +2141,10 @@ Global
 		{85F5349B-EC81-413B-8410-D531253500E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85F5349B-EC81-413B-8410-D531253500E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85F5349B-EC81-413B-8410-D531253500E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E783523B-A1B2-4C9A-8762-2502F53E611D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E783523B-A1B2-4C9A-8762-2502F53E611D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E783523B-A1B2-4C9A-8762-2502F53E611D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E783523B-A1B2-4C9A-8762-2502F53E611D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
