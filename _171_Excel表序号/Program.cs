@@ -48,7 +48,7 @@ namespace _171_Excel表序号
     {
         static void Main(string[] args)
         {
-            int n = TitleToNumber("AB");
+            int n = TitleToNumber("CX");
         }
 
         public static int TitleToNumber(string s)

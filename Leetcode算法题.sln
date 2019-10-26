@@ -707,6 +707,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_307_区域和检索_数组
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_306_累加数", "_306_累加数\_306_累加数.csproj", "{7F7E3947-1266-4083-A2E8-5299E98074C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_328_奇偶链表", "_328_奇偶链表\_328_奇偶链表.csproj", "{7F41047E-6316-4601-862F-C92DEFB03D5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2121,6 +2123,10 @@ Global
 		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F7E3947-1266-4083-A2E8-5299E98074C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F41047E-6316-4601-862F-C92DEFB03D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F41047E-6316-4601-862F-C92DEFB03D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F41047E-6316-4601-862F-C92DEFB03D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F41047E-6316-4601-862F-C92DEFB03D5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
