@@ -717,6 +717,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_278_第一个错误的版�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_416_分割等和子集", "_416_分割等和子集\_416_分割等和子集.csproj", "{B2594B9A-8702-42D2-AD6A-4A0D499F3B71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_399_除法求值", "_399_除法求值\_399_除法求值.csproj", "{FDC29551-138F-42BA-957E-CD8D65D667C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2151,6 +2153,10 @@ Global
 		{B2594B9A-8702-42D2-AD6A-4A0D499F3B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2594B9A-8702-42D2-AD6A-4A0D499F3B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2594B9A-8702-42D2-AD6A-4A0D499F3B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC29551-138F-42BA-957E-CD8D65D667C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC29551-138F-42BA-957E-CD8D65D667C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC29551-138F-42BA-957E-CD8D65D667C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC29551-138F-42BA-957E-CD8D65D667C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
