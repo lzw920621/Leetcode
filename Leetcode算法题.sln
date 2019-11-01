@@ -725,6 +725,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_76_最小覆盖子串", "_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_29_两数相除", "_29_两数相除\_29_两数相除.csproj", "{C3AF73F9-BDCA-4241-9E7C-2E13E8A2C32D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_652_寻找重复的子树", "_652_寻找重复的子树\_652_寻找重复的子树.csproj", "{F418414A-E0B0-4295-BA1E-4B3D3CED37B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2175,6 +2177,10 @@ Global
 		{C3AF73F9-BDCA-4241-9E7C-2E13E8A2C32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3AF73F9-BDCA-4241-9E7C-2E13E8A2C32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3AF73F9-BDCA-4241-9E7C-2E13E8A2C32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F418414A-E0B0-4295-BA1E-4B3D3CED37B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F418414A-E0B0-4295-BA1E-4B3D3CED37B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F418414A-E0B0-4295-BA1E-4B3D3CED37B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F418414A-E0B0-4295-BA1E-4B3D3CED37B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
