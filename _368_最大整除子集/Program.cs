@@ -62,8 +62,7 @@ namespace _368_最大整除子集
                             count = dic[i].Count;
                             list = new List<int>(dic[i]);
                         }
-                    }
-                    
+                    }                    
                 }
             }
 
