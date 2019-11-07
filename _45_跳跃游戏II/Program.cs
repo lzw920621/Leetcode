@@ -25,12 +25,12 @@ namespace _45_跳跃游戏II
     来源：力扣（LeetCode）
     链接：https://leetcode-cn.com/problems/jump-game-ii
     著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-        */
+    */
     class Program
     {
         static void Main(string[] args)
         {
-            //TODO
+            int n = Jump3(new int[] { 2, 3, 1, 1, 4 });
         }
 
         //动态规划 部分测试用例超时
@@ -54,6 +54,7 @@ namespace _45_跳跃游戏II
             }
             return dp[nums.Length - 1];
         }
+        
         //部分测试用例超时
         public int Jump2(int[] nums)
         {
@@ -73,6 +74,30 @@ namespace _45_跳跃游戏II
                 }
             }
             return dp[nums.Length - 1];
+        }
+
+        //部分测试用例超时
+        public static int Jump3(int[] nums)
+        {
+            if (nums.Length < 2) return 0;
+            int reach = nums[0];
+            int nextReach = 0;
+            int current = 0;
+            int stepCount = 0;
+            while(reach<nums.Length-1)
+            {
+                for (int i = current+1; i <= reach; i++)
+                {
+                    if(nums[i] + i>nextReach)
+                    {
+                        nextReach = nums[i] + i;                        
+                    }                    
+                }
+                current = reach;
+                reach = nextReach;
+                stepCount++;
+            }
+            return stepCount+1;
         }
     }
 }
