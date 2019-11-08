@@ -44,7 +44,8 @@ namespace _139_单词拆分
             bool isTrue = new Program().WordBreak2("leetcode", new List<string>() { "leet", "code" });
         }
 
-        public bool WordBreak(string s, IList<string> wordDict)
+
+        public bool WordBreak(string s, IList<string> wordDict)//回溯法 部分用例超时
         {
             for (int i = 0; i < wordDict.Count; i++)
             {
@@ -63,7 +64,7 @@ namespace _139_单词拆分
         }
 
 
-        public bool WordBreak2(string s, IList<string> wordDict)
+        public bool WordBreak2(string s, IList<string> wordDict)//动态规划
         {
             if (wordDict == null || wordDict.Count == 0) return false;
 
