@@ -32,6 +32,48 @@ namespace _188_买卖股票的最佳时机IV
         static void Main(string[] args)
         {
             //TODO
+            int profit = new Program().MaxProfit(2, new int[] { 3, 2, 6, 5, 0, 3 });
+
+        }
+
+        public int MaxProfit(int k, int[] prices)
+        {
+            if (k <= 0) return 0;
+            if(k>=prices.Length)
+            {
+                return GetProfit(prices);
+            }
+            int[] arrayBuy = new int[k];
+            for (int i = 0; i < arrayBuy.Length; i++)
+            {
+                arrayBuy[i] = int.MinValue;
+            }
+            int[] arraySell = new int[k];
+
+            foreach (var p in prices)
+            {
+                arrayBuy[0] = Math.Max(arrayBuy[0], -p);
+                arraySell[0] = Math.Max(arraySell[0], arrayBuy[0] + p);
+                for (int i = 1; i < k; i++)
+                {
+                    arrayBuy[i] = Math.Max(arrayBuy[i], arraySell[i - 1] - p);
+                    arraySell[i] = Math.Max(arraySell[i], arrayBuy[i] + p);
+                }
+            }
+            return arraySell[k - 1];
+        }
+
+        int GetProfit(int[] prices)
+        {
+            int profit = 0;
+            for (int i = 1; i < prices.Length; i++)
+            {
+                if(prices[i]>prices[i-1])
+                {
+                    profit += prices[i] - prices[i - 1];
+                }
+            }
+            return profit;
         }
     }
 }

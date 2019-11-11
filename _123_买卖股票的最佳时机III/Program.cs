@@ -36,8 +36,7 @@ namespace _123_买卖股票的最佳时机III
     class Program
     {
         static void Main(string[] args)
-        {
-            //TODO          
+        {     
             int profit = MaxProfit(new int[] { 7, 1, 5, 3, 6, 4 });
         }
 
