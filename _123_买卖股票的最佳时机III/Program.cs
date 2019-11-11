@@ -37,34 +37,62 @@ namespace _123_买卖股票的最佳时机III
     {
         static void Main(string[] args)
         {
-            //TODO
-            
-            int profit = MaxProfit(new int[] { 3, 3, 5, 0, 0, 3, 1, 4 });
+            //TODO          
+            int profit = MaxProfit(new int[] { 7, 1, 5, 3, 6, 4 });
         }
 
-        //穷举
+        //穷举 部分测试用例超时
         public static int MaxProfit(int[] prices)
         {
             int max = 0;
 
             for (int i = 0; i < prices.Length; i++)
             {
-                max = Math.Max(max, Assist(prices, 0, i) + Assist(prices, i, prices.Length - 1));
+                int temp = Assist(prices, 0, i) + Assist(prices, i + 1, prices.Length - 1);
+                if (temp>max)
+                {
+                    max = temp;
+                }
             }
             return max;
         }
 
         static int Assist(int[] prices,int left,int right)
         {
-            int max = 0;
-            for (int i = left; i < right; i++)
+            if (left>=right) return 0;
+
+            int minBuy = prices[left];
+            int maxProfit = 0;
+            for (int i = left+1; i <= right; i++)
             {
-                for (int j = i+1; j <= right; j++)
-                {
-                    max = Math.Max(max,prices[j] - prices[i]);
-                }
+                maxProfit = Math.Max(maxProfit, prices[i] - minBuy);
+                minBuy = Math.Min(minBuy, prices[i]);
             }
-            return max;
+            return maxProfit;
+        }
+
+        //动态规划
+        public int maxProfit(int[] prices)
+        {
+            /**
+            对于任意一天考虑四个变量:
+            fstBuy: 在该天第一次买入股票可获得的最大收益 
+            fstSell: 在该天第一次卖出股票可获得的最大收益
+            secBuy: 在该天第二次买入股票可获得的最大收益
+            secSell: 在该天第二次卖出股票可获得的最大收益
+            分别对四个变量进行相应的更新, 最后secSell就是最大
+            收益值(secSell >= fstSell)
+            **/
+            int fstBuy = int.MinValue, fstSell = 0;
+            int secBuy = int.MinValue, secSell = 0;
+            foreach (int p in prices)
+            {
+                fstBuy = Math.Max(fstBuy, -p);
+                fstSell = Math.Max(fstSell, fstBuy + p);
+                secBuy = Math.Max(secBuy, fstSell - p);
+                secSell = Math.Max(secSell, secBuy + p);
+            }
+            return secSell;
         }
     }
 }
