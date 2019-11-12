@@ -31,9 +31,7 @@ namespace _188_买卖股票的最佳时机IV
     {
         static void Main(string[] args)
         {
-            //TODO
             int profit = new Program().MaxProfit(2, new int[] { 3, 2, 6, 5, 0, 3 });
-
         }
 
         public int MaxProfit(int k, int[] prices)
