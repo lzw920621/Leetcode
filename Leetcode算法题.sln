@@ -737,6 +737,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_140_单词拆分II", "_140
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_377_组合总和", "_377_组合总和\_377_组合总和.csproj", "{6D6F9FE0-8799-4E19-BE2A-6253E08BCBC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_72_编辑距离", "_72_编辑距离\_72_编辑距离.csproj", "{6F7852F4-D947-442F-BF71-4B7CF518C6B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2211,6 +2213,10 @@ Global
 		{6D6F9FE0-8799-4E19-BE2A-6253E08BCBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6F9FE0-8799-4E19-BE2A-6253E08BCBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6F9FE0-8799-4E19-BE2A-6253E08BCBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7852F4-D947-442F-BF71-4B7CF518C6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7852F4-D947-442F-BF71-4B7CF518C6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7852F4-D947-442F-BF71-4B7CF518C6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7852F4-D947-442F-BF71-4B7CF518C6B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
