@@ -741,6 +741,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_72_编辑距离", "_72_编
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10_正则表达式匹配", "_10_正则表达式匹配\_10_正则表达式匹配.csproj", "{F9308E14-2E03-444E-B615-BED7A1FF3028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_44_通配符匹配", "_44_通配符匹配\_44_通配符匹配.csproj", "{795B9F43-B8AB-41D1-AE88-E4830E665A8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2223,6 +2225,10 @@ Global
 		{F9308E14-2E03-444E-B615-BED7A1FF3028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9308E14-2E03-444E-B615-BED7A1FF3028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9308E14-2E03-444E-B615-BED7A1FF3028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
