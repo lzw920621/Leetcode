@@ -743,6 +743,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10_正则表达式匹配",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_44_通配符匹配", "_44_通配符匹配\_44_通配符匹配.csproj", "{795B9F43-B8AB-41D1-AE88-E4830E665A8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1221_分割平衡字符串", "_1221_分割平衡字符串\_1221_分割平衡字符串.csproj", "{440FF191-AAF4-45AF-9ABC-1CAB1E982162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2229,6 +2231,10 @@ Global
 		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795B9F43-B8AB-41D1-AE88-E4830E665A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
