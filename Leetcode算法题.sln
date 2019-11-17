@@ -749,6 +749,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_383_赎金信", "_383_赎�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_345_反转字符串中的元音字母", "_345_反转字符串中的元音字母\_345_反转字符串中的元音字母.csproj", "{5EA79587-4003-4BF7-AF18-24922F523E39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_434_字符串中的单词数", "_434_字符串中的单词数\_434_字符串中的单词数.csproj", "{A8ABDA67-CC0B-4BD7-8AF2-22509CE53F26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2247,6 +2249,10 @@ Global
 		{5EA79587-4003-4BF7-AF18-24922F523E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EA79587-4003-4BF7-AF18-24922F523E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EA79587-4003-4BF7-AF18-24922F523E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ABDA67-CC0B-4BD7-8AF2-22509CE53F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ABDA67-CC0B-4BD7-8AF2-22509CE53F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ABDA67-CC0B-4BD7-8AF2-22509CE53F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ABDA67-CC0B-4BD7-8AF2-22509CE53F26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
