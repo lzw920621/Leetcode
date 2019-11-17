@@ -55,7 +55,6 @@ namespace _140_单词拆分II
     {
         static void Main(string[] args)
         {
-            //TODO
             IList<string> list = new List<string> { "cat", "cats", "and", "sand", "dog" };
             string s = "catsanddog";
             IList<string> result = new Program().WordBreak(s, list);

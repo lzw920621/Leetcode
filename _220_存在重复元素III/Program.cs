@@ -34,11 +34,14 @@ namespace _220_存在重复元素III
     {
         static void Main(string[] args)
         {
+            //TODO
+            bool result = new Program().ContainsNearbyAlmostDuplicate2(new int[] { 1, 5, 9, 1, 5, 9 }, 2, 3);
+            
         }
 
+        //穷举法 超时
         public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t)
         {
-            //TODO
             for (int i = 0; i < nums.Length; i++)
             {
                 for (int j = i+1; j < nums.Length && j<=i+k; j++)
@@ -51,5 +54,12 @@ namespace _220_存在重复元素III
             }
             return false;
         }
+
+        public bool ContainsNearbyAlmostDuplicate2(int[] nums, int k, int t)
+        {
+            
+        }
+
+        
     }
 }

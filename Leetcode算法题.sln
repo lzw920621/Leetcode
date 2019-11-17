@@ -745,6 +745,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_44_通配符匹配", "_44_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1221_分割平衡字符串", "_1221_分割平衡字符串\_1221_分割平衡字符串.csproj", "{440FF191-AAF4-45AF-9ABC-1CAB1E982162}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_383_赎金信", "_383_赎金信\_383_赎金信.csproj", "{280E8BE6-610F-4E9F-ABB2-B6CB44792369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2235,6 +2237,10 @@ Global
 		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{440FF191-AAF4-45AF-9ABC-1CAB1E982162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280E8BE6-610F-4E9F-ABB2-B6CB44792369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280E8BE6-610F-4E9F-ABB2-B6CB44792369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280E8BE6-610F-4E9F-ABB2-B6CB44792369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280E8BE6-610F-4E9F-ABB2-B6CB44792369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
