@@ -753,6 +753,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_434_字符串中的单词�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_890_查找和替换模式", "_890_查找和替换模式\_890_查找和替换模式.csproj", "{EAD8D6A9-9210-47D2-A7A2-5F95E701B662}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_894_所有可能的满二叉树", "_894_所有可能的满二叉树\_894_所有可能的满二叉树.csproj", "{EE7F115E-A7D4-4836-A8A6-176D2F642789}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2259,6 +2261,10 @@ Global
 		{EAD8D6A9-9210-47D2-A7A2-5F95E701B662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD8D6A9-9210-47D2-A7A2-5F95E701B662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD8D6A9-9210-47D2-A7A2-5F95E701B662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7F115E-A7D4-4836-A8A6-176D2F642789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7F115E-A7D4-4836-A8A6-176D2F642789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7F115E-A7D4-4836-A8A6-176D2F642789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7F115E-A7D4-4836-A8A6-176D2F642789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
