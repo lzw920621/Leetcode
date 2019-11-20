@@ -761,6 +761,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_443_压缩字符串", "_44
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_6_Z字形变换", "_6_Z字形变换\_6_Z字形变换.csproj", "{B49B3D66-5386-4C5C-85BA-C0E68EBEB836}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_779_第K个语法符号", "_779_第K个语法符号\_779_第K个语法符号.csproj", "{DE99AF82-AC4A-4483-8A62-F1044739F800}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2283,6 +2285,10 @@ Global
 		{B49B3D66-5386-4C5C-85BA-C0E68EBEB836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B49B3D66-5386-4C5C-85BA-C0E68EBEB836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B49B3D66-5386-4C5C-85BA-C0E68EBEB836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE99AF82-AC4A-4483-8A62-F1044739F800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE99AF82-AC4A-4483-8A62-F1044739F800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE99AF82-AC4A-4483-8A62-F1044739F800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE99AF82-AC4A-4483-8A62-F1044739F800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
