@@ -55,49 +55,82 @@ namespace _164_最大间距
             }
             int gap = Math.Max(1, (max - min) / (nums.Length - 1));//桶的大小
             //初始化桶
-            List<int>[] listArrray = new List<int>[(max - min) / gap + 1];
+            List<int>[] buckets = new List<int>[(max - min) / gap + 1];
             
             //记录每个桶中的元素最大值与最小值
             foreach (var num in nums)
             {
                 int index = (num - min) / gap;
-                if (listArrray[index] == null)
+                if (buckets[index] == null)
                 {
-                    listArrray[index] = new List<int>();
-                    listArrray[index].Add(num);
-                    listArrray[index].Add(num);
+                    buckets[index] = new List<int>();
+                    buckets[index].Add(num);
+                    buckets[index].Add(num);
                 }
                 
-                listArrray[index][0] = Math.Min(listArrray[index][0], num);//最小值
-                listArrray[index][1] = Math.Max(listArrray[index][1], num);//最大值
+                buckets[index][0] = Math.Min(buckets[index][0], num);//最小值
+                buckets[index][1] = Math.Max(buckets[index][1], num);//最大值
             }
             int maxDiff = 0;
-            List<int> preBucket, nextBucket;
-            int startIndex = 0;
-            preBucket = GetNextBucket(listArrray, ref startIndex);
-            startIndex++;
-            nextBucket = GetNextBucket(listArrray, ref startIndex);
-            startIndex++;
-            while (nextBucket!=null)
+            int preMin = min;
+            
+            foreach (var bucket in buckets)
             {
-                maxDiff = Math.Max(nextBucket[0] - preBucket[1], maxDiff);
-                preBucket = nextBucket;
-                nextBucket = GetNextBucket(listArrray, ref startIndex);
-                startIndex++;
+                if(bucket!=null)
+                {
+                    maxDiff = Math.Max(maxDiff, bucket[0] - preMin);
+                    preMin = bucket[1];
+                }
             }
             return maxDiff;
         }
 
-        List<int> GetNextBucket(List<int>[] listArrray,ref int startIndex)
+        public int MaximumGap2(int[] nums)
         {
-            for (; startIndex < listArrray.Length; startIndex++)
+            if (nums.Length < 2) return 0;
+            int min = nums[0], max = nums[0];
+            for (int i = 0; i < nums.Length; i++)//寻找最大和最小值
             {
-                if(listArrray[startIndex] !=null)
+                if (nums[i] < min)
                 {
-                    return listArrray[startIndex];
+                    min = nums[i];
                 }
-            }            
-            return null;
+                if (nums[i] > max)
+                {
+                    max = nums[i];
+                }
+            }
+            int gap = Math.Max(1, (max - min) / (nums.Length - 1));//桶的大小
+            //初始化桶
+            int[][] buckets = new int[(max - min) / gap + 1][];
+
+            //记录每个桶中的元素最大值与最小值
+            foreach (var num in nums)
+            {
+                int index = (num - min) / gap;
+                if (buckets[index] == null)
+                {
+                    buckets[index] = new int[2];
+                    buckets[index][0] = num;
+                    buckets[index][1] = num;
+                    continue;
+                }
+
+                buckets[index][0] = Math.Min(buckets[index][0], num);//最小值
+                buckets[index][1] = Math.Max(buckets[index][1], num);//最大值
+            }
+            int maxDiff = 0;
+            int preMin = min;
+
+            foreach (var bucket in buckets)
+            {
+                if (bucket != null)
+                {
+                    maxDiff = Math.Max(maxDiff, bucket[0] - preMin);
+                    preMin = bucket[1];
+                }
+            }
+            return maxDiff;
         }
     }
 }
