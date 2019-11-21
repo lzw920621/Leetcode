@@ -769,6 +769,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_115_不同的子序列", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_164_最大间距", "_164_最大间距\_164_最大间距.csproj", "{1F618FE6-26AC-441E-A596-8BFFBB866E58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_352_将数据流变为多个不相交的区间", "_352_将数据流变为多个不相交的区间\_352_将数据流变为多个不相交的区间.csproj", "{60142E39-E372-44F6-BD7E-B07C575654BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2307,6 +2309,10 @@ Global
 		{1F618FE6-26AC-441E-A596-8BFFBB866E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F618FE6-26AC-441E-A596-8BFFBB866E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F618FE6-26AC-441E-A596-8BFFBB866E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60142E39-E372-44F6-BD7E-B07C575654BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60142E39-E372-44F6-BD7E-B07C575654BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60142E39-E372-44F6-BD7E-B07C575654BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60142E39-E372-44F6-BD7E-B07C575654BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
