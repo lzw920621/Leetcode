@@ -765,6 +765,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_779_第K个语法符号", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_135_分发糖果", "_135_分发糖果\_135_分发糖果.csproj", "{0CABE9A7-A89A-43E2-A0EE-FFA4793DEDC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_115_不同的子序列", "_115_不同的子序列\_115_不同的子序列.csproj", "{8008F7CF-EF3E-4F50-8438-35551EA4E835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2295,6 +2297,10 @@ Global
 		{0CABE9A7-A89A-43E2-A0EE-FFA4793DEDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CABE9A7-A89A-43E2-A0EE-FFA4793DEDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CABE9A7-A89A-43E2-A0EE-FFA4793DEDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8008F7CF-EF3E-4F50-8438-35551EA4E835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8008F7CF-EF3E-4F50-8438-35551EA4E835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8008F7CF-EF3E-4F50-8438-35551EA4E835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8008F7CF-EF3E-4F50-8438-35551EA4E835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
