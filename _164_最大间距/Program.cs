@@ -35,7 +35,7 @@ namespace _164_最大间距
     {
         static void Main(string[] args)
         {
-            int maxGap = new Program().MaximumGap(new int[] { 10 });
+            int maxGap = new Program().MaximumGap(new int[] { 10,9 });
         }
 
         public int MaximumGap(int[] nums)

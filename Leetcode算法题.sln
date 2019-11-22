@@ -771,6 +771,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_164_最大间距", "_164_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_352_将数据流变为多个不相交的区间", "_352_将数据流变为多个不相交的区间\_352_将数据流变为多个不相交的区间.csproj", "{60142E39-E372-44F6-BD7E-B07C575654BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_334_递增的三元子序列", "_334_递增的三元子序列\_334_递增的三元子序列.csproj", "{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2313,6 +2315,10 @@ Global
 		{60142E39-E372-44F6-BD7E-B07C575654BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60142E39-E372-44F6-BD7E-B07C575654BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60142E39-E372-44F6-BD7E-B07C575654BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
