@@ -775,6 +775,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_334_递增的三元子序�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_233_数字1的个数", "_233_数字1的个数\_233_数字1的个数.csproj", "{0D58BD22-463D-4A71-AD0F-0AF707FE3912}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_165_比较版本号", "_165_比较版本号\_165_比较版本号.csproj", "{5A4C3F2A-82D6-46DA-BEA1-C621A435EB50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2325,6 +2327,10 @@ Global
 		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A4C3F2A-82D6-46DA-BEA1-C621A435EB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A4C3F2A-82D6-46DA-BEA1-C621A435EB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A4C3F2A-82D6-46DA-BEA1-C621A435EB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A4C3F2A-82D6-46DA-BEA1-C621A435EB50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
