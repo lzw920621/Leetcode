@@ -773,6 +773,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_352_将数据流变为多�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_334_递增的三元子序列", "_334_递增的三元子序列\_334_递增的三元子序列.csproj", "{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_233_数字1的个数", "_233_数字1的个数\_233_数字1的个数.csproj", "{0D58BD22-463D-4A71-AD0F-0AF707FE3912}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2319,6 +2321,10 @@ Global
 		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFA0B791-042F-49C8-9AB1-F55A8DEE8693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D58BD22-463D-4A71-AD0F-0AF707FE3912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
