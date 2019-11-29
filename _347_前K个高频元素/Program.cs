@@ -103,5 +103,48 @@ namespace _347_前K个高频元素
                 TopK(list, left + 1, high, k);
             }
         }
+
+
+
+        public static IList<int> TopKFrequent2(int[] nums, int k)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            foreach (var item in nums)
+            {
+                if (dic.ContainsKey(item))
+                {
+                    dic[item]++;
+                }
+                else
+                {
+                    dic.Add(item, 1);
+                }
+            }
+
+            List<int>[] array = new List<int>[nums.Length + 1];
+            foreach (var item in dic)
+            {
+                if(array[item.Value]==null)
+                {
+                    array[item.Value] = new List<int>();                   
+                }
+                array[item.Value].Add(item.Key);
+            }
+            IList<int> list = new List<int>();
+            int count = 0;
+            for (int i = array.Length-1; i >=0; i--)
+            {
+                if(array[i]!=null)
+                {
+                    for (int j = 0; j < array[i].Count; j++)
+                    {
+                        list.Add(array[i][j]);
+                        count++;
+                        if (count == k) return list;
+                    }
+                }
+            }
+            return list;
+        }
     }
 }
