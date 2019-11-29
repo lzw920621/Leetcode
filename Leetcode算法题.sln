@@ -779,6 +779,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_165_比较版本号", "_16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_273_整数转换英文表示", "_273_整数转换英文表示\_273_整数转换英文表示.csproj", "{321DA021-882F-4BCB-9923-4F1BFD99104E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_692_前K个高频单词", "_692_前K个高频单词\_692_前K个高频单词.csproj", "{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2337,6 +2339,10 @@ Global
 		{321DA021-882F-4BCB-9923-4F1BFD99104E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{321DA021-882F-4BCB-9923-4F1BFD99104E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{321DA021-882F-4BCB-9923-4F1BFD99104E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
