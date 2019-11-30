@@ -781,6 +781,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_273_整数转换英文表�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_692_前K个高频单词", "_692_前K个高频单词\_692_前K个高频单词.csproj", "{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_373_查找和最小的K对数字", "_373_查找和最小的K对数字\_373_查找和最小的K对数字.csproj", "{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2343,6 +2345,10 @@ Global
 		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3DD1869-3BAA-43DD-80CB-D68B2B8BE225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
