@@ -785,6 +785,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_373_查找和最小的K对
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_146_LRU缓存机制", "_146_LRU缓存机制\_146_LRU缓存机制.csproj", "{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_138_复制带随机指针的链表", "_138_复制带随机指针的链表\_138_复制带随机指针的链表.csproj", "{1A873320-3DB4-4964-AEEE-759C9D6DFF25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2355,6 +2357,10 @@ Global
 		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A873320-3DB4-4964-AEEE-759C9D6DFF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A873320-3DB4-4964-AEEE-759C9D6DFF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A873320-3DB4-4964-AEEE-759C9D6DFF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A873320-3DB4-4964-AEEE-759C9D6DFF25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
