@@ -783,6 +783,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_692_前K个高频单词", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_373_查找和最小的K对数字", "_373_查找和最小的K对数字\_373_查找和最小的K对数字.csproj", "{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_146_LRU缓存机制", "_146_LRU缓存机制\_146_LRU缓存机制.csproj", "{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2349,6 +2351,10 @@ Global
 		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4CFEB61-729B-4CCC-B4B8-6C60EB457381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252EFBC0-55D9-4571-9D15-C5884CB3DB3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
