@@ -791,6 +791,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_133_克隆图", "_133_克�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_149_直线上最多的点数", "_149_直线上最多的点数\_149_直线上最多的点数.csproj", "{2E877683-5352-4603-8BF2-5272163EEEE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_329_矩阵中的最长递增路径", "_329_矩阵中的最长递增路径\_329_矩阵中的最长递增路径.csproj", "{47167065-F24F-4362-B5E2-FB0A4E5DE802}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2373,6 +2375,10 @@ Global
 		{2E877683-5352-4603-8BF2-5272163EEEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E877683-5352-4603-8BF2-5272163EEEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E877683-5352-4603-8BF2-5272163EEEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47167065-F24F-4362-B5E2-FB0A4E5DE802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47167065-F24F-4362-B5E2-FB0A4E5DE802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47167065-F24F-4362-B5E2-FB0A4E5DE802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47167065-F24F-4362-B5E2-FB0A4E5DE802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
