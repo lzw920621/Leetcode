@@ -805,6 +805,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1282_用户分组", "_1282
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1079_活字印刷", "_1079_活字印刷\_1079_活字印刷.csproj", "{3F1CC032-3CCC-407E-8ABD-86F1391A0DB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_796_所有可能的路径", "_796_所有可能的路径\_796_所有可能的路径.csproj", "{437C9569-7067-43C6-8C60-043B92E4639C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2415,6 +2417,10 @@ Global
 		{3F1CC032-3CCC-407E-8ABD-86F1391A0DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F1CC032-3CCC-407E-8ABD-86F1391A0DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F1CC032-3CCC-407E-8ABD-86F1391A0DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437C9569-7067-43C6-8C60-043B92E4639C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437C9569-7067-43C6-8C60-043B92E4639C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437C9569-7067-43C6-8C60-043B92E4639C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437C9569-7067-43C6-8C60-043B92E4639C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
