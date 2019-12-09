@@ -799,6 +799,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_641_设计循环双端队�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_212_单词搜索II", "_212_单词搜索II\_212_单词搜索II.csproj", "{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1261_在受污染的二叉树中查找元素", "_1261_在受污染的二叉树中查找元素\_1261_在受污染的二叉树中查找元素.csproj", "{3849D8D8-D461-4949-AE3B-296E948B43D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2397,6 +2399,10 @@ Global
 		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3849D8D8-D461-4949-AE3B-296E948B43D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3849D8D8-D461-4949-AE3B-296E948B43D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3849D8D8-D461-4949-AE3B-296E948B43D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3849D8D8-D461-4949-AE3B-296E948B43D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
