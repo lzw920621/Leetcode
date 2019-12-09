@@ -797,6 +797,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_239_滑动窗口最大值"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_641_设计循环双端队列", "_641_设计循环双端队列\_641_设计循环双端队列.csproj", "{1EFDBEED-39BC-4641-8FF8-5F9A510980C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_212_单词搜索II", "_212_单词搜索II\_212_单词搜索II.csproj", "{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2391,6 +2393,10 @@ Global
 		{1EFDBEED-39BC-4641-8FF8-5F9A510980C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFDBEED-39BC-4641-8FF8-5F9A510980C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFDBEED-39BC-4641-8FF8-5F9A510980C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A42BD2C-1D75-4CB5-B9A3-F12F9CD15E45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
