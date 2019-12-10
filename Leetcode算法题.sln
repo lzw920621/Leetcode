@@ -809,6 +809,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_796_所有可能的路径"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_698_划分为k个相等的子集", "_698_划分为k个相等的子集\_698_划分为k个相等的子集.csproj", "{EB9B37CC-30F2-4B9A-8CBE-613951360BBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_726_原子的数量", "_726_原子的数量\_726_原子的数量.csproj", "{1C326092-35B6-4FC6-B673-BE55B9472B67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2427,6 +2429,10 @@ Global
 		{EB9B37CC-30F2-4B9A-8CBE-613951360BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB9B37CC-30F2-4B9A-8CBE-613951360BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB9B37CC-30F2-4B9A-8CBE-613951360BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C326092-35B6-4FC6-B673-BE55B9472B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C326092-35B6-4FC6-B673-BE55B9472B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C326092-35B6-4FC6-B673-BE55B9472B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C326092-35B6-4FC6-B673-BE55B9472B67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

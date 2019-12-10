@@ -35,7 +35,7 @@ namespace _698_划分为k个相等的子集
             int sum = nums.Sum();
             if (sum % k > 0) return false;
             Array.Sort(nums);
-            Array.Reverse(nums);            
+            Array.Reverse(nums); //反序很重要,能极大的提高搜索效率           
             int avg = sum / k;
             if (nums[0] > avg) return false;
 
