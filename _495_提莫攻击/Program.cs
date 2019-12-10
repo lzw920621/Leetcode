@@ -69,26 +69,6 @@ namespace _495_提莫攻击
             return sum;
         }
 
-        int PoisonedDuration(int[] timeSeries, int index, int duration,int sum,int pre)
-        {
-            for (int i = index; i < timeSeries.Length; i++)
-            {
-                if (timeSeries[i] >= pre)
-                {
-                    sum += duration;
-                    pre = timeSeries[i] + duration;
-                }
-                else
-                {
-                    int temp = timeSeries[i] + duration;
-                    if (temp > pre)
-                    {
-                        sum += temp - pre;
-                        pre = temp;
-                    }
-                }                
-            }
-            return sum;
-        }
+        
     }
 }
