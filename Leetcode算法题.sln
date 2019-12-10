@@ -817,6 +817,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_611_有效三角形的个�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_430_扁平化多级双向链表", "_430_扁平化多级双向链表\_430_扁平化多级双向链表.csproj", "{312BC2B5-CDFC-4D85-9E39-01911D74E003}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_470_用Rand7实现Rand10", "_470_用Rand7实现Rand10\_470_用Rand7实现Rand10.csproj", "{DC9E1668-D8CD-47DF-8A4D-F02A12E186FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2451,6 +2453,10 @@ Global
 		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9E1668-D8CD-47DF-8A4D-F02A12E186FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9E1668-D8CD-47DF-8A4D-F02A12E186FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9E1668-D8CD-47DF-8A4D-F02A12E186FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9E1668-D8CD-47DF-8A4D-F02A12E186FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
