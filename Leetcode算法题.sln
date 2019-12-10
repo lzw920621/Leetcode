@@ -815,6 +815,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_495_提莫攻击", "_495_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_611_有效三角形的个数", "_611_有效三角形的个数\_611_有效三角形的个数.csproj", "{F495F8C7-179A-4A43-B352-405357F2242C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_430_扁平化多级双向链表", "_430_扁平化多级双向链表\_430_扁平化多级双向链表.csproj", "{312BC2B5-CDFC-4D85-9E39-01911D74E003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2445,6 +2447,10 @@ Global
 		{F495F8C7-179A-4A43-B352-405357F2242C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F495F8C7-179A-4A43-B352-405357F2242C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F495F8C7-179A-4A43-B352-405357F2242C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312BC2B5-CDFC-4D85-9E39-01911D74E003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
