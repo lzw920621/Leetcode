@@ -58,7 +58,7 @@ namespace _470_用Rand7实现Rand10
         {
             int a = Rand7();
             int b = Rand7();
-            if ((a > 4 && b < 4) || (a<4 && b>4)) return Rand10();
+            if (a > 4 && b < 4) return Rand10();
             return (a + b) % 10 + 1;
         }
         public int Rand10_()
