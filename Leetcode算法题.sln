@@ -825,6 +825,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_648_单词替换", "_648_�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_892_三维形体的表面积", "_892_三维形体的表面积\_892_三维形体的表面积.csproj", "{CFCD7145-C29B-42C3-A9A1-1652A1EA9102}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_676_实现一个魔法字典", "_676_实现一个魔法字典\_676_实现一个魔法字典.csproj", "{8F083055-273D-4F9F-8E10-C1BDDCA6583F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2475,6 +2477,10 @@ Global
 		{CFCD7145-C29B-42C3-A9A1-1652A1EA9102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCD7145-C29B-42C3-A9A1-1652A1EA9102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCD7145-C29B-42C3-A9A1-1652A1EA9102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F083055-273D-4F9F-8E10-C1BDDCA6583F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F083055-273D-4F9F-8E10-C1BDDCA6583F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F083055-273D-4F9F-8E10-C1BDDCA6583F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F083055-273D-4F9F-8E10-C1BDDCA6583F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
