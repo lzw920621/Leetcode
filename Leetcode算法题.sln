@@ -829,6 +829,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_676_实现一个魔法字�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_720_词典中最长的单词", "_720_词典中最长的单词\_720_词典中最长的单词.csproj", "{A5FE7948-7EA4-456F-B519-56CDAAC4E8BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1302_层数最深叶子节点的和", "_1302_层数最深叶子节点的和\_1302_层数最深叶子节点的和.csproj", "{DA1285C1-3EFB-4FF7-9B59-414DF4A5B629}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2487,6 +2489,10 @@ Global
 		{A5FE7948-7EA4-456F-B519-56CDAAC4E8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5FE7948-7EA4-456F-B519-56CDAAC4E8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5FE7948-7EA4-456F-B519-56CDAAC4E8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1285C1-3EFB-4FF7-9B59-414DF4A5B629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1285C1-3EFB-4FF7-9B59-414DF4A5B629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1285C1-3EFB-4FF7-9B59-414DF4A5B629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1285C1-3EFB-4FF7-9B59-414DF4A5B629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
