@@ -833,6 +833,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1302_层数最深叶子节
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1305_两棵二叉搜索树中的所有元素", "_1305_两棵二叉搜索树中的所有元素\_1305_两棵二叉搜索树中的所有元素.csproj", "{1918498B-851B-47E4-9B17-13CF9D06ECB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1325_删除给定值的叶子节点", "_1325_删除给定值的叶子节点\_1325_删除给定值的叶子节点.csproj", "{E61AFC6C-2390-4748-AEE4-3A308D425403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2499,6 +2501,10 @@ Global
 		{1918498B-851B-47E4-9B17-13CF9D06ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1918498B-851B-47E4-9B17-13CF9D06ECB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1918498B-851B-47E4-9B17-13CF9D06ECB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E61AFC6C-2390-4748-AEE4-3A308D425403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E61AFC6C-2390-4748-AEE4-3A308D425403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E61AFC6C-2390-4748-AEE4-3A308D425403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E61AFC6C-2390-4748-AEE4-3A308D425403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
