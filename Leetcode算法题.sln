@@ -837,6 +837,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1325_删除给定值的叶
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1315_祖父节点值为偶数的节点和", "_1315_祖父节点值为偶数的节点和\_1315_祖父节点值为偶数的节点和.csproj", "{E164A703-B82C-4D6C-B7EF-055FF6DD6577}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_865_具有所有最深节点的最小子树", "_865_具有所有最深节点的最小子树\_865_具有所有最深节点的最小子树.csproj", "{859F2B9B-DA94-4B3E-BC7E-605C032AEBD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2511,6 +2513,10 @@ Global
 		{E164A703-B82C-4D6C-B7EF-055FF6DD6577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E164A703-B82C-4D6C-B7EF-055FF6DD6577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E164A703-B82C-4D6C-B7EF-055FF6DD6577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859F2B9B-DA94-4B3E-BC7E-605C032AEBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859F2B9B-DA94-4B3E-BC7E-605C032AEBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859F2B9B-DA94-4B3E-BC7E-605C032AEBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859F2B9B-DA94-4B3E-BC7E-605C032AEBD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
